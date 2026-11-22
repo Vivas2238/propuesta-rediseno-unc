@@ -193,6 +193,10 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
                   <strong>Gaceta Extraordinaria</strong>
                   <span>Resoluciones oficiales 2026</span>
                 </a>
+                <a href="/assets/docs/reglamento-estudiantil-unc.pdf" target="_blank" rel="noopener" class="unc-drop-link">
+                  <strong>Reglamento Estudiantil (PDF) ↗</strong>
+                  <span>Normativa estudiantil oficial UNC</span>
+                </a>
               </div>
             </li>
 
@@ -206,6 +210,10 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
                 <a href="https://savia.unc.edu.ve" target="_blank" rel="noopener" class="unc-drop-link">
                   <strong>SAVIA (Aula Virtual) ↗</strong>
                   <span>Sistema de Aprendizaje Virtual Interactivo Autónomo</span>
+                </a>
+                <a href="/assets/docs/reglamento-estudiantil-unc.pdf" target="_blank" rel="noopener" class="unc-drop-link">
+                  <strong>Reglamento Estudiantil (PDF) ↗</strong>
+                  <span>Normas, derechos y deberes del estudiante UNC</span>
                 </a>
                 <a href="/autenticacion-de-carnet" class="unc-drop-link">
                   <strong>Autenticación de Carnet</strong>
@@ -252,7 +260,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
 
           <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
             <a href="https://www.tiktok.com/@unicienciasvzla?_t=ZM-8u2xdkTqAMB" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">TikTok</a>
-            <a href="https://www.instagram.com/unicienciasvzla?igsh=MWxua3RwNmtsYm9wcQ==" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">Instagram</a>
+            <a href="https://www.instagram.com/unicienciasvzla/?hl=en" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">Instagram</a>
             <a href="https://www.threads.net/@unicienciasvzla" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">Threads</a>
             <a href="/sugerencias" class="itmoru-pill-tab" style="border-color:#0072AC; background:#0072AC; color:#FFFFFF !important;">Sugerencias</a>
           </div>
@@ -276,6 +284,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
             <h4>OFICINA DE ADMISIÓN Y ESTUDIANTES</h4>
             <a href="/carreras-de-pregrado">→ 15 Carreras de Pregrado y Mallas PDF</a>
             <a href="/calendario-academico-2026-2027">→ Calendario Académico 2026 – 2027</a>
+            <a href="/assets/docs/reglamento-estudiantil-unc.pdf" target="_blank" rel="noopener">→ Reglamento Estudiantil UNC (PDF) ↗</a>
             <a href="/validacion-de-documentos">→ Validación y Rutas de Transporte</a>
             <a href="/autenticacion-de-carnet">→ Autenticación de Carnet Estudiantil</a>
           </div>
@@ -935,7 +944,7 @@ pub fn render_home_page() -> String {
         </p>
         <div style="display:flex; gap:14px; flex-wrap:wrap;">
           <a href="/carreras-de-pregrado" class="unc-btn-primary">Explorar Oferta Académica →</a>
-          <a href="https://www.instagram.com/p/DJeW6lPNLoF/" target="_blank" rel="noopener" class="unc-btn-secondary">Ver en Instagram (@unicienciasvzla) ↗</a>
+          <a href="https://www.instagram.com/unicienciasvzla/?hl=en" target="_blank" rel="noopener" class="unc-btn-secondary">Ver en Instagram (@unicienciasvzla) ↗</a>
         </div>
       </div>
 
@@ -1615,9 +1624,10 @@ pub fn render_gazettes_page(only_extra: bool) -> String {
 <div class="container" style="padding-bottom:50px;">
   <div class="section-header-row" style="margin-top:0;">
     <h1>{title}</h1>
-    <div style="display:flex; gap:10px;">
+    <div style="display:flex; gap:10px; flex-wrap:wrap;">
       <a href="/gaceta-universitaria" class="button-outline-dvfu">Todas las Gacetas</a>
       <a href="/gaceta-extraordinaria" class="button-outline-dvfu">Solo Extraordinarias</a>
+      <a href="/assets/docs/reglamento-estudiantil-unc.pdf" target="_blank" rel="noopener" class="button-s">Reglamento Estudiantil (PDF) ↗</a>
     </div>
   </div>
   <hr class="blue-line">

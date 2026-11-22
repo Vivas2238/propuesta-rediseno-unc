@@ -270,6 +270,30 @@ fn serve_local_font(filename: &str) -> Option<(&'static str, Vec<u8>)> {
     None
 }
 
+fn serve_local_doc(filename: &str) -> Option<(&'static str, Vec<u8>)> {
+    if filename.contains("..") || filename.contains('/') || filename.contains('\\') {
+        return None;
+    }
+    let candidates = [
+        format!("static/docs/{}", filename),
+        format!(
+            "/home/sam/.gemini/antigravity/scratch/unc-itmo-ru-portal/static/docs/{}",
+            filename
+        ),
+    ];
+    for p in &candidates {
+        if let Ok(bytes) = std::fs::read(p) {
+            let ct = if filename.ends_with(".pdf") {
+                "application/pdf"
+            } else {
+                "application/octet-stream"
+            };
+            return Some((ct, bytes));
+        }
+    }
+    None
+}
+
 fn serve_local_video(filename: &str, req_str: &str, stream: &mut TcpStream) -> bool {
     if filename.contains("..") || filename.contains('/') || filename.contains('\\') {
         return false;
@@ -350,6 +374,20 @@ fn handle_client(mut stream: TcpStream) {
         Some((p, q)) => (p, q),
         None => (target, ""),
     };
+
+    if let Some(filename) = raw_path.strip_prefix("/assets/docs/") {
+        if let Some((content_type, bytes)) = serve_local_doc(filename) {
+            let response_header = format!(
+                "HTTP/1.1 200 OK\r\nContent-Type: {content_type}\r\nContent-Length: {len}\r\nConnection: close\r\nCache-Control: public, max-age=3600\r\n\r\n",
+                content_type = content_type,
+                len = bytes.len()
+            );
+            let _ = stream.write_all(response_header.as_bytes());
+            let _ = stream.write_all(&bytes);
+            let _ = stream.flush();
+            return;
+        }
+    }
 
     if let Some(filename) = raw_path.strip_prefix("/assets/video/") {
         if serve_local_video(filename, &req_str, &mut stream) {
@@ -445,10 +483,10 @@ fn export_static_site(out_dir: &str, base_path: &str) {
     let css = rewrite_base_path(styles::DVFU_STYLESHEET, base_path);
     std::fs::write(css_dir.join("dvfu.css"), css).expect("Failed to write dvfu.css");
 
-    // 2. Copy static/real, static/fonts, static/video into <out>/assets/*
+    // 2. Copy static/real, static/fonts, static/video, static/docs into <out>/assets/*
     let project_root = std::path::Path::new(env!("CARGO_MANIFEST_DIR"));
     let mut asset_files = 0;
-    for sub in ["real", "fonts", "video"] {
+    for sub in ["real", "fonts", "video", "docs"] {
         let src = project_root.join("static").join(sub);
         if src.exists() {
             asset_files += copy_dir_all(&src, &css_dir.join(sub)).unwrap_or(0);
