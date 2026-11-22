@@ -564,12 +564,27 @@ a:hover {
   flex-shrink: 0;
 }
 
+.unc-platform-btn--savia {
+  min-height: 39px;
+  padding: 7px 15px;
+}
+
+.unc-platform-btn img.unc-savia-wordmark {
+  width: auto;
+  height: 17px;
+  transition: filter 0.2s ease;
+}
+
 .unc-platform-btn:hover {
   background-color: #031F80;
   border-color: #031F80;
   color: #FFFFFF !important;
   transform: translateY(-1px);
   box-shadow: 0 6px 14px rgba(3, 31, 128, 0.18);
+}
+
+.unc-platform-btn:hover img.unc-savia-wordmark {
+  filter: brightness(0) invert(1);
 }
 
 .itmoru-brand-row {
