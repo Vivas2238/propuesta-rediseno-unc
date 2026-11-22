@@ -1,6 +1,6 @@
 # UNC — Propuesta de Rediseño del Portal Web Institucional
 
-**Live Demo (GitHub Pages):** https://vivas2238.github.io/unc-portal-redesign/
+**Sitio en Vivo (GitHub Pages):** https://vivas2238.github.io/propuesta-rediseno-unc/
 
 > **Aviso:** Este proyecto es una **propuesta independiente de rediseño y modernización** del portal web oficial de la **Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC)** (`https://unc.edu.ve`), desarrollado con fines académicos, de arquitectura web y portafolio de ingeniería.
 
@@ -32,7 +32,7 @@ cargo run
 
 ### Regenerar exportación estática para GitHub Pages (`docs/`)
 ```bash
-cargo run -- --export-static docs /unc-portal-redesign
+cargo run -- --export-static docs /propuesta-rediseno-unc
 ```
 
 ---
