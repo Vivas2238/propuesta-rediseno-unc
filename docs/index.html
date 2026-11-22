@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
+  <link rel="icon" href="/unc-portal-redesign/assets/real/logo_unc.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/unc-portal-redesign/assets/real/logo_unc.png">
+  <link rel="stylesheet" href="/unc-portal-redesign/assets/dvfu.css?v=3">
+  <script>
+    (function() {
+      try { localStorage.removeItem('unc_dvfu_theme'); } catch (e) {}
+      document.documentElement.setAttribute('data-theme', 'light');
+    })();
+  </script>
+</head>
+<body>
+  <!-- FULL-SCREEN MEGA-MENU OVERLAY (Opened from Top Bar "menú" Button) -->
+  <div id="itmoRuMegaMenu" class="itmoru-megamenu-overlay" aria-hidden="true">
+    <div class="itmoru-mega-top">
+      <div style="display:flex; align-items:center;">
+        <img src="/unc-portal-redesign/assets/real/logo_unc_full.png" alt="UNC — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán" class="unc-logo-white-on-dark" style="height:68px; width:auto; display:block;">
+      </div>
+
+      <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+        <a href="/unc-portal-redesign/autenticacion-de-carnet" class="itmoru-dashed-link" style="padding:9px 18px;">Autenticación de Carnet →</a>
+        <button type="button" class="itmoru-dashed-link" style="background:#0072AC; border-style:solid; cursor:pointer;" onclick="toggleItmoRuMenu()">✕ Cerrar Menú</button>
+      </div>
+    </div>
+
+    <div class="itmoru-mega-grid">
+      <!-- Col 1: LA UNC PARA TI -->
+      <div class="itmoru-mega-col">
+        <h3>LA UNC PARA TI</h3>
+        <div class="itmoru-dashed-links">
+          <a href="/unc-portal-redesign/" class="itmoru-dashed-link">→ Inicio · Portal Principal UNC</a>
+          <a href="/unc-portal-redesign/carreras-de-pregrado" class="itmoru-dashed-link">→ 15 Carreras de Pregrado (Mallas PDF)</a>
+          <a href="/unc-portal-redesign/calendario-academico-2026-2027" class="itmoru-dashed-link">→ Calendario Académico 2026 – 2027</a>
+          <a href="/unc-portal-redesign/validacion-de-documentos" class="itmoru-dashed-link">→ Validación de Documentos y Rutas de Transporte</a>
+          <a href="/unc-portal-redesign/autenticacion-de-carnet" class="itmoru-dashed-link">→ Autenticación de Carnet Estudiantil</a>
+          <a href="/unc-portal-redesign/sugerencias" class="itmoru-dashed-link">→ Buzón de Sugerencias y Mapa Altos de Pipe</a>
+        </div>
+
+        <h3 style="margin-top:32px;">¿QUIÉNES SOMOS?</h3>
+        <div class="itmoru-dashed-links">
+          <a href="/unc-portal-redesign/quienes-somos" class="itmoru-dashed-link">→ Misión, Visión y 6 Valores Institucionales</a>
+          <a href="/unc-portal-redesign/autoridades" class="itmoru-dashed-link">→ Autoridades Universitarias (7 Directivos)</a>
+          <a href="/unc-portal-redesign/nuestro-heroe-eponimo" class="itmoru-dashed-link">→ Epónimo: Dr. Humberto Fernández-Morán</a>
+        </div>
+      </div>
+
+      <!-- Col 2: ¿QUÉ HACEMOS? (CIENCIA, GACETAS Y REVISTA) -->
+      <div class="itmoru-mega-col">
+        <h3>¿QUÉ HACEMOS?</h3>
+        <div class="itmoru-dashed-links">
+          <a href="/unc-portal-redesign/noticias" class="itmoru-dashed-link">→ Prensa y Noticias de Interés (30 Artículos)</a>
+          <a href="/unc-portal-redesign/revista-ciencia-para-la-vida" class="itmoru-dashed-link">→ Revista Mensual «Ciencia para la Vida» (Mincyt)</a>
+          <a href="/unc-portal-redesign/gaceta-universitaria" class="itmoru-dashed-link">→ Gacetas Universitarias Ordinarias (N.º 1 – N.º 6)</a>
+          <a href="/unc-portal-redesign/gaceta-extraordinaria" class="itmoru-dashed-link">→ Gaceta Universitaria Extraordinaria (2026)</a>
+          <a href="/unc-portal-redesign/centros-de-investigacion" class="itmoru-dashed-link">→ Centros de Investigación UNC – IVIC</a>
+          <a href="/unc-portal-redesign/laboratorios-de-computacion-avanzados" class="itmoru-dashed-link">→ Laboratorios de Computación Avanzados</a>
+          <a href="/unc-portal-redesign/aulas-interactivas" class="itmoru-dashed-link">→ Aulas Interactivas («La Casita de Cristal Azul»)</a>
+        </div>
+      </div>
+
+      <!-- Col 3: 15 CARRERAS DE PREGRADO -->
+      <div class="itmoru-mega-col">
+        <h3>15 CARRERAS UNC</h3>
+        <div class="itmoru-dashed-links" style="max-height:480px; overflow-y:auto; padding-right:6px;">
+          <a href="/unc-portal-redesign/carreras/ingenieria-en-inteligencia-artificial" class="itmoru-dashed-link">→ Ingeniería en Inteligencia Artificial (181 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-ciberseguridad" class="itmoru-dashed-link">→ Ingeniería en Ciberseguridad (187 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-robotica-y-automatizacion" class="itmoru-dashed-link">→ Ingeniería en Robótica y Automatización (180 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-electromedicina" class="itmoru-dashed-link">→ Ingeniería en Electromedicina (191 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-biomateriales" class="itmoru-dashed-link">→ Ingeniería en Biomateriales (184 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-fisica-nuclear" class="itmoru-dashed-link">→ Licenciatura en Física Nuclear (181 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-biologia-y-quimica-computacional" class="itmoru-dashed-link">→ Licenciatura en Biología y Química Computacional (185 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-biotecnologia" class="itmoru-dashed-link">→ Licenciatura en Biotecnología (182 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-ciencia-molecular" class="itmoru-dashed-link">→ Licenciatura en Ciencia Molecular (182 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-ciencia-de-datos" class="itmoru-dashed-link">→ Licenciatura en Ciencia de Datos (186 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-fisica" class="itmoru-dashed-link">→ Licenciatura en Física (181 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-matematica" class="itmoru-dashed-link">→ Licenciatura en Matemática (185 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-nanotecnologia" class="itmoru-dashed-link">→ Licenciatura en Nanotecnología (182 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-filosofia" class="itmoru-dashed-link">→ Licenciatura en Filosofía (184 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-oceanologia" class="itmoru-dashed-link">→ Licenciatura en Oceanología (185 U.C)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN SCROLLABLE SHELL (Left of the 180px Fixed Vertical Rails) -->
+  <div class="itmoru-layout-shell">
+
+    <!-- 3. TWO-TIER INSTITUTIONAL HEADER (Full-Width UNC Logo Blue #031F80 Masthead — Light Mode Only) -->
+    <header class="itmoru-header">
+      <!-- Tier 1: Full-Width UNC Logo Blue Band (#031F80) -->
+      <div class="itmoru-header-tier1-band">
+        <div class="container itmoru-header-tier1">
+          <div class="itmoru-brand-row">
+            <a href="/unc-portal-redesign/" class="itmoru-logo-link" aria-label="Inicio — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán">
+              <img class="itmoru-full-logo-img" src="/unc-portal-redesign/assets/real/logo_unc_full.png" alt="UNC — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán">
+            </a>
+
+            <div class="itmoru-address-tag">
+              <span class="addr-k">Dirección de Atención y Admisión UNC:</span>
+              <span class="addr-v">Altos de Pipe, Km 11 Panamericana</span>
+            </div>
+          </div>
+
+          <div class="itmoru-header-controls">
+            <form class="itmoru-search-box" action="/unc-portal-redesign/buscar" method="GET">
+              <input type="text" name="q" placeholder="Buscar noticias, carreras..." aria-label="Buscar">
+              <button type="submit" aria-label="Buscar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tier 2: Clean, User-Friendly Sticky University Navigation Bar with Dropdowns -->
+      <nav class="itmoru-header-tier2-band" aria-label="Navegación Principal UNC">
+        <div class="container itmoru-header-tier2">
+          <ul class="unc-main-nav">
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/" class="unc-nav-link active">Inicio</a>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/quienes-somos" class="unc-nav-link   ">La Universidad <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/quienes-somos" class="unc-drop-link">
+                  <strong>¿Quiénes somos?</strong>
+                  <span>Misión, Visión y 6 Valores Institucionales</span>
+                </a>
+                <a href="/unc-portal-redesign/autoridades" class="unc-drop-link">
+                  <strong>Autoridades Universitarias</strong>
+                  <span>Equipo directivo y Rectorado UNC</span>
+                </a>
+                <a href="/unc-portal-redesign/nuestro-heroe-eponimo" class="unc-drop-link">
+                  <strong>Dr. Humberto Fernández-Morán</strong>
+                  <span>Biografía de nuestro héroe epónimo y libro PDF</span>
+                </a>
+                <a href="/unc-portal-redesign/campus-laboratorios" class="unc-drop-link">
+                  <strong>Campus y Laboratorios</strong>
+                  <span>Altos de Pipe, aulas interactivas y centros IVIC</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/carreras-de-pregrado" class="unc-nav-link ">Oferta Académica <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/carreras-de-pregrado" class="unc-drop-link">
+                  <strong>15 Carreras de Pregrado</strong>
+                  <span>5 Ingenierías · 10 Licenciaturas y Mallas PDF</span>
+                </a>
+                <a href="/unc-portal-redesign/calendario-academico-2026-2027" class="unc-drop-link">
+                  <strong>Calendario Académico 2026–2027</strong>
+                  <span>Cronograma oficial de actividades y PDF</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/noticias" class="unc-nav-link ">Noticias</a>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/revista-ciencia-para-la-vida" class="unc-nav-link  ">Publicaciones <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/revista-ciencia-para-la-vida" class="unc-drop-link">
+                  <strong>Revista «Ciencia para la Vida»</strong>
+                  <span>6 ediciones oficiales Mincyt en PDF</span>
+                </a>
+                <a href="/unc-portal-redesign/gaceta-universitaria" class="unc-drop-link">
+                  <strong>Gaceta Universitaria</strong>
+                  <span>Gacetas Ordinarias N.º 1 – N.º 6</span>
+                </a>
+                <a href="/unc-portal-redesign/gaceta-extraordinaria" class="unc-drop-link">
+                  <strong>Gaceta Extraordinaria</strong>
+                  <span>Resoluciones oficiales 2026</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/autenticacion-de-carnet" class="unc-nav-link">Estudiantes <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/autenticacion-de-carnet" class="unc-drop-link">
+                  <strong>Autenticación de Carnet</strong>
+                  <span>Consulta del padrón estudiantil activo</span>
+                </a>
+                <a href="/unc-portal-redesign/validacion-de-documentos" class="unc-drop-link">
+                  <strong>Validación y Rutas de Transporte</strong>
+                  <span>Listados por región y paradas hacia Altos de Pipe</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/sugerencias" class="unc-nav-link ">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN PAGE CONTENT -->
+    <main>
+      
+<!-- 1. PRESTIGIOUS ACADEMIC HERO (Stanford / Harvard Editorial Architecture — Zero Retro Windows) -->
+<section class="itmoru-hero">
+  <div class="container">
+    <div class="unc-hero-grid">
+      <!-- Left: Authoritative Institutional Statement & Non-Repetitive CTAs -->
+      <div>
+        <span class="unc-hero-eyebrow">República Bolivariana de Venezuela · Altos de Pipe</span>
+        <h1 class="itmoru-giant-statement">
+          UNC <span class="cursive-span">es</span><br>
+          Ciencia para la Vida
+        </h1>
+        <p class="unc-hero-lead">
+          El hogar del conocimiento científico con visión de futuro.
+        </p>
+        <div class="unc-hero-actions">
+          <a href="/unc-portal-redesign/carreras-de-pregrado" class="unc-btn-primary">Explorar 15 Carreras de Pregrado →</a>
+          <a href="/unc-portal-redesign/nuestro-heroe-eponimo" class="unc-btn-secondary">Dr. Humberto Fernández-Morán →</a>
+        </div>
+      </div>
+
+      <!-- Right: Automatic 9-Photo Architectural Carousel (UNC, IVIC & Parque Científico Altos de Pipe) -->
+      <div class="unc-campus-showcase">
+        <div class="unc-campus-photo-wrap" id="uncHeroCarousel">
+          <div class="unc-carousel-slide active">
+            <img src="/unc-portal-redesign/assets/real/hero_campus_unc.jpg" alt="Sede Principal UNC — Edificio de Cristal Azul en Altos de Pipe">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/campus_pct.jpg?v=hq" alt="Parque Científico Tecnológico de Venezuela (+Ciencia) en Altos de Pipe">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/campus_lab_unc.jpg" alt="Sala de Computación e Informática UNC">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/campus_slide_3.jpg" alt="Aulas Interactivas de la Universidad Nacional de las Ciencias">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/campus_clase_unc.jpg?v=hq" alt="Clases y Encuentros Académicos en la UNC" style="object-position: center 20%;">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/campus_slide_4.jpg" alt="Laboratorios de Computación Avanzada UNC">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/ivic_plaza.jpg" alt="Complejo Científico IVIC — Plaza Bolívar y Bello en Altos de Pipe">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/campus_slide_2.jpg" alt="Galería Central y Espacios Académicos UNC">
+          </div>
+          <div class="unc-carousel-slide">
+            <img src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="Fachada Institucional Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán" style="object-position: center 65%;">
+          </div>
+
+          <button type="button" class="unc-carousel-btn prev" onclick="stepHeroCarousel(-1)" aria-label="Foto anterior">‹</button>
+          <button type="button" class="unc-carousel-btn next" onclick="stepHeroCarousel(1)" aria-label="Foto siguiente">›</button>
+
+          <div class="unc-carousel-dots" role="tablist" aria-label="Galería del Campus UNC e IVIC">
+            <button type="button" class="unc-carousel-dot active" onclick="goHeroCarousel(0)" aria-label="Foto 1"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(1)" aria-label="Foto 2"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(2)" aria-label="Foto 3"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(3)" aria-label="Foto 4"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(4)" aria-label="Foto 5"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(5)" aria-label="Foto 6"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(6)" aria-label="Foto 7"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(7)" aria-label="Foto 8"></button>
+            <button type="button" class="unc-carousel-dot" onclick="goHeroCarousel(8)" aria-label="Foto 9"></button>
+          </div>
+        </div>
+        <script>
+          (function() {
+            var idx = 0;
+            var timer = null;
+            function renderSlide() {
+              var wrap = document.getElementById('uncHeroCarousel');
+              if (!wrap) return;
+              var slides = wrap.querySelectorAll('.unc-carousel-slide');
+              var dots = wrap.querySelectorAll('.unc-carousel-dot');
+              for (var i = 0; i < slides.length; i++) {
+                slides[i].classList.toggle('active', i === idx);
+              }
+              for (var j = 0; j < dots.length; j++) {
+                dots[j].classList.toggle('active', j === idx);
+              }
+            }
+            function restartAuto() {
+              if (timer) clearInterval(timer);
+              timer = setInterval(function() {
+                var wrap = document.getElementById('uncHeroCarousel');
+                if (!wrap) return;
+                var n = wrap.querySelectorAll('.unc-carousel-slide').length;
+                idx = (idx + 1) % n;
+                renderSlide();
+              }, 3500);
+            }
+            window.stepHeroCarousel = function(delta) {
+              var wrap = document.getElementById('uncHeroCarousel');
+              if (!wrap) return;
+              var n = wrap.querySelectorAll('.unc-carousel-slide').length;
+              idx = (idx + delta + n) % n;
+              renderSlide();
+              restartAuto();
+            };
+            window.goHeroCarousel = function(target) {
+              idx = target;
+              renderSlide();
+              restartAuto();
+            };
+            restartAuto();
+          })();
+        </script>
+        <a href="/unc-portal-redesign/quienes-somos" class="unc-campus-footer-link">
+          <span>Descubre la Misión, Visión y Valores de la UNC</span>
+          <span>→</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 2. TOP 2 EDITORIAL FEATURED NEWS STRIP -->
+    <div class="itmoru-news-top2">
+      <a href="/unc-portal-redesign/noticias/dia-nacional-del-estudiante-venezolano-memoria-de-lucha-y-conocimiento-para-construir-el-futuro" class="itmoru-news-hero-item">
+  <span class="n-date">21 de noviembre de 2026 · Prensa UNC – YA</span>
+  <div class="n-img-wrap">
+    <img src="/unc-portal-redesign/assets/real/news_1.png" alt="Día Nacional del Estudiante Venezolano, memoria de lucha y conocimiento para construir el futuro" loading="lazy">
+  </div>
+  <h3>Día Nacional del Estudiante Venezolano, memoria de lucha y conocimiento para construir el futuro</h3>
+  <p style="margin:0; font-size:14px; color:var(--itmoru-muted);">El 21 de noviembre se conmemora el Día Nacional del Estudiante Venezolano, una fecha que representa un reconocimiento del rol de la juventud en los procesos históricos, científicos y productivos del país.</p>
+</a>
+<a href="/unc-portal-redesign/noticias/en-la-unc-se-diserta-sobre-que-significa-pensar-en-tiempos-de-inteligencia-artificial" class="itmoru-news-hero-item">
+  <span class="n-date">20 de noviembre de 2026 · Prensa UNC – YA</span>
+  <div class="n-img-wrap">
+    <img src="/unc-portal-redesign/assets/real/news_2.jpg" alt="En la UNC se diserta sobre “Qué significa pensar en tiempos de Inteligencia Artificial”" loading="lazy">
+  </div>
+  <h3>En la UNC se diserta sobre “Qué significa pensar en tiempos de Inteligencia Artificial”</h3>
+  <p style="margin:0; font-size:14px; color:var(--itmoru-muted);">En el marco del Día Mundial de la Filosofía, la UNC reunió a autoridades y docentes en el foro ¿Qué significa pensar en tiempos de Inteligencia Artificial? para reflexionar sobre la soberanía cognitiva y la autonomía intelectual.</p>
+</a>
+    </div>
+  </div>
+</section>
+
+<!-- 3. ITMO.RU HOLLOW OUTLINED NEWS SECTION ("NOTICIAS DE INTERÉS") -->
+<section class="itmoru-section">
+  <div class="container">
+    <div class="itmoru-section-toprow">
+      <h2 class="itmoru-hollow-h2" style="margin-bottom:0;">Noticias de Interés</h2>
+      <a href="/unc-portal-redesign/noticias" class="itmoru-action-item"><span>→ Ver todas las noticias (30)</span></a>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/mas-de-900-nuevos-estudiantes-inician-su-formacion-cientifica-en-la-universidad-nacional-de-las-ciencias" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_3.jpg" alt="Más de 900 nuevos estudiantes inician su formación científica en la Universidad Nacional de las Ciencias" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">17 de noviembre de 2026 · Prensa UNC – MG</div>
+    <a href="/unc-portal-redesign/noticias/mas-de-900-nuevos-estudiantes-inician-su-formacion-cientifica-en-la-universidad-nacional-de-las-ciencias" class="desc-post">Más de 900 nuevos estudiantes inician su formación científica en la Universidad Nacional de las Ciencias</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/unc-conversatorio-sobre-fortalecimiento-del-poder-popular-para-la-soberania-popular" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_4.jpg" alt="UNC: Conversatorio sobre Fortalecimiento del Poder Popular para la Soberanía Popular" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">14 de noviembre de 2026 · Prensa UNC – YA</div>
+    <a href="/unc-portal-redesign/noticias/unc-conversatorio-sobre-fortalecimiento-del-poder-popular-para-la-soberania-popular" class="desc-post">UNC: Conversatorio sobre Fortalecimiento del Poder Popular para la Soberanía Popular</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/la-unc-realizo-primer-foro-de-debate-estudiantil" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_5.jpg" alt="La UNC realizó Primer Foro de Debate Estudiantil" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">13 de noviembre de 2026 · Prensa UNC – Guillermo Bentacourt</div>
+    <a href="/unc-portal-redesign/noticias/la-unc-realizo-primer-foro-de-debate-estudiantil" class="desc-post">La UNC realizó Primer Foro de Debate Estudiantil</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/unc-fanb-y-cendit-unen-esfuerzos-para-impulsar-la-formacion-de-alto-nivel-en-telecomunicaciones" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_6.jpg" alt="UNC, FANB y CENDIT unen esfuerzos para impulsar la formación de alto nivel en telecomunicaciones" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">12 de noviembre de 2026 · Prensa UNC</div>
+    <a href="/unc-portal-redesign/noticias/unc-fanb-y-cendit-unen-esfuerzos-para-impulsar-la-formacion-de-alto-nivel-en-telecomunicaciones" class="desc-post">UNC, FANB y CENDIT unen esfuerzos para impulsar la formación de alto nivel en telecomunicaciones</a>
+  </article>
+</div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/clase-magistral-los-desafios-de-la-nueva-realidad-climatica-en-venezuela" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_7.jpg" alt="Clase magistral: Los desafíos de la nueva realidad climática en Venezuela" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">11 de noviembre de 2026 · Prensa UNC – YA</div>
+    <a href="/unc-portal-redesign/noticias/clase-magistral-los-desafios-de-la-nueva-realidad-climatica-en-venezuela" class="desc-post">Clase magistral: Los desafíos de la nueva realidad climática en Venezuela</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/ciencia-y-diplomacia-puente-para-la-paz-y-el-desarrollo-sostenible" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_8.png" alt="Ciencia y diplomacia, puente para la paz y el desarrollo sostenible" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">10 de noviembre de 2026 · Prensa UNC – YA</div>
+    <a href="/unc-portal-redesign/noticias/ciencia-y-diplomacia-puente-para-la-paz-y-el-desarrollo-sostenible" class="desc-post">Ciencia y diplomacia, puente para la paz y el desarrollo sostenible</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/en-la-unc-la-ciencia-dialoga-con-los-saberes-ancestrales" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_9.jpg" alt="En la UNC, la ciencia dialoga con los saberes ancestrales" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">7 de noviembre de 2026 · Prensa UNC – Yanett Alvarez</div>
+    <a href="/unc-portal-redesign/noticias/en-la-unc-la-ciencia-dialoga-con-los-saberes-ancestrales" class="desc-post">En la UNC, la ciencia dialoga con los saberes ancestrales</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/estudiantes-de-la-unc-inician-practicas-en-laboratorios-de-intevep-s-a" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_10.jpg" alt="Estudiantes de la UNC inician prácticas en laboratorios de INTEVEP" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">6 de noviembre de 2026 · Prensa UNC – María Guevara</div>
+    <a href="/unc-portal-redesign/noticias/estudiantes-de-la-unc-inician-practicas-en-laboratorios-de-intevep-s-a" class="desc-post">Estudiantes de la UNC inician prácticas en laboratorios de INTEVEP</a>
+  </article>
+</div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/el-comic-como-expresion-artistica-y-cultural" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_11.jpg" alt="El cómic como expresión artística y cultural" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">5 de noviembre de 2026 · Prensa UNC – María Guevara</div>
+    <a href="/unc-portal-redesign/noticias/el-comic-como-expresion-artistica-y-cultural" class="desc-post">El cómic como expresión artística y cultural</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/instituto-energetico-de-moscu-dicta-clase-magistral-sobre-ia-y-transicion-energetica" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_12.jpg" alt="Instituto Energético de Moscú dicta clase magistral sobre IA y transición energética" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">2 de noviembre de 2026 · Prensa UNC – María Guevara</div>
+    <a href="/unc-portal-redesign/noticias/instituto-energetico-de-moscu-dicta-clase-magistral-sobre-ia-y-transicion-energetica" class="desc-post">Instituto Energético de Moscú dicta clase magistral sobre IA y transición energética</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/dia-mundial-de-la-codificacion-aprender-comprender-y-transformar-el-mundo-digital" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_13.png" alt="Día Mundial de la Codificación: Aprender, comprender y transformar el mundo digital" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">29 de octubre de 2026 · Prensa UNC – Yanett Alvarez</div>
+    <a href="/unc-portal-redesign/noticias/dia-mundial-de-la-codificacion-aprender-comprender-y-transformar-el-mundo-digital" class="desc-post">Día Mundial de la Codificación: Aprender, comprender y transformar el mundo digital</a>
+  </article>
+</div>
+<div class="col-12 col-sm-6 col-md-3">
+  <article class="post-card">
+    <a href="/unc-portal-redesign/noticias/ministro-yvan-gil-inaugura-espacios-tecnologicos-y-anuncia-nuevas-carreras-en-la-universidad-nacional-de-las-ciencias" class="thumb-wrap">
+      <img src="/unc-portal-redesign/assets/real/news_14.jpg" alt="Ministro Yván Gil inaugura espacios tecnológicos y anuncia nuevas carreras en la Universidad Nacional de las Ciencias" loading="lazy">
+      <span class="anons-badge">Destacados · Noticias</span>
+    </a>
+    <div class="date-post">28 de octubre de 2026 · Prensa UNC – María Guevara</div>
+    <a href="/unc-portal-redesign/noticias/ministro-yvan-gil-inaugura-espacios-tecnologicos-y-anuncia-nuevas-carreras-en-la-universidad-nacional-de-las-ciencias" class="desc-post">Ministro Yván Gil inaugura espacios tecnológicos y anuncia nuevas carreras en la Universidad Nacional de las Ciencias</a>
+  </article>
+</div>
+    </div>
+    <div style="text-align:center; margin-top:24px;">
+      <a href="/unc-portal-redesign/noticias" class="itmoru-action-item"><span>→ Explorar el Archivo Completo de Prensa UNC (30 Noticias Verificadas)</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- 4. ITMO.RU DARK CHARCOAL BAND ("ЦИФРЫ И ФАКТЫ" -> "CIFRAS Y HECHOS UNC") -->
+<section class="itmoru-dark-band">
+  <!-- Decorative UNC Blue/Sky Vector Curve -->
+  <svg class="itmoru-pink-arc-svg" viewBox="0 0 600 600" fill="none">
+    <path d="M50,550 C140,220 340,380 560,40" stroke="url(#uncArcGrad)" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="310" cy="295" r="180" stroke="url(#uncArcGrad)" stroke-width="4" stroke-dasharray="10 10"/>
+    <defs>
+      <linearGradient id="uncArcGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#0072AC"/>
+        <stop offset="50%" stop-color="#4CA3D9"/>
+        <stop offset="100%" stop-color="#7BA6D0"/>
+      </linearGradient>
+    </defs>
+  </svg>
+
+  <div class="container">
+    <div class="itmoru-section-toprow">
+      <h2 class="itmoru-hollow-h2" style="margin-bottom:0;">Cifras y Hechos</h2>
+      <div style="display:flex; align-items:center; gap:14px;">
+        <img src="/unc-portal-redesign/assets/real/logo_unc.png" alt="Escudo UNC" class="unc-logo-white-on-dark" style="height:56px; width:auto;">
+        <span class="unc-serif" style="font-size:26px; font-weight:800; color:#FFFFFF;">UNC · Scientia Vitae</span>
+      </div>
+    </div>
+
+    <div class="itmoru-big-numbers-row" id="uncCifrasGrid">
+      <div class="itmoru-outlined-stat">
+        <span class="num-hollow unc-odo" data-value="18.006">18.006</span>
+        <span class="num-desc">Solicitudes de ingreso registradas a nivel nacional para formarse en la UNC</span>
+      </div>
+      <div class="itmoru-outlined-stat">
+        <span class="num-hollow unc-odo" data-value="3.130">3.130</span>
+        <span class="num-desc">Estudiantes regulares activos en formación científica (Semestres I y II)</span>
+      </div>
+      <div class="itmoru-outlined-stat">
+        <span class="num-hollow unc-odo" data-value="900+">900+</span>
+        <span class="num-desc">Nuevos ingresos de la cohorte noviembre 2026 provenientes de los 23 estados</span>
+      </div>
+      <div class="itmoru-outlined-stat">
+        <span class="num-hollow unc-odo" data-value="15 + 4">15 + 4</span>
+        <span class="num-desc">15 carreras activas (12 inéditas) + 4 nuevas anunciadas: Virología, Geociencias, Ing. en Cambio Climático y Ciencias Ambientales</span>
+      </div>
+      <div class="itmoru-outlined-stat">
+        <span class="num-hollow unc-odo" data-value="38%">38%</span>
+        <span class="num-desc">Nómina docente integrada por científicos de la Fundación IDEA + 32% investigadores activos del IVIC</span>
+      </div>
+      <div class="itmoru-outlined-stat">
+        <span class="num-hollow unc-odo" data-value="52%">52%</span>
+        <span class="num-desc">Matrícula en Inteligencia Artificial, Ciberseguridad, Robótica y Ciencia de Datos</span>
+      </div>
+    </div>
+    <script>
+      (function() {
+        var grid = document.getElementById('uncCifrasGrid');
+        if (!grid) return;
+        var els = grid.querySelectorAll('.unc-odo');
+        var ribbons = [];
+
+        // Build GPU-accelerated vertical rolling strips (0..9 + 0..target) for every digit
+        for (var i = 0; i < els.length; i++) {
+          var el = els[i];
+          var val = el.getAttribute('data-value') || el.textContent.trim();
+          el.textContent = '';
+          var digitIndex = 0;
+          for (var c = 0; c < val.length; c++) {
+            var ch = val[c];
+            if (ch >= '0' && ch <= '9') {
+              var target = parseInt(ch, 10);
+              var slot = document.createElement('span');
+              slot.className = 'unc-odo-slot';
+              var ribbon = document.createElement('span');
+              ribbon.className = 'unc-odo-ribbon';
+              // One full 0-9 spin + land on exact target digit for silky smooth rolling feel
+              var totalSteps = 10 + target;
+              for (var d = 0; d <= totalSteps; d++) {
+                var span = document.createElement('span');
+                span.className = 'unc-odo-digit';
+                span.textContent = String(d % 10);
+                ribbon.appendChild(span);
+              }
+              var delayMs = (i * 80) + (digitIndex * 75);
+              var durMs = 1550 + (digitIndex * 160);
+              ribbon.style.transition = 'transform ' + durMs + 'ms cubic-bezier(0.16, 1, 0.3, 1) ' + delayMs + 'ms';
+              ribbon.setAttribute('data-steps', String(totalSteps));
+              slot.appendChild(ribbon);
+              el.appendChild(slot);
+              ribbons.push(ribbon);
+              digitIndex++;
+            } else {
+              var st = document.createElement('span');
+              st.className = 'unc-odo-static';
+              st.textContent = ch === ' ' ? '\u00A0' : ch;
+              el.appendChild(st);
+            }
+          }
+        }
+
+        var started = false;
+        function triggerOdometer() {
+          if (started) return;
+          started = true;
+          requestAnimationFrame(function() {
+            requestAnimationFrame(function() {
+              for (var k = 0; k < ribbons.length; k++) {
+                var r = ribbons[k];
+                var steps = parseInt(r.getAttribute('data-steps') || '0', 10);
+                r.style.transform = 'translate3d(0, -' + (steps * 1.08) + 'em, 0)';
+              }
+              setTimeout(function() {
+                for (var n = 0; n < els.length; n++) {
+                  els[n].textContent = els[n].getAttribute('data-value') || '';
+                }
+              }, 2900);
+            });
+          });
+        }
+
+        if ('IntersectionObserver' in window) {
+          var obs = new IntersectionObserver(function(entries) {
+            for (var m = 0; m < entries.length; m++) {
+              if (entries[m].isIntersecting) {
+                triggerOdometer();
+                obs.disconnect();
+                break;
+              }
+            }
+          }, { threshold: 0.2 });
+          obs.observe(grid);
+        } else {
+          triggerOdometer();
+        }
+      })();
+    </script>
+
+    <!-- Interactive Accordion ("итмо в рейтингах" -> "procesos claves en la formación de la unc") -->
+    <h3 style="font-size:28px; font-weight:900; text-transform:uppercase; color:#FFFFFF; margin:0 0 18px;">
+      PROCESOS CLAVES EN LA FORMACIÓN DE LA UNC
+    </h3>
+
+    <div class="itmoru-accordion-list">
+      <div class="itmoru-acc-row open">
+        <div class="itmoru-acc-header" onclick="toggleAccRow(this)">
+          <div class="itmoru-acc-title">
+            <img src="/unc-portal-redesign/assets/real/pillar_1.png" alt="Investigar" class="unc-logo-white-on-dark" style="width:42px; height:42px; object-fit:contain;">
+            <span>01 · Investigar y Desarrollar</span>
+          </div>
+          <span class="itmoru-acc-plus">+</span>
+        </div>
+        <div class="itmoru-acc-panel">
+          <div>
+            <strong>1. Investigar:</strong> Habilidades para formular preguntas relevantes, diseñar estudios y analizar datos, contribuyendo al avance del saber en sus respectivas disciplinas.<br>
+            <strong>2. Desarrollar:</strong> Habilidades para planificar y ejecutar iniciativas que respondan a necesidades en áreas prioritarias para el país, fomentando el crecimiento y la sostenibilidad.
+          </div>
+        </div>
+      </div>
+
+      <div class="itmoru-acc-row">
+        <div class="itmoru-acc-header" onclick="toggleAccRow(this)">
+          <div class="itmoru-acc-title">
+            <img src="/unc-portal-redesign/assets/real/pillar_3.png" alt="Innovar" class="unc-logo-white-on-dark" style="width:42px; height:42px; object-fit:contain;">
+            <span>02 · Innovar y Producir</span>
+          </div>
+          <span class="itmoru-acc-plus">+</span>
+        </div>
+        <div class="itmoru-acc-panel">
+          <div>
+            <strong>3. Innovar:</strong> Capacidad de pensar de manera creativa y crítica, proponiendo soluciones originales a problemas existentes y adaptándose a un entorno en constante cambio.<br>
+            <strong>4. Producir:</strong> Competencias en la creación de obras académicas, investigaciones y productos que reflejen su formación y contribuyan al desarrollo de su campo profesional.
+          </div>
+        </div>
+      </div>
+
+      <div class="itmoru-acc-row">
+        <div class="itmoru-acc-header" onclick="toggleAccRow(this)">
+          <div class="itmoru-acc-title">
+            <img src="/unc-portal-redesign/assets/real/pillar_5.png" alt="Aplicar y Transformar" class="unc-logo-white-on-dark" style="width:42px; height:42px; object-fit:contain;">
+            <span>03 · Aplicar y Transformar</span>
+          </div>
+          <span class="itmoru-acc-plus">+</span>
+        </div>
+        <div class="itmoru-acc-panel">
+          <div>
+            <strong>5. Aplicar:</strong> Capacidad de transferir teorías y conceptos a la práctica, resolviendo problemas concretos en sus áreas de formación.<br>
+            <strong>6. Transformar:</strong> Agentes de cambio, utilizando su formación para impactar positivamente en la sociedad y contribuir a la mejora de la calidad de vida de las comunidades.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. ITMO.RU EDUCATION & PORTALS BENTO SECTION ("ОБРАЗОВАНИЕ" -> "PORTALES DESTACADOS") -->
+<section class="itmoru-section">
+  <div class="container">
+    <div class="itmoru-section-toprow">
+      <h2 class="itmoru-hollow-h2" style="margin-bottom:0;">Portales Destacados</h2>
+      <div class="itmoru-slide-counter">
+        <span>1 / 4</span>
+        <span class="itmoru-dot active"></span>
+        <span class="itmoru-dot"></span>
+        <span class="itmoru-dot"></span>
+        <span class="itmoru-dot"></span>
+      </div>
+    </div>
+
+    <div class="banners-grid">
+      <a href="/unc-portal-redesign/nuestro-heroe-eponimo" class="itmoru-bento-card">
+        <img class="bento-bg" src="/unc-portal-redesign/assets/real/foto_hfm.png" alt="Dr. Humberto Fernández-Morán">
+        <div class="itmoru-bento-top">
+          <span class="itmoru-bento-pill">Héroe Epónimo · Panteón Nacional</span>
+        </div>
+        <div class="itmoru-bento-bottom">
+          <h3 class="itmoru-bento-title">Dr. Humberto Fernández-Morán</h3>
+          <p class="itmoru-bento-sub">Creador del bisturí de diamante y fundador del IVIC (1924–1999) · Libro PDF</p>
+        </div>
+      </a>
+
+      <a href="/unc-portal-redesign/carreras-de-pregrado" class="itmoru-bento-card">
+        <img class="bento-bg" src="/unc-portal-redesign/assets/real/news_3.jpg" alt="15 Carreras de Pregrado">
+        <div class="itmoru-bento-top">
+          <span class="itmoru-bento-pill">5 Ingenierías · 10 Licenciaturas</span>
+        </div>
+        <div class="itmoru-bento-bottom">
+          <h3 class="itmoru-bento-title">15 Carreras de Pregrado</h3>
+          <p class="itmoru-bento-sub">12 programas inéditos en Venezuela · IA, Ciberseguridad, Física Nuclear</p>
+        </div>
+      </a>
+
+      <a href="/unc-portal-redesign/revista-ciencia-para-la-vida" class="itmoru-bento-card">
+        <img class="bento-bg" src="/unc-portal-redesign/assets/real/mag_1.jpg" alt="Revista Ciencia para la Vida">
+        <div class="itmoru-bento-top">
+          <span class="itmoru-bento-pill">Revista Mensual Mincyt</span>
+        </div>
+        <div class="itmoru-bento-bottom">
+          <h3 class="itmoru-bento-title">Revista Ciencia para la Vida</h3>
+          <p class="itmoru-bento-sub">Una ventana a la innovación tecnológica en Venezuela (6 ediciones PDF)</p>
+        </div>
+      </a>
+
+      <a href="/unc-portal-redesign/gaceta-universitaria" class="itmoru-bento-card">
+        <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="Gaceta y Calendario 2026–2027">
+        <div class="itmoru-bento-top">
+          <span class="itmoru-bento-pill">Documentos Oficiales</span>
+        </div>
+        <div class="itmoru-bento-bottom">
+          <h3 class="itmoru-bento-title">Gaceta y Calendario 2026–2027</h3>
+          <p class="itmoru-bento-sub">Gacetas Ordinarias N.º 1–6, Extraordinaria y Calendario Académico</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- 6. EDUCACIÓN Y CIENCIA SPLIT -->
+<section class="itmoru-section">
+  <div class="container">
+    <div class="itmoru-section-toprow">
+      <h2 class="itmoru-hollow-h2" style="margin-bottom:0;">Educación y Ciencia</h2>
+      <a href="/unc-portal-redesign/carreras-de-pregrado" class="itmoru-action-item"><span>→ Ver las 15 Carreras y Mallas PDF</span></a>
+    </div>
+
+    <div class="row" style="margin-bottom:44px; align-items:center;">
+      <div class="col-12 col-md-6" style="margin-bottom:24px;">
+        <ul class="itmoru-vertical-list">
+          <li><a href="/unc-portal-redesign/carreras/ingenieria-en-inteligencia-artificial" class="itmoru-vlist-item"><span>→ Ingeniería en Inteligencia Artificial</span><span>181 U.C</span></a></li>
+          <li><a href="/unc-portal-redesign/carreras/ingenieria-en-ciberseguridad" class="itmoru-vlist-item"><span>→ Ingeniería en Ciberseguridad</span><span>187 U.C</span></a></li>
+          <li><a href="/unc-portal-redesign/carreras/ingenieria-en-robotica-y-automatizacion" class="itmoru-vlist-item"><span>→ Ingeniería en Robótica y Automatización</span><span>180 U.C</span></a></li>
+          <li><a href="/unc-portal-redesign/carreras/ingenieria-en-electromedicina" class="itmoru-vlist-item"><span>→ Ingeniería en Electromedicina</span><span>191 U.C</span></a></li>
+          <li><a href="/unc-portal-redesign/carreras/licenciatura-en-fisica-nuclear" class="itmoru-vlist-item"><span>→ Licenciatura en Física Nuclear</span><span>181 U.C</span></a></li>
+          <li><a href="/unc-portal-redesign/carreras/licenciatura-en-biologia-y-quimica-computacional" class="itmoru-vlist-item"><span>→ Lic. en Biología y Química Computacional</span><span>185 U.C</span></a></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6">
+        <div class="unc-campus-showcase" style="padding:0; overflow:hidden;">
+          <img src="/unc-portal-redesign/assets/real/news_20.jpg" alt="Formación Científica y Tecnológica en la UNC" style="width:100%; aspect-ratio:3/2; height:auto; object-fit:cover; display:block;">
+        </div>
+      </div>
+    </div>
+
+    <div class="banners-grid">
+      <a href="/unc-portal-redesign/carreras/ingenieria-en-inteligencia-artificial" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Ingenierías · 181 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Ingeniería en Inteligencia Artificial</h3>
+    <p class="itmoru-bento-sub">Ingeniero/a en Inteligencia Artificial · 4 años (8 semestres)</p>
+  </div>
+</a>
+<a href="/unc-portal-redesign/carreras/ingenieria-en-ciberseguridad" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Ingenierías · 187 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Ingeniería en Ciberseguridad</h3>
+    <p class="itmoru-bento-sub">Ingeniero/a en Ciberseguridad · 4 años (8 semestres)</p>
+  </div>
+</a>
+<a href="/unc-portal-redesign/carreras/ingenieria-en-robotica-y-automatizacion" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Ingenierías · 180 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Ingeniería en Robótica y Automatización</h3>
+    <p class="itmoru-bento-sub">Ingeniero/a en Robótica y Automatización · 4 años (8 semestres)</p>
+  </div>
+</a>
+<a href="/unc-portal-redesign/carreras/ingenieria-en-electromedicina" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Ingenierías · 191 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Ingeniería en Electromedicina</h3>
+    <p class="itmoru-bento-sub">Ingeniero/a en Electromedicina · 4 años (8 semestres)</p>
+  </div>
+</a>
+<a href="/unc-portal-redesign/carreras/ingenieria-en-biomateriales" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Ingenierías · 184 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Ingeniería en Biomateriales</h3>
+    <p class="itmoru-bento-sub">Ingeniero/a en Biomateriales · 4 años (8 semestres)</p>
+  </div>
+</a>
+<a href="/unc-portal-redesign/carreras/licenciatura-en-fisica-nuclear" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Licenciaturas · 181 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Licenciatura en Física Nuclear</h3>
+    <p class="itmoru-bento-sub">Licenciado/a en Física Nuclear · 4 años (8 semestres)</p>
+  </div>
+</a>
+<a href="/unc-portal-redesign/carreras/licenciatura-en-biologia-y-quimica-computacional" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Licenciaturas · 185 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Licenciatura en Biología y Química Computacional</h3>
+    <p class="itmoru-bento-sub">Licenciado/a en Biología y Química Computacional · 4 años (8 semestres)</p>
+  </div>
+</a>
+<a href="/unc-portal-redesign/carreras/licenciatura-en-biotecnologia" class="itmoru-bento-card" style="height:295px;">
+  <img class="bento-bg" src="/unc-portal-redesign/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
+  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
+    <span class="itmoru-bento-pill">Licenciaturas · 182 U.C</span>
+  </div>
+  <div class="itmoru-bento-bottom">
+    <h3 class="itmoru-bento-title" style="font-size:21px;">Licenciatura en Biotecnología</h3>
+    <p class="itmoru-bento-sub">Licenciado/a en Biotecnología · 4 años (8 semestres)</p>
+  </div>
+</a>
+    </div>
+  </div>
+</section>
+
+<!-- 7. UNOBTRUSIVE VERTICAL VIDEO SPOTLIGHT (9:16 Campus Reel Showcase) -->
+<section class="itmoru-section" style="padding: 56px 0 72px;">
+  <div class="container">
+    <div class="unc-video-spotlight-card">
+      <div>
+        <h2 class="itmoru-hollow-h2" style="margin-bottom:20px;">Vive la experiencia UNC</h2>
+        <p style="font-size:18px; line-height:1.68; color:var(--itmoru-muted); margin:0 0 28px; max-width:660px;">
+          Conoce de cerca el día a día en el campus de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán en Altos de Pipe: aulas interactivas, laboratorios científicos, formación de vanguardia y comunidad universitaria.
+        </p>
+        <div style="display:flex; gap:14px; flex-wrap:wrap;">
+          <a href="/unc-portal-redesign/carreras-de-pregrado" class="unc-btn-primary">Explorar Oferta Académica →</a>
+          <a href="https://www.instagram.com/p/DJeW6lPNLoF/" target="_blank" rel="noopener" class="unc-btn-secondary">Ver en Instagram (@unicienciasvzla) ↗</a>
+        </div>
+      </div>
+
+      <div>
+        <div class="unc-video-phone-frame">
+          <video autoplay muted loop playsinline preload="auto" poster="/unc-portal-redesign/assets/real/unc_video_poster.jpg">
+            <source src="/unc-portal-redesign/assets/video/unc_video.mp4?v=2" type="video/mp4">
+            Tu navegador no soporta la reproducción de video HTML5.
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <!-- FOOTER (#031F80 UNC Navy) & SUB-FOOTER -->
+    <footer class="itmoru-footer">
+      <div class="container">
+        <div class="itmoru-footer-topbar">
+          <div style="display:flex; align-items:center;">
+            <img src="/unc-portal-redesign/assets/real/logo_unc_full.png" alt="UNC — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán" class="unc-logo-white-on-dark" style="height:68px; width:auto; display:block;">
+          </div>
+
+          <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+            <a href="https://www.tiktok.com/@unicienciasvzla?_t=ZM-8u2xdkTqAMB" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">TikTok</a>
+            <a href="https://www.instagram.com/unicienciasvzla?igsh=MWxua3RwNmtsYm9wcQ==" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">Instagram</a>
+            <a href="https://www.threads.net/@unicienciasvzla" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">Threads</a>
+            <a href="/unc-portal-redesign/sugerencias" class="itmoru-pill-tab" style="border-color:#0072AC; background:#0072AC; color:#FFFFFF !important;">Sugerencias</a>
+          </div>
+        </div>
+
+        <div class="itmoru-footer-cols">
+          <div class="itmoru-footer-office">
+            <h4>DIRECCIÓN DEL CAMPUS</h4>
+            <p>Dirección de Atención y Admisión UNC:<br>Altos de Pipe, Km 11 Panamericana, estado Miranda, República Bolivariana de Venezuela.</p>
+            <a href="/unc-portal-redesign/sugerencias">→ Ver mapa e indicaciones</a>
+          </div>
+
+          <div class="itmoru-footer-office">
+            <h4>RECTORADO Y SECRETARÍA</h4>
+            <p>Rectora (E): Dra. Gabriela Jiménez Ramírez<br>Secretario (E): Dr. Roberto Betancourt</p>
+            <a href="/unc-portal-redesign/autoridades">→ Ver las 7 Autoridades Universitarias</a>
+            <a href="/unc-portal-redesign/gaceta-universitaria">→ Gacetas Universitarias N.º 1 – N.º 6</a>
+          </div>
+
+          <div class="itmoru-footer-office">
+            <h4>OFICINA DE ADMISIÓN Y ESTUDIANTES</h4>
+            <a href="/unc-portal-redesign/carreras-de-pregrado">→ 15 Carreras de Pregrado y Mallas PDF</a>
+            <a href="/unc-portal-redesign/calendario-academico-2026-2027">→ Calendario Académico 2026 – 2027</a>
+            <a href="/unc-portal-redesign/validacion-de-documentos">→ Validación y Rutas de Transporte</a>
+            <a href="/unc-portal-redesign/autenticacion-de-carnet">→ Autenticación de Carnet Estudiantil</a>
+          </div>
+
+          <div class="itmoru-footer-office">
+            <h4>PRENSA Y DIVULGACIÓN CIENTÍFICA</h4>
+            <a href="/unc-portal-redesign/noticias">→ Archivo de Noticias UNC (30 Artículos)</a>
+            <a href="/unc-portal-redesign/revista-ciencia-para-la-vida">→ Revista «Ciencia para la Vida» (Mincyt)</a>
+            <a href="/unc-portal-redesign/nuestro-heroe-eponimo">→ Biografía Dr. Humberto Fernández-Morán</a>
+            <div style="margin-top:20px; display:flex; align-items:center;">
+              <a href="https://mincyt.gob.ve/" target="_blank" rel="noopener" title="Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt)" style="display:inline-block;">
+                <img src="/unc-portal-redesign/assets/real/logo_mincyt_dark.png" alt="Logo Oficial Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt)" class="unc-logo-transparent" style="max-height:46px; width:auto; display:block;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="itmoru-subfooter">
+      <div class="container itmoru-subfooter-inner">
+        <div>
+          © 2026–2027 Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC). Todos los derechos reservados.
+        </div>
+        <div>
+          Desarrollado por el Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt) · Scientia Vitae
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.itmoru-layout-shell -->
+
+  <script>
+    function toggleItmoRuMenu() {
+      var menu = document.getElementById('itmoRuMegaMenu');
+      if (!menu) return;
+      menu.classList.toggle('open');
+    }
+
+    function toggleAccRow(el) {
+      var row = el.closest('.itmoru-acc-row');
+      if (row) row.classList.toggle('open');
+    }
+
+    function toggleMoreInfo(btnId, blockId) {
+      var block = document.getElementById(blockId);
+      var btn = document.getElementById(btnId);
+      if (!block || !btn) return;
+      if (block.classList.contains('open')) {
+        block.classList.remove('open');
+        btn.innerHTML = 'Mostrar más información ▾';
+      } else {
+        block.classList.add('open');
+        btn.innerHTML = 'Ocultar información ▴';
+      }
+    }
+
+    function filterCareers(cat, btnEl) {
+      var items = document.querySelectorAll('.career-card-col');
+      for (var i = 0; i < items.length; i++) {
+        var itemCat = items[i].getAttribute('data-category');
+        if (cat === 'all' || itemCat === cat) {
+          items[i].style.display = '';
+        } else {
+          items[i].style.display = 'none';
+        }
+      }
+      var btns = document.querySelectorAll('.tab-btn-dvfu');
+      for (var j = 0; j < btns.length; j++) {
+        btns[j].classList.remove('active');
+      }
+      if (btnEl) btnEl.classList.add('active');
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        var menu = document.getElementById('itmoRuMegaMenu');
+        if (menu && menu.classList.contains('open')) {
+          menu.classList.remove('open');
+        }
+      }
+    });
+  </script>
+</body>
+</html>

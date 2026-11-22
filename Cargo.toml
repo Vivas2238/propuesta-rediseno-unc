@@ -1,0 +1,8 @@
+[package]
+name = "unc-itmo-ru-portal"
+version = "1.0.0"
+edition = "2024"
+authors = ["Sam <svivas2238@gmail.com>"]
+description = "Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) — Complete Portal Redesign in the ITMO.RU (https://itmo.ru/) Editorial Neo-Brutalist Design System (Light & Pure-Black Dark Themes)"
+
+[dependencies]

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El cómic como expresión artística y cultural — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
+  <link rel="icon" href="/unc-portal-redesign/assets/real/logo_unc.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/unc-portal-redesign/assets/real/logo_unc.png">
+  <link rel="stylesheet" href="/unc-portal-redesign/assets/dvfu.css?v=3">
+  <script>
+    (function() {
+      try { localStorage.removeItem('unc_dvfu_theme'); } catch (e) {}
+      document.documentElement.setAttribute('data-theme', 'light');
+    })();
+  </script>
+</head>
+<body>
+  <!-- FULL-SCREEN MEGA-MENU OVERLAY (Opened from Top Bar "menú" Button) -->
+  <div id="itmoRuMegaMenu" class="itmoru-megamenu-overlay" aria-hidden="true">
+    <div class="itmoru-mega-top">
+      <div style="display:flex; align-items:center;">
+        <img src="/unc-portal-redesign/assets/real/logo_unc_full.png" alt="UNC — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán" class="unc-logo-white-on-dark" style="height:68px; width:auto; display:block;">
+      </div>
+
+      <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+        <a href="/unc-portal-redesign/autenticacion-de-carnet" class="itmoru-dashed-link" style="padding:9px 18px;">Autenticación de Carnet →</a>
+        <button type="button" class="itmoru-dashed-link" style="background:#0072AC; border-style:solid; cursor:pointer;" onclick="toggleItmoRuMenu()">✕ Cerrar Menú</button>
+      </div>
+    </div>
+
+    <div class="itmoru-mega-grid">
+      <!-- Col 1: LA UNC PARA TI -->
+      <div class="itmoru-mega-col">
+        <h3>LA UNC PARA TI</h3>
+        <div class="itmoru-dashed-links">
+          <a href="/unc-portal-redesign/" class="itmoru-dashed-link">→ Inicio · Portal Principal UNC</a>
+          <a href="/unc-portal-redesign/carreras-de-pregrado" class="itmoru-dashed-link">→ 15 Carreras de Pregrado (Mallas PDF)</a>
+          <a href="/unc-portal-redesign/calendario-academico-2026-2027" class="itmoru-dashed-link">→ Calendario Académico 2026 – 2027</a>
+          <a href="/unc-portal-redesign/validacion-de-documentos" class="itmoru-dashed-link">→ Validación de Documentos y Rutas de Transporte</a>
+          <a href="/unc-portal-redesign/autenticacion-de-carnet" class="itmoru-dashed-link">→ Autenticación de Carnet Estudiantil</a>
+          <a href="/unc-portal-redesign/sugerencias" class="itmoru-dashed-link">→ Buzón de Sugerencias y Mapa Altos de Pipe</a>
+        </div>
+
+        <h3 style="margin-top:32px;">¿QUIÉNES SOMOS?</h3>
+        <div class="itmoru-dashed-links">
+          <a href="/unc-portal-redesign/quienes-somos" class="itmoru-dashed-link">→ Misión, Visión y 6 Valores Institucionales</a>
+          <a href="/unc-portal-redesign/autoridades" class="itmoru-dashed-link">→ Autoridades Universitarias (7 Directivos)</a>
+          <a href="/unc-portal-redesign/nuestro-heroe-eponimo" class="itmoru-dashed-link">→ Epónimo: Dr. Humberto Fernández-Morán</a>
+        </div>
+      </div>
+
+      <!-- Col 2: ¿QUÉ HACEMOS? (CIENCIA, GACETAS Y REVISTA) -->
+      <div class="itmoru-mega-col">
+        <h3>¿QUÉ HACEMOS?</h3>
+        <div class="itmoru-dashed-links">
+          <a href="/unc-portal-redesign/noticias" class="itmoru-dashed-link">→ Prensa y Noticias de Interés (30 Artículos)</a>
+          <a href="/unc-portal-redesign/revista-ciencia-para-la-vida" class="itmoru-dashed-link">→ Revista Mensual «Ciencia para la Vida» (Mincyt)</a>
+          <a href="/unc-portal-redesign/gaceta-universitaria" class="itmoru-dashed-link">→ Gacetas Universitarias Ordinarias (N.º 1 – N.º 6)</a>
+          <a href="/unc-portal-redesign/gaceta-extraordinaria" class="itmoru-dashed-link">→ Gaceta Universitaria Extraordinaria (2026)</a>
+          <a href="/unc-portal-redesign/centros-de-investigacion" class="itmoru-dashed-link">→ Centros de Investigación UNC – IVIC</a>
+          <a href="/unc-portal-redesign/laboratorios-de-computacion-avanzados" class="itmoru-dashed-link">→ Laboratorios de Computación Avanzados</a>
+          <a href="/unc-portal-redesign/aulas-interactivas" class="itmoru-dashed-link">→ Aulas Interactivas («La Casita de Cristal Azul»)</a>
+        </div>
+      </div>
+
+      <!-- Col 3: 15 CARRERAS DE PREGRADO -->
+      <div class="itmoru-mega-col">
+        <h3>15 CARRERAS UNC</h3>
+        <div class="itmoru-dashed-links" style="max-height:480px; overflow-y:auto; padding-right:6px;">
+          <a href="/unc-portal-redesign/carreras/ingenieria-en-inteligencia-artificial" class="itmoru-dashed-link">→ Ingeniería en Inteligencia Artificial (181 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-ciberseguridad" class="itmoru-dashed-link">→ Ingeniería en Ciberseguridad (187 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-robotica-y-automatizacion" class="itmoru-dashed-link">→ Ingeniería en Robótica y Automatización (180 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-electromedicina" class="itmoru-dashed-link">→ Ingeniería en Electromedicina (191 U.C)</a><a href="/unc-portal-redesign/carreras/ingenieria-en-biomateriales" class="itmoru-dashed-link">→ Ingeniería en Biomateriales (184 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-fisica-nuclear" class="itmoru-dashed-link">→ Licenciatura en Física Nuclear (181 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-biologia-y-quimica-computacional" class="itmoru-dashed-link">→ Licenciatura en Biología y Química Computacional (185 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-biotecnologia" class="itmoru-dashed-link">→ Licenciatura en Biotecnología (182 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-ciencia-molecular" class="itmoru-dashed-link">→ Licenciatura en Ciencia Molecular (182 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-ciencia-de-datos" class="itmoru-dashed-link">→ Licenciatura en Ciencia de Datos (186 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-fisica" class="itmoru-dashed-link">→ Licenciatura en Física (181 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-matematica" class="itmoru-dashed-link">→ Licenciatura en Matemática (185 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-nanotecnologia" class="itmoru-dashed-link">→ Licenciatura en Nanotecnología (182 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-filosofia" class="itmoru-dashed-link">→ Licenciatura en Filosofía (184 U.C)</a><a href="/unc-portal-redesign/carreras/licenciatura-en-oceanologia" class="itmoru-dashed-link">→ Licenciatura en Oceanología (185 U.C)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN SCROLLABLE SHELL (Left of the 180px Fixed Vertical Rails) -->
+  <div class="itmoru-layout-shell">
+
+    <!-- 3. TWO-TIER INSTITUTIONAL HEADER (Full-Width UNC Logo Blue #031F80 Masthead — Light Mode Only) -->
+    <header class="itmoru-header">
+      <!-- Tier 1: Full-Width UNC Logo Blue Band (#031F80) -->
+      <div class="itmoru-header-tier1-band">
+        <div class="container itmoru-header-tier1">
+          <div class="itmoru-brand-row">
+            <a href="/unc-portal-redesign/" class="itmoru-logo-link" aria-label="Inicio — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán">
+              <img class="itmoru-full-logo-img" src="/unc-portal-redesign/assets/real/logo_unc_full.png" alt="UNC — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán">
+            </a>
+
+            <div class="itmoru-address-tag">
+              <span class="addr-k">Dirección de Atención y Admisión UNC:</span>
+              <span class="addr-v">Altos de Pipe, Km 11 Panamericana</span>
+            </div>
+          </div>
+
+          <div class="itmoru-header-controls">
+            <form class="itmoru-search-box" action="/unc-portal-redesign/buscar" method="GET">
+              <input type="text" name="q" placeholder="Buscar noticias, carreras..." aria-label="Buscar">
+              <button type="submit" aria-label="Buscar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
+                  <circle cx="11" cy="11" r="7"></circle>
+                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tier 2: Clean, User-Friendly Sticky University Navigation Bar with Dropdowns -->
+      <nav class="itmoru-header-tier2-band" aria-label="Navegación Principal UNC">
+        <div class="container itmoru-header-tier2">
+          <ul class="unc-main-nav">
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/" class="unc-nav-link ">Inicio</a>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/quienes-somos" class="unc-nav-link   ">La Universidad <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/quienes-somos" class="unc-drop-link">
+                  <strong>¿Quiénes somos?</strong>
+                  <span>Misión, Visión y 6 Valores Institucionales</span>
+                </a>
+                <a href="/unc-portal-redesign/autoridades" class="unc-drop-link">
+                  <strong>Autoridades Universitarias</strong>
+                  <span>Equipo directivo y Rectorado UNC</span>
+                </a>
+                <a href="/unc-portal-redesign/nuestro-heroe-eponimo" class="unc-drop-link">
+                  <strong>Dr. Humberto Fernández-Morán</strong>
+                  <span>Biografía de nuestro héroe epónimo y libro PDF</span>
+                </a>
+                <a href="/unc-portal-redesign/campus-laboratorios" class="unc-drop-link">
+                  <strong>Campus y Laboratorios</strong>
+                  <span>Altos de Pipe, aulas interactivas y centros IVIC</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/carreras-de-pregrado" class="unc-nav-link ">Oferta Académica <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/carreras-de-pregrado" class="unc-drop-link">
+                  <strong>15 Carreras de Pregrado</strong>
+                  <span>5 Ingenierías · 10 Licenciaturas y Mallas PDF</span>
+                </a>
+                <a href="/unc-portal-redesign/calendario-academico-2026-2027" class="unc-drop-link">
+                  <strong>Calendario Académico 2026–2027</strong>
+                  <span>Cronograma oficial de actividades y PDF</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/noticias" class="unc-nav-link active">Noticias</a>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/revista-ciencia-para-la-vida" class="unc-nav-link  ">Publicaciones <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/revista-ciencia-para-la-vida" class="unc-drop-link">
+                  <strong>Revista «Ciencia para la Vida»</strong>
+                  <span>6 ediciones oficiales Mincyt en PDF</span>
+                </a>
+                <a href="/unc-portal-redesign/gaceta-universitaria" class="unc-drop-link">
+                  <strong>Gaceta Universitaria</strong>
+                  <span>Gacetas Ordinarias N.º 1 – N.º 6</span>
+                </a>
+                <a href="/unc-portal-redesign/gaceta-extraordinaria" class="unc-drop-link">
+                  <strong>Gaceta Extraordinaria</strong>
+                  <span>Resoluciones oficiales 2026</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/autenticacion-de-carnet" class="unc-nav-link">Estudiantes <span class="caret">▾</span></a>
+              <div class="unc-nav-dropdown">
+                <a href="/unc-portal-redesign/autenticacion-de-carnet" class="unc-drop-link">
+                  <strong>Autenticación de Carnet</strong>
+                  <span>Consulta del padrón estudiantil activo</span>
+                </a>
+                <a href="/unc-portal-redesign/validacion-de-documentos" class="unc-drop-link">
+                  <strong>Validación y Rutas de Transporte</strong>
+                  <span>Listados por región y paradas hacia Altos de Pipe</span>
+                </a>
+              </div>
+            </li>
+
+            <li class="unc-nav-item">
+              <a href="/unc-portal-redesign/sugerencias" class="unc-nav-link ">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN PAGE CONTENT -->
+    <main>
+      
+<div class="breadcrumbs-bar">
+  <div class="container breadcrumbs">
+    <a href="/unc-portal-redesign/">Inicio</a> <span>/</span> <a href="/unc-portal-redesign/noticias">Noticias</a> <span>/</span> <span>El cómic como expresión artística y cultural</span>
+  </div>
+</div>
+
+<div class="container" style="padding-bottom:50px;">
+  <div class="row">
+    <div class="col-12 col-md-8 content-text-justify">
+      <span style="background:var(--unc-blue); color:#FFFFFF; font-size:12px; padding:3px 9px; display:inline-block; margin-bottom:12px;">
+        Destacados · Noticias
+      </span>
+      <h1>El cómic como expresión artística y cultural</h1>
+      <div style="font-size:13px; font-style:italic; color:var(--itmoru-muted); margin-bottom:18px;">
+        Publicado el 5 de noviembre de 2026 · Redacción: <b>Prensa UNC – María Guevara</b> · Fuente original: <a href="https://unc.edu.ve/index.php/el-comic-como-expresion-artistica-y-cultural/" target="_blank" rel="noopener">unc.edu.ve</a>
+      </div>
+      <hr class="blue-line">
+
+      <div class="video-block" style="margin-bottom:24px; padding:10px;">
+        <img src="/unc-portal-redesign/assets/real/news_11.jpg" alt="El cómic como expresión artística y cultural" style="width:100%; height:auto; max-height:680px; object-fit:contain; display:block;">
+      </div>
+
+      
+<p>Lejos de ser un simple entretenimiento, el cómic o historieta se ha erigido como un poderoso medio de comunicación, herramienta pedagógica y lenguaje artístico en la era moderna. La antigua relación entre imagen y relato, con el paso del tiempo, se ha consolidado como un medio de expresión social y cultural.</p>
+<p>Bajo esta perspectiva, la artista plástica Bárbara Zsymanka ofreció una charla titulada “Comic, noveno arte” en el Salón de Conferencias Dr. Humberto Fernández-Morán de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC). A través de una exposición que sintetiza la historia y evolución del comic, la expositora abarcó desde los primeros desarrollos del género en el siglo XIX hasta sus manifestaciones actuales.</p>
+<p>La actividad que contó con la asistencia de autoridades, profesores y estudiantes de la UNC, se inició con las palabras de la rectora de la UNC, Gabriela Jiménez Ramírez, quien destacó la trayectoria de la invitada y su condición de especialista y artista plástica, reconocida con el Premio Nacional de Pintura en Venezuela.</p>
+<p>Al referirse a la dimensión cultural y comunicativa del cómic, la rectora señaló que se trata de “una expresión artística y también una ciencia. No cualquier persona hace cómics. No cualquier artista plástico construye historias sobre nuestras semblanzas y experiencias o el manejo de la sátira que le dio al comic ese valor para la denuncia, la denuncia pública con la majestuosidad de la imagen y de las letras”.</p>
+<p>La rectora también resaltó la relación entre el conocimiento científico y la creación artística al expresar que “nosotros rescatamos el poder de las letras. En el arte hay mucha ciencia, pues la ciencia también es una expresión del arte”. Aprovechó la oportunidad para invitar a los asistentes a continuar el intercambio con la artista en el marco de las actividades programadas por la universidad para celebrar su segundo aniversario, el próximo 12 de diciembre.</p>
+<h3 style="margin-top:26px;">De las primeras historietas a la novela gráfica</h3>
+<p>La presentación de Zsymanka permitió reconocer que la historia del cómic no comienza exclusivamente con la aparición de las publicaciones modernas.</p>
+<p>El cómic como lenguaje narrativo moderno tomó forma durante el siglo XIX, en estrecha relación con el desarrollo de la prensa y las nuevas posibilidades de reproducción y circulación de imágenes.</p>
+<p>En Estados Unidos, uno de los hitos de esta evolución fue Hogan’s Alley, del dibujante Richard Felton Outcault, publicado en 1895 en el periódico New York World. La serie incorporó recursos que contribuyeron a establecer las características de la historieta moderna, entre ellos la organización secuencial de las escenas y la integración de textos y diálogos en las imágenes. Su personaje más conocido, The Yellow Kid, alcanzó una enorme popularidad y evidenció el potencial comercial de las tiras ilustradas para atraer lectores a los periódicos.</p>
+<p>Durante las décadas siguientes, el cómic experimentó una expansión considerable en Estados Unidos. Surgieron personajes, publicaciones y géneros que ampliaron sus posibilidades narrativas, desde las historias humorísticas y de aventuras hasta los relatos de ciencia ficción y superhéroes.</p>
+<p>Paralelamente, el medio encontró en Europa otras formas de desarrollo, con propuestas que incorporaron nuevos lenguajes gráficos y abordaron temáticas sociales, históricas y políticas. Esta evolución favoreció el reconocimiento de la novela gráfica como una modalidad narrativa capaz de explorar asuntos complejos y experiencias humanas desde una perspectiva literaria y visual.</p>
+<p>Entre las obras que ilustran esa transformación la expositora mencionó “Maus”, de Art Spiegelman, que aborda el Holocausto y la memoria familiar. También destacó el título “Building Stories”, de Chris Ware, una propuesta que explora las posibilidades materiales y narrativas del cómic a través de diferentes formatos impresos y recorridos de lectura.</p>
+<p>De esta manera, la presentación de Zsymanka mostró cómo el lenguaje de las viñetas ha ampliado sus recursos y soportes sin perder su capacidad para comunicar ideas, representar realidades y conectar con públicos de distintas generaciones.</p>
+<p>Al valorar los distintos períodos de esta manifestación artística, Zsymanka consideró que no existe una época más prolífica o importante que otra, pues cada una ha contribuido, desde sus propias características, a enriquecer el lenguaje del cómic.</p>
+<h3 style="margin-top:26px;">Un arte que dialoga con las nuevas tecnologías</h3>
+<p>Más allá de la revisión histórica, la charla propició una reflexión sobre la vigencia del cómic y su relación con las herramientas tecnológicas contemporáneas, particularmente con la inteligencia artificial.</p>
+<p>Al ser consultada Zsymanka expresó que acercar a las nuevas generaciones a los orígenes y transformaciones de esta manifestación artística es fundamental para comprender su desarrollo y valorar sus aportes culturales. Al explicar la importancia de ese conocimiento, manifestó que “el cómic es considerado hoy como noveno arte. En tal sentido, es importante que la juventud conozca la historia de este arte”.</p>
+<p>En cuanto a la incorporación de la inteligencia artificial (IA) a los procesos creativos, la artista destacó la necesidad de comprender sus posibilidades sin perder de vista el papel de quien crea. Al respecto, señaló que “hay que recordar que la IA es una herramienta, para utilizar y mejorar imágenes, diálogos, textos”.</p>
+<p>Su planteamiento pone de relieve que, si bien las actuales tecnologías generativas pueden facilitar determinadas tareas de producción y edición, la concepción de la obra, la intención narrativa y las decisiones artísticas siguen dependiendo de la intervención humana.</p>
+<h3 style="margin-top:26px;">La lectura como experiencia de creación</h3>
+<p>A propósito de la charla, cabe citar una reflexión de la rectora Gabriela Jiménez Ramírez sobre la dimensión científica del cómic, publicada en su canal de Telegram, en la que explicó los procesos cognitivos que intervienen durante la lectura de una historieta:</p>
+<p>“Desde el punto de vista científico, el cómic resulta especialmente interesante porque exige la participación activa del lector. Las viñetas no suelen mostrar todos los acontecimientos: entre una y otra existen espacios temporales que la mente debe completar. Este proceso, conocido como cierre o inferencia narrativa, permite interpretar movimientos, emociones y acciones que no aparecen representados de manera explícita. Por tanto, leer un cómic no consiste simplemente en observar dibujos, sino en relacionar información visual y verbal, reconocer el orden de la secuencia y construir significados”.</p>
+<p>Podemos afirmar entonces que el cómic ofrece un campo de encuentro entre la creación artística, la comunicación y los procesos de percepción y comprensión, aspectos que amplían su interés tanto para la investigación como para la educación.</p>
+<p>La presentación de Bárbara Zsymanka en la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán permitió a la comunidad acercarse a una expresión cultural que ha logrado transformarse a lo largo del tiempo, adaptándose a los cambios sociales, tecnológicos y estéticos. Una experiencia que recordó que la ciencia, el arte y la cultura no son ámbitos aislados, sino expresiones complementarias de la capacidad humana para comprender, interpretar y transformar el mundo.</p>
+
+      <div style="margin-top:30px; padding-top:18px; border-top:1px solid var(--itmoru-border); display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px;">
+        <a href="/unc-portal-redesign/noticias" class="button-outline-dvfu">← Volver a todas las noticias</a>
+        <a href="https://unc.edu.ve/index.php/el-comic-como-expresion-artistica-y-cultural/" target="_blank" rel="noopener" class="button-s">Ver publicación original en unc.edu.ve ↗</a>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4">
+      <div style="background:var(--itmoru-bg-soft); border:1px solid var(--itmoru-border); padding:20px;">
+        <h3 style="margin-top:0; font-size:20px;">Más Noticias de la UNC</h3>
+        <hr class="blue-line">
+        <div style="padding-bottom:12px; margin-bottom:14px; border-bottom:1px solid var(--itmoru-border);">
+  <a href="/unc-portal-redesign/noticias/dia-nacional-del-estudiante-venezolano-memoria-de-lucha-y-conocimiento-para-construir-el-futuro" style="font-size:14px; line-height:19px; color:var(--itmoru-ink); display:block; font-weight:600; margin-bottom:4px;">Día Nacional del Estudiante Venezolano, memoria de lucha y conocimiento para construir el futuro</a>
+  <span style="font-size:12px; font-style:italic; color:var(--itmoru-muted);">21 de noviembre de 2026 · Prensa UNC – YA</span>
+</div>
+<div style="padding-bottom:12px; margin-bottom:14px; border-bottom:1px solid var(--itmoru-border);">
+  <a href="/unc-portal-redesign/noticias/en-la-unc-se-diserta-sobre-que-significa-pensar-en-tiempos-de-inteligencia-artificial" style="font-size:14px; line-height:19px; color:var(--itmoru-ink); display:block; font-weight:600; margin-bottom:4px;">En la UNC se diserta sobre “Qué significa pensar en tiempos de Inteligencia Artificial”</a>
+  <span style="font-size:12px; font-style:italic; color:var(--itmoru-muted);">20 de noviembre de 2026 · Prensa UNC – YA</span>
+</div>
+<div style="padding-bottom:12px; margin-bottom:14px; border-bottom:1px solid var(--itmoru-border);">
+  <a href="/unc-portal-redesign/noticias/mas-de-900-nuevos-estudiantes-inician-su-formacion-cientifica-en-la-universidad-nacional-de-las-ciencias" style="font-size:14px; line-height:19px; color:var(--itmoru-ink); display:block; font-weight:600; margin-bottom:4px;">Más de 900 nuevos estudiantes inician su formación científica en la Universidad Nacional de las Ciencias</a>
+  <span style="font-size:12px; font-style:italic; color:var(--itmoru-muted);">17 de noviembre de 2026 · Prensa UNC – MG</span>
+</div>
+<div style="padding-bottom:12px; margin-bottom:14px; border-bottom:1px solid var(--itmoru-border);">
+  <a href="/unc-portal-redesign/noticias/unc-conversatorio-sobre-fortalecimiento-del-poder-popular-para-la-soberania-popular" style="font-size:14px; line-height:19px; color:var(--itmoru-ink); display:block; font-weight:600; margin-bottom:4px;">UNC: Conversatorio sobre Fortalecimiento del Poder Popular para la Soberanía Popular</a>
+  <span style="font-size:12px; font-style:italic; color:var(--itmoru-muted);">14 de noviembre de 2026 · Prensa UNC – YA</span>
+</div>
+<div style="padding-bottom:12px; margin-bottom:14px; border-bottom:1px solid var(--itmoru-border);">
+  <a href="/unc-portal-redesign/noticias/la-unc-realizo-primer-foro-de-debate-estudiantil" style="font-size:14px; line-height:19px; color:var(--itmoru-ink); display:block; font-weight:600; margin-bottom:4px;">La UNC realizó Primer Foro de Debate Estudiantil</a>
+  <span style="font-size:12px; font-style:italic; color:var(--itmoru-muted);">13 de noviembre de 2026 · Prensa UNC – Guillermo Bentacourt</span>
+</div>
+        <a href="/unc-portal-redesign/noticias" class="button-s" style="width:100%; margin-top:8px;">Ver archivo de prensa</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </main>
+
+    <!-- FOOTER (#031F80 UNC Navy) & SUB-FOOTER -->
+    <footer class="itmoru-footer">
+      <div class="container">
+        <div class="itmoru-footer-topbar">
+          <div style="display:flex; align-items:center;">
+            <img src="/unc-portal-redesign/assets/real/logo_unc_full.png" alt="UNC — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán" class="unc-logo-white-on-dark" style="height:68px; width:auto; display:block;">
+          </div>
+
+          <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+            <a href="https://www.tiktok.com/@unicienciasvzla?_t=ZM-8u2xdkTqAMB" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">TikTok</a>
+            <a href="https://www.instagram.com/unicienciasvzla?igsh=MWxua3RwNmtsYm9wcQ==" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">Instagram</a>
+            <a href="https://www.threads.net/@unicienciasvzla" target="_blank" rel="noopener" class="itmoru-pill-tab" style="border-color:#FFFFFF; color:#FFFFFF !important;">Threads</a>
+            <a href="/unc-portal-redesign/sugerencias" class="itmoru-pill-tab" style="border-color:#0072AC; background:#0072AC; color:#FFFFFF !important;">Sugerencias</a>
+          </div>
+        </div>
+
+        <div class="itmoru-footer-cols">
+          <div class="itmoru-footer-office">
+            <h4>DIRECCIÓN DEL CAMPUS</h4>
+            <p>Dirección de Atención y Admisión UNC:<br>Altos de Pipe, Km 11 Panamericana, estado Miranda, República Bolivariana de Venezuela.</p>
+            <a href="/unc-portal-redesign/sugerencias">→ Ver mapa e indicaciones</a>
+          </div>
+
+          <div class="itmoru-footer-office">
+            <h4>RECTORADO Y SECRETARÍA</h4>
+            <p>Rectora (E): Dra. Gabriela Jiménez Ramírez<br>Secretario (E): Dr. Roberto Betancourt</p>
+            <a href="/unc-portal-redesign/autoridades">→ Ver las 7 Autoridades Universitarias</a>
+            <a href="/unc-portal-redesign/gaceta-universitaria">→ Gacetas Universitarias N.º 1 – N.º 6</a>
+          </div>
+
+          <div class="itmoru-footer-office">
+            <h4>OFICINA DE ADMISIÓN Y ESTUDIANTES</h4>
+            <a href="/unc-portal-redesign/carreras-de-pregrado">→ 15 Carreras de Pregrado y Mallas PDF</a>
+            <a href="/unc-portal-redesign/calendario-academico-2026-2027">→ Calendario Académico 2026 – 2027</a>
+            <a href="/unc-portal-redesign/validacion-de-documentos">→ Validación y Rutas de Transporte</a>
+            <a href="/unc-portal-redesign/autenticacion-de-carnet">→ Autenticación de Carnet Estudiantil</a>
+          </div>
+
+          <div class="itmoru-footer-office">
+            <h4>PRENSA Y DIVULGACIÓN CIENTÍFICA</h4>
+            <a href="/unc-portal-redesign/noticias">→ Archivo de Noticias UNC (30 Artículos)</a>
+            <a href="/unc-portal-redesign/revista-ciencia-para-la-vida">→ Revista «Ciencia para la Vida» (Mincyt)</a>
+            <a href="/unc-portal-redesign/nuestro-heroe-eponimo">→ Biografía Dr. Humberto Fernández-Morán</a>
+            <div style="margin-top:20px; display:flex; align-items:center;">
+              <a href="https://mincyt.gob.ve/" target="_blank" rel="noopener" title="Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt)" style="display:inline-block;">
+                <img src="/unc-portal-redesign/assets/real/logo_mincyt_dark.png" alt="Logo Oficial Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt)" class="unc-logo-transparent" style="max-height:46px; width:auto; display:block;">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="itmoru-subfooter">
+      <div class="container itmoru-subfooter-inner">
+        <div>
+          © 2026–2027 Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC). Todos los derechos reservados.
+        </div>
+        <div>
+          Desarrollado por el Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt) · Scientia Vitae
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /.itmoru-layout-shell -->
+
+  <script>
+    function toggleItmoRuMenu() {
+      var menu = document.getElementById('itmoRuMegaMenu');
+      if (!menu) return;
+      menu.classList.toggle('open');
+    }
+
+    function toggleAccRow(el) {
+      var row = el.closest('.itmoru-acc-row');
+      if (row) row.classList.toggle('open');
+    }
+
+    function toggleMoreInfo(btnId, blockId) {
+      var block = document.getElementById(blockId);
+      var btn = document.getElementById(btnId);
+      if (!block || !btn) return;
+      if (block.classList.contains('open')) {
+        block.classList.remove('open');
+        btn.innerHTML = 'Mostrar más información ▾';
+      } else {
+        block.classList.add('open');
+        btn.innerHTML = 'Ocultar información ▴';
+      }
+    }
+
+    function filterCareers(cat, btnEl) {
+      var items = document.querySelectorAll('.career-card-col');
+      for (var i = 0; i < items.length; i++) {
+        var itemCat = items[i].getAttribute('data-category');
+        if (cat === 'all' || itemCat === cat) {
+          items[i].style.display = '';
+        } else {
+          items[i].style.display = 'none';
+        }
+      }
+      var btns = document.querySelectorAll('.tab-btn-dvfu');
+      for (var j = 0; j < btns.length; j++) {
+        btns[j].classList.remove('active');
+      }
+      if (btnEl) btnEl.classList.add('active');
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        var menu = document.getElementById('itmoRuMegaMenu');
+        if (menu && menu.classList.contains('open')) {
+          menu.classList.remove('open');
+        }
+      }
+    });
+  </script>
+</body>
+</html>
