@@ -533,6 +533,45 @@ a:hover {
   border-color: #0072AC;
 }
 
+/* Official UNC Platform Quick-Access Buttons in Navbar (Tepuy & Savia) */
+.unc-platform-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.unc-platform-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1.5px solid #D5E0EE;
+  background-color: #F4F8FC;
+  color: #031F80 !important;
+  font-size: 14.5px;
+  font-weight: 800;
+  white-space: nowrap;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.15s ease, box-shadow 0.2s ease;
+}
+
+.unc-platform-btn img {
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+}
+
+.unc-platform-btn:hover {
+  background-color: #031F80;
+  border-color: #031F80;
+  color: #FFFFFF !important;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(3, 31, 128, 0.18);
+}
+
 .itmoru-brand-row {
   display: flex;
   align-items: center;
@@ -2147,6 +2186,26 @@ footer.itmoru-footer {
 
   .unc-drop-link {
     padding: 10px 10px;
+  }
+
+  .itmoru-header-tier2 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .unc-platform-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 4px 0 16px;
+    width: 100%;
+  }
+
+  .unc-platform-btn {
+    justify-content: center;
+    padding: 11px 12px;
+    font-size: 15px;
   }
 }
 

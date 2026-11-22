@@ -26,7 +26,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
   <title>{page_title} — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
   <link rel="icon" href="/assets/real/logo_unc.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/real/logo_unc.png">
-  <link rel="stylesheet" href="/assets/dvfu.css?v=4">
+  <link rel="stylesheet" href="/assets/dvfu.css?v=5">
   <script>
     (function() {{
       try {{ localStorage.removeItem('unc_dvfu_theme'); }} catch (e) {{}}
@@ -199,6 +199,14 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
             <li class="unc-nav-item has-dropdown">
               <a href="/autenticacion-de-carnet" class="unc-nav-link" onclick="return handleMobileDropdown(event, this)">Estudiantes <span class="caret">▾</span></a>
               <div class="unc-nav-dropdown">
+                <a href="https://tepuy.unc.edu.ve" target="_blank" rel="noopener" class="unc-drop-link">
+                  <strong>Tepuy (Gestión Académica) ↗</strong>
+                  <span>Notas, inscripciones y expediente estudiantil</span>
+                </a>
+                <a href="https://savia.unc.edu.ve" target="_blank" rel="noopener" class="unc-drop-link">
+                  <strong>SAVIA (Aula Virtual) ↗</strong>
+                  <span>Sistema de Aprendizaje Virtual Interactivo Autónomo</span>
+                </a>
                 <a href="/autenticacion-de-carnet" class="unc-drop-link">
                   <strong>Autenticación de Carnet</strong>
                   <span>Consulta del padrón estudiantil activo</span>
@@ -214,6 +222,17 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
               <a href="/sugerencias" class="unc-nav-link {nav_contact}">Contacto</a>
             </li>
           </ul>
+
+          <div class="unc-platform-links" aria-label="Plataformas Académicas UNC">
+            <a href="https://tepuy.unc.edu.ve" target="_blank" rel="noopener" class="unc-platform-btn" title="Tepuy — Sistema Integral de Gestión Académica Universitaria">
+              <img src="/assets/real/logo_tepuy.svg" alt="Logo Tepuy">
+              <span>Tepuy</span>
+            </a>
+            <a href="https://savia.unc.edu.ve" target="_blank" rel="noopener" class="unc-platform-btn" title="SAVIA — Sistema de Aprendizaje Virtual Interactivo Autónomo">
+              <img src="/assets/real/logo_savia.svg" alt="Logo Savia">
+              <span>Savia</span>
+            </a>
+          </div>
         </div>
       </nav>
     </header>
