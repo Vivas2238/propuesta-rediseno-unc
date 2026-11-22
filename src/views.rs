@@ -473,33 +473,6 @@ pub fn render_home_page() -> String {
         .collect::<Vec<_>>()
         .join("\n");
 
-    let featured_careers_bento: String = CAREER_PROGRAMS
-        .iter()
-        .take(8)
-        .map(|c| {
-            format!(
-                r#"<a href="/carreras/{slug}" class="itmoru-bento-card" style="height:295px;">
-  <img class="bento-bg" src="/assets/real/campus_unc.jpg" alt="" style="opacity:0.42;">
-  <div class="itmoru-bento-top" style="display:flex; justify-content:space-between; align-items:flex-start; gap:8px;">
-    <span class="itmoru-bento-pill">{category} · {credits}</span>
-  </div>
-  <div class="itmoru-bento-bottom">
-    <h3 class="itmoru-bento-title" style="font-size:21px;">{name}</h3>
-    <p class="itmoru-bento-sub">{degree} · {duration} ({semesters})</p>
-  </div>
-</a>"#,
-                slug = c.slug,
-                category = c.category,
-                credits = c.credits,
-                name = c.name,
-                degree = c.degree_title,
-                duration = c.duration,
-                semesters = c.semesters
-            )
-        })
-        .collect::<Vec<_>>()
-        .join("\n");
-
     let body = format!(
         r##"
 <!-- 1. PRESTIGIOUS ACADEMIC HERO (Stanford / Harvard Editorial Architecture — Zero Retro Windows) -->
@@ -514,7 +487,7 @@ pub fn render_home_page() -> String {
           Ciencia para la Vida
         </h1>
         <p class="unc-hero-lead">
-          El hogar del conocimiento científico con visión de futuro.
+          El hogar del conocimiento científico de Venezuela
         </p>
         <div class="unc-hero-actions">
           <a href="/carreras-de-pregrado" class="unc-btn-primary">Explorar 15 Carreras de Pregrado →</a>
@@ -925,10 +898,6 @@ pub fn render_home_page() -> String {
         </div>
       </div>
     </div>
-
-    <div class="banners-grid">
-      {featured_careers_bento}
-    </div>
   </div>
 </section>
 
@@ -963,8 +932,7 @@ pub fn render_home_page() -> String {
         top_2_hero_news = top_2_hero_news,
         top_4_news = top_4_news,
         next_4_news = next_4_news,
-        third_4_news = third_4_news,
-        featured_careers_bento = featured_careers_bento
+        third_4_news = third_4_news
     );
 
     render_page_shell("Inicio", "home", &body)
