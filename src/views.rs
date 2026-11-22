@@ -21,11 +21,12 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
 <html lang="es" data-theme="light">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#031F80">
   <title>{page_title} — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
   <link rel="icon" href="/assets/real/logo_unc.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/real/logo_unc.png">
-  <link rel="stylesheet" href="/assets/dvfu.css?v=3">
+  <link rel="stylesheet" href="/assets/dvfu.css?v=4">
   <script>
     (function() {{
       try {{ localStorage.removeItem('unc_dvfu_theme'); }} catch (e) {{}}
@@ -105,6 +106,10 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
               <img class="itmoru-full-logo-img" src="/assets/real/logo_unc_full.png" alt="UNC — Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán">
             </a>
 
+            <button type="button" class="unc-mobile-nav-toggle" id="uncMobileNavToggle" onclick="toggleMobileNav()" aria-label="Abrir menú de navegación" aria-expanded="false">
+              <span>☰</span>
+            </button>
+
             <div class="itmoru-address-tag">
               <span class="addr-k">Dirección de Atención y Admisión UNC:</span>
               <span class="addr-v">Altos de Pipe, Km 11 Panamericana</span>
@@ -126,15 +131,15 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
       </div>
 
       <!-- Tier 2: Clean, User-Friendly Sticky University Navigation Bar with Dropdowns -->
-      <nav class="itmoru-header-tier2-band" aria-label="Navegación Principal UNC">
+      <nav class="itmoru-header-tier2-band" id="uncMainNavBar" aria-label="Navegación Principal UNC">
         <div class="container itmoru-header-tier2">
           <ul class="unc-main-nav">
             <li class="unc-nav-item">
               <a href="/" class="unc-nav-link {nav_home}">Inicio</a>
             </li>
 
-            <li class="unc-nav-item">
-              <a href="/quienes-somos" class="unc-nav-link {nav_about} {nav_auth} {nav_eponimo}">La Universidad <span class="caret">▾</span></a>
+            <li class="unc-nav-item has-dropdown">
+              <a href="/quienes-somos" class="unc-nav-link {nav_about} {nav_auth} {nav_eponimo}" onclick="return handleMobileDropdown(event, this)">La Universidad <span class="caret">▾</span></a>
               <div class="unc-nav-dropdown">
                 <a href="/quienes-somos" class="unc-drop-link">
                   <strong>¿Quiénes somos?</strong>
@@ -155,8 +160,8 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
               </div>
             </li>
 
-            <li class="unc-nav-item">
-              <a href="/carreras-de-pregrado" class="unc-nav-link {nav_programs}">Oferta Académica <span class="caret">▾</span></a>
+            <li class="unc-nav-item has-dropdown">
+              <a href="/carreras-de-pregrado" class="unc-nav-link {nav_programs}" onclick="return handleMobileDropdown(event, this)">Oferta Académica <span class="caret">▾</span></a>
               <div class="unc-nav-dropdown">
                 <a href="/carreras-de-pregrado" class="unc-drop-link">
                   <strong>15 Carreras de Pregrado</strong>
@@ -173,8 +178,8 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
               <a href="/noticias" class="unc-nav-link {nav_news}">Noticias</a>
             </li>
 
-            <li class="unc-nav-item">
-              <a href="/revista-ciencia-para-la-vida" class="unc-nav-link {nav_mag} {nav_gazette}">Publicaciones <span class="caret">▾</span></a>
+            <li class="unc-nav-item has-dropdown">
+              <a href="/revista-ciencia-para-la-vida" class="unc-nav-link {nav_mag} {nav_gazette}" onclick="return handleMobileDropdown(event, this)">Publicaciones <span class="caret">▾</span></a>
               <div class="unc-nav-dropdown">
                 <a href="/revista-ciencia-para-la-vida" class="unc-drop-link">
                   <strong>Revista «Ciencia para la Vida»</strong>
@@ -191,8 +196,8 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
               </div>
             </li>
 
-            <li class="unc-nav-item">
-              <a href="/autenticacion-de-carnet" class="unc-nav-link">Estudiantes <span class="caret">▾</span></a>
+            <li class="unc-nav-item has-dropdown">
+              <a href="/autenticacion-de-carnet" class="unc-nav-link" onclick="return handleMobileDropdown(event, this)">Estudiantes <span class="caret">▾</span></a>
               <div class="unc-nav-dropdown">
                 <a href="/autenticacion-de-carnet" class="unc-drop-link">
                   <strong>Autenticación de Carnet</strong>
@@ -285,6 +290,25 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
   </div><!-- /.itmoru-layout-shell -->
 
   <script>
+    function toggleMobileNav() {{
+      var nav = document.getElementById('uncMainNavBar');
+      var btn = document.getElementById('uncMobileNavToggle');
+      if (!nav || !btn) return;
+      var isOpen = nav.classList.toggle('mobile-open');
+      btn.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      btn.innerHTML = isOpen ? '<span>✕</span>' : '<span>☰</span>';
+    }}
+
+    function handleMobileDropdown(e, linkEl) {{
+      if (window.innerWidth <= 960) {{
+        e.preventDefault();
+        var item = linkEl.closest('.unc-nav-item');
+        if (item) item.classList.toggle('mobile-expanded');
+        return false;
+      }}
+      return true;
+    }}
+
     function toggleItmoRuMenu() {{
       var menu = document.getElementById('itmoRuMegaMenu');
       if (!menu) return;

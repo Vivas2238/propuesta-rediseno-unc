@@ -86,6 +86,7 @@ html, body {
   margin: 0;
   padding: 0;
   min-width: 300px;
+  overflow-x: clip;
   font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   font-size: 16.5px;
   font-weight: 400;
@@ -93,6 +94,7 @@ html, body {
   background-color: var(--itmoru-bg);
   color: var(--itmoru-ink);
   -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
   transition: background-color 0.25s ease, color 0.25s ease;
 }
 
@@ -1993,4 +1995,409 @@ footer.itmoru-footer {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
+}
+
+/* ============================================================================
+   11. FLAGSHIP MOBILE OPTIMIZATION (Infinix, Tecno, Samsung, iPhone 360px–960px)
+   Zero Horizontal Overflow · Touch-Friendly 48px Targets · Collapsible Drawer
+   ============================================================================ */
+.unc-mobile-nav-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1.5px solid rgba(255, 255, 255, 0.55);
+  background: rgba(255, 255, 255, 0.12);
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+  flex-shrink: 0;
+  margin-left: auto;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.unc-mobile-nav-toggle:active {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.dvfu-table-wrap {
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 960px) {
+  .unc-mobile-nav-toggle {
+    display: inline-flex;
+  }
+
+  .itmoru-header-tier1-band {
+    padding: 14px 0 16px;
+  }
+
+  .itmoru-header-tier1 {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .itmoru-brand-row {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .itmoru-full-logo-img {
+    height: 54px;
+    max-width: calc(100vw - 100px);
+  }
+
+  .itmoru-address-tag {
+    width: 100%;
+    padding-left: 12px;
+    border-left-width: 2px;
+    order: 3;
+  }
+
+  .itmoru-address-tag .addr-k {
+    font-size: 11.5px;
+  }
+
+  .itmoru-address-tag .addr-v {
+    font-size: 13.5px;
+  }
+
+  .itmoru-header-controls {
+    width: 100%;
+  }
+
+  .itmoru-search-box {
+    width: 100%;
+    height: 44px;
+    padding: 0 14px;
+  }
+
+  .itmoru-search-box input {
+    width: 100%;
+    font-size: 16px; /* Prevents iPhone Safari auto-zoom on focus */
+  }
+
+  /* Collapsible Mobile Accordion Navigation Drawer */
+  .itmoru-header-tier2-band {
+    display: none;
+    position: static;
+    box-shadow: 0 10px 24px rgba(3, 31, 128, 0.12);
+  }
+
+  .itmoru-header-tier2-band.mobile-open {
+    display: block;
+  }
+
+  .unc-main-nav {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    gap: 0;
+    padding: 8px 0 14px;
+  }
+
+  .unc-nav-item {
+    width: 100%;
+    border-bottom: 1px solid var(--itmoru-border-subtle);
+  }
+
+  .unc-nav-item:last-child {
+    border-bottom: none;
+  }
+
+  .unc-nav-link {
+    width: 100%;
+    justify-content: space-between;
+    padding: 14px 8px;
+    font-size: 16px;
+    border-bottom: none !important;
+  }
+
+  .unc-nav-dropdown {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    display: none;
+    min-width: 0;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    border-left: 3px solid #0072AC;
+    border-radius: 0;
+    background-color: #F4F8FC;
+    padding: 6px 8px 10px 12px;
+    margin-bottom: 10px;
+  }
+
+  .unc-nav-item.mobile-expanded .unc-nav-dropdown {
+    display: block;
+  }
+
+  .unc-nav-item.mobile-expanded > .unc-nav-link .caret {
+    transform: rotate(180deg);
+  }
+
+  .unc-drop-link {
+    padding: 10px 10px;
+  }
+}
+
+@media (max-width: 640px) {
+  .container, .wrapper {
+    padding-left: max(16px, env(safe-area-inset-left));
+    padding-right: max(16px, env(safe-area-inset-right));
+  }
+
+  .row {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .col-3, .col-4, .col-6, .col-8, .col-9, .col-12 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Hero Mobile Polish */
+  .itmoru-hero {
+    padding: 28px 0 24px;
+  }
+
+  .unc-hero-grid {
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+
+  .unc-hero-eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    margin-bottom: 12px;
+  }
+
+  .itmoru-giant-statement {
+    font-size: clamp(34px, 9.2vw, 48px);
+    line-height: 1.06;
+    margin-bottom: 16px;
+  }
+
+  .unc-hero-lead {
+    font-size: 16.5px;
+    line-height: 1.55;
+    margin-bottom: 22px;
+  }
+
+  .unc-hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .unc-btn-primary,
+  .unc-btn-secondary,
+  .itmoru-action-item {
+    width: 100%;
+    text-align: center;
+    padding: 13px 18px;
+    font-size: 15px;
+  }
+
+  .itmoru-action-item span {
+    padding: 4px 8px;
+  }
+
+  /* Carousel Controls Sized for Mobile Thumbs */
+  .unc-carousel-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 19px;
+  }
+
+  .unc-carousel-btn.prev { left: 8px; }
+  .unc-carousel-btn.next { right: 8px; }
+
+  .unc-carousel-dots {
+    bottom: 8px;
+    gap: 6px;
+    padding: 5px 9px;
+  }
+
+  .unc-carousel-dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .unc-carousel-dot.active {
+    width: 18px;
+  }
+
+  .unc-campus-footer-link {
+    padding: 13px 16px;
+    font-size: 13.5px;
+  }
+
+  /* Sections & Headings */
+  .itmoru-section {
+    padding: 40px 0;
+  }
+
+  .itmoru-section-toprow {
+    gap: 14px;
+    margin-bottom: 22px;
+  }
+
+  .itmoru-hollow-h2 {
+    font-size: clamp(28px, 7.6vw, 38px);
+    padding-bottom: 10px;
+  }
+
+  /* Top 2 Editorial News */
+  .itmoru-news-hero-item {
+    padding: 20px 0;
+    border-right: none;
+    border-bottom: 1.5px solid var(--itmoru-border);
+  }
+
+  .itmoru-news-hero-item:last-child {
+    border-bottom: none;
+  }
+
+  .itmoru-news-hero-item h3 {
+    font-size: 20px;
+  }
+
+  .post-card {
+    padding: 16px;
+    margin-bottom: 20px;
+    height: auto;
+  }
+
+  .post-card .desc-post {
+    font-size: 16.5px;
+  }
+
+  /* Cifras y Hechos & Odometer on 360px–430px Phones */
+  .itmoru-dark-band {
+    padding: 44px 0;
+  }
+
+  .itmoru-big-numbers-row {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+
+  .itmoru-outlined-stat {
+    padding: 20px 18px;
+  }
+
+  .itmoru-outlined-stat .num-hollow {
+    font-size: 40px;
+  }
+
+  .itmoru-outlined-stat .num-desc {
+    font-size: 15px;
+  }
+
+  .itmoru-acc-title {
+    font-size: 17px;
+    gap: 12px;
+  }
+
+  .itmoru-acc-plus {
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+  }
+
+  .itmoru-acc-panel {
+    padding: 16px;
+    font-size: 14.5px;
+  }
+
+  /* Bento & Career Cards */
+  .banners-grid {
+    gap: 16px;
+  }
+
+  .itmoru-bento-card {
+    height: 255px;
+    padding: 20px;
+  }
+
+  .itmoru-bento-title {
+    font-size: 19px;
+  }
+
+  .itmoru-vlist-item {
+    padding: 14px 16px;
+    font-size: 15.5px;
+    gap: 10px;
+  }
+
+  /* Video Spotlight Mobile */
+  .unc-video-spotlight-card {
+    padding: 24px 18px;
+    border-left-width: 5px;
+  }
+
+  .unc-video-phone-frame {
+    max-width: 280px;
+  }
+
+  /* Footer Mobile */
+  footer.itmoru-footer {
+    padding: 38px 0 32px;
+  }
+
+  .itmoru-footer-topbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+
+  .itmoru-footer-topbar img {
+    height: 52px !important;
+  }
+
+  .itmoru-footer-cols {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .itmoru-footer-office img {
+    max-width: 100%;
+    height: auto !important;
+    max-height: 40px !important;
+  }
+
+  .itmoru-subfooter {
+    padding: 20px 0;
+    font-size: 12.5px;
+  }
+
+  /* Prevent iOS auto-zoom on all form inputs */
+  .dvfu-input, .dvfu-textarea {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 400px) {
+  .itmoru-full-logo-img {
+    height: 46px;
+  }
+  .itmoru-giant-statement {
+    font-size: 32px;
+  }
+  .itmoru-outlined-stat .num-hollow {
+    font-size: 36px;
+  }
 }
