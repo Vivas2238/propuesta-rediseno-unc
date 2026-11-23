@@ -653,8 +653,10 @@ a:hover {
 }
 
 .itmoru-address-tag {
-  padding-left: 22px;
-  border-left: 3px solid #7BA6D0;
+  margin-left: auto;
+  text-align: right;
+  padding-right: 20px;
+  border-right: 3px solid #7BA6D0;
   line-height: 1.4;
 }
 
@@ -2110,8 +2112,12 @@ footer.itmoru-footer {
 
   .itmoru-address-tag {
     width: 100%;
+    margin-left: 0;
+    text-align: left;
     padding-left: 12px;
-    border-left-width: 2px;
+    padding-right: 0;
+    border-left: 2px solid #7BA6D0;
+    border-right: none;
     order: 3;
   }
 

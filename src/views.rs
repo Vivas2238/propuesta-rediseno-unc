@@ -26,7 +26,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
   <title>{page_title} — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
   <link rel="icon" href="/assets/real/logo_unc.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/real/logo_unc.png">
-  <link rel="stylesheet" href="/assets/dvfu.css?v=6">
+  <link rel="stylesheet" href="/assets/dvfu.css?v=7">
   <script>
     (function() {{
       try {{ localStorage.removeItem('unc_dvfu_theme'); }} catch (e) {{}}
@@ -107,11 +107,11 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
             <button type="button" class="unc-mobile-nav-toggle" id="uncMobileNavToggle" onclick="toggleMobileNav()" aria-label="Abrir menú de navegación" aria-expanded="false">
               <span>☰</span>
             </button>
+          </div>
 
-            <div class="itmoru-address-tag">
-              <span class="addr-k">Dirección de Atención y Admisión UNC:</span>
-              <span class="addr-v">Altos de Pipe, Km 11 Panamericana</span>
-            </div>
+          <div class="itmoru-address-tag">
+            <span class="addr-k">Dirección de Atención y Admisión UNC</span>
+            <span class="addr-v">Altos de Pipe, Km 11 Panamericana</span>
           </div>
         </div>
       </div>
