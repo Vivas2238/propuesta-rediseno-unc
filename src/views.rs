@@ -26,7 +26,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
   <title>{page_title} — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
   <link rel="icon" href="/assets/real/logo_unc.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/real/logo_unc.png">
-  <link rel="stylesheet" href="/assets/dvfu.css?v=10">
+  <link rel="stylesheet" href="/assets/dvfu.css?v=11">
   <script>
     (function() {{
       try {{ localStorage.removeItem('unc_dvfu_theme'); }} catch (e) {{}}

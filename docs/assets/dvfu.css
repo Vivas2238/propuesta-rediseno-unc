@@ -828,7 +828,7 @@ a:hover {
   font-style: normal;
   letter-spacing: 0.01em;
   padding: 0 6px 0 0;
-  margin-left: 6px;
+  margin-left: -2px;
   color: var(--unc-blue);
   display: inline-block;
   transform: rotate(-3deg);
