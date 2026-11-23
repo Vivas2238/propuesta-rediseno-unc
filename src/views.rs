@@ -381,7 +381,7 @@ pub fn render_news_card(article: &NewsArticle) -> String {
         r#"<div class="col-12 col-sm-6 col-md-3">
   <article class="post-card">
     <a href="/noticias/{slug}" class="thumb-wrap">
-      <img src="{thumb}" alt="{title}" loading="lazy" onerror="this.onerror=null;this.src='/assets/real/hero_campus_unc.jpg';">
+      <img src="{thumb}" alt="{title}" loading="lazy">
       <span class="anons-badge">{category}</span>
     </a>
     <div class="date-post">{date} · {author}</div>

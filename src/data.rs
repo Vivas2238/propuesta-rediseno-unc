@@ -979,7 +979,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de noviembre de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/11/DIA-DE-LA-FILOSOFIA-01.png",
+        thumbnail: "/assets/real/archive/arch_001.jpg",
         excerpt: "En el mundo contemporáneo, la vigencia de la filosofía cobra especial importancia ante los avances científicos y tecnológicos, las transformaciones sociales y las crisis ambientales, fenómenos que plantean interrogantes…",
         sections: &[
             (
@@ -1008,7 +1008,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de septiembre de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/09/1000561552-1920x720-1.jpg",
+        thumbnail: "/assets/real/archive/arch_002.jpg",
         excerpt: "Con el objetivo de consolidar el modelo de desarrollo productivo e independiente de Venezuela, el ministro del Poder Popular para Ciencia y Tecnología, Yván Gil Pinto, encabezó un recorrido de inspección por las instalaciones del…",
         sections: &[
             (
@@ -1034,7 +1034,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de septiembre de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/09/images-1.jpg",
+        thumbnail: "/assets/real/archive/arch_003.jpg",
         excerpt: "La inteligencia artificial (IA) está transformando la manera de enseñar, aprender y producir conocimiento. Tutores digitales capaces de ofrecer apoyo personalizado, sistemas de IA con mayor autonomía y la expansión de contenidos…",
         sections: &[
             (
@@ -1058,7 +1058,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de septiembre de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/09/photo_4938685278113696960_y.jpg",
+        thumbnail: "/assets/real/archive/arch_004.jpg",
         excerpt: "En el mundo contemporáneo, la electricidad, las telecomunicaciones, la navegación, la aeronáutica, la medicina por imágenes, la radioterapia, los sistemas ópticos y tecnologías digitales han alcanzado grandes niveles de…",
         sections: &[
             (
@@ -1087,7 +1087,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de septiembre de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/09/224A6138-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_005.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) reinició este lunes 31 de agosto las actividades académicas, y reafirmó su compromiso científico con el sector estudiantil, personal docente y…",
         sections: &[
             (
@@ -1116,7 +1116,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de agosto de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/08/FILOSOFIA-02-01-scaled.png",
+        thumbnail: "/assets/real/archive/arch_006.jpg",
         excerpt: "¿Qué límites debería tener una tecnología? ¿Cuándo una innovación produce bienestar y cuándo puede generar riesgos? ¿Quién decide cómo se utiliza un descubrimiento científico? ¿Qué significa actuar correctamente cuando están en…",
         sections: &[
             (
@@ -1145,7 +1145,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "15 de agosto de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/08/5186144375833039336-1.jpg",
+        thumbnail: "/assets/real/archive/arch_007.jpg",
         excerpt: "En la historia de la ciencia venezolana del siglo XX, Marcel Roche Dugand pertenece al grupo de personalidades cuya influencia es difícil de encerrar en una sola categoría por su participación en distintos ámbitos de desarrollo…",
         sections: &[
             (
@@ -1174,7 +1174,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de agosto de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/08/imagen-para-dia-mundial-de-lla-juventud.jpg",
+        thumbnail: "/assets/real/archive/arch_008.jpg",
         excerpt: "Este 12 de agosto, el Día Internacional de la Juventud de 2026 se celebra bajo el lema “Diferentes contextos, aspiraciones comunes”, una formulación promovida por las Naciones Unidas (ONU) que considera que los jóvenes, a pesar…",
         sections: &[
             (
@@ -1203,7 +1203,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de agosto de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/08/imagen-bilgia-y-quimica-2.png",
+        thumbnail: "/assets/real/archive/arch_009.jpg",
         excerpt: "En las últimas décadas, el conocimiento científico ha experimentado una transformación sin precedentes. La secuenciación del genoma humano, el desarrollo de medicamentos mediante simulaciones moleculares, la inteligencia…",
         sections: &[
             (
@@ -1232,7 +1232,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de julio de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/07/5140927853493947709.jpg",
+        thumbnail: "/assets/real/archive/arch_010.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), Gabriela Jiménez Ramírez, sostuvo un encuentro cercano y cálido con estudiantes afectados por el reciente doblete sísmico que impactó…",
         sections: &[
             (
@@ -1257,7 +1257,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de julio de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/unc6-768x512-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_011.jpg",
         excerpt: "En la región oriental del país, continúan las Ferias de Oportunidades 2026 donde la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán dice presenten ofertando las 15 carreras inéditas en el país, con líneas…",
         sections: &[
             (
@@ -1286,7 +1286,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de julio de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/07/2026-07-17-15.33.54.jpg",
+        thumbnail: "/assets/real/archive/arch_012.jpg",
         excerpt: "La vicepresidencia sectorial de Ciencia, Tecnología, Educación y Salud, Dra. Isabel Iturria, participa por la República Bolivariana de Venezuela en la Conferencia Mundial de Inteligencia Artificial (WAIC), a celebrarse del 17 al…",
         sections: &[
             (
@@ -1304,7 +1304,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de julio de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/07/IMG_6144.jpeg",
+        thumbnail: "/assets/real/archive/arch_013.jpg",
         excerpt: "Cada 16 de julio se celebra el Día Internacional de la Inteligencia Artificial (IA), un conjunto de tecnologías que permiten replicar funciones propias del intelecto humano, tales como aprender de la experiencia, entender el…",
         sections: &[
             (
@@ -1333,7 +1333,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de julio de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/07/5080174119457852659.jpg",
+        thumbnail: "/assets/real/archive/arch_014.jpg",
         excerpt: "Las autoridades de la Universidad de las Ciencias Dr. Humberto Fernández-Morán acordaron el reinicio de actividades académicas bajo la modalidad virtual (E-learning) y presencial para este mes de julio de 2026, tras la inspección…",
         sections: &[
             (
@@ -1359,7 +1359,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de julio de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/07/PORTADA-MINISTRA-1-3-1920x720-1.jpg",
+        thumbnail: "/assets/real/archive/arch_015.jpg",
         excerpt: "Autoridades del Consejo Directivo de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán sostuvieron una reunión con el fin de evaluar los avances en la recuperación de la infraestructura de esta casa de…",
         sections: &[
             (
@@ -1382,7 +1382,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de junio de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/imagen-nota-CAIU-scaled-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_016.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología (Mincyt), Gabriela Jiménez Ramírez, informó que en la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán se están formando jóvenes con una visión integrada de…",
         sections: &[
             (
@@ -1405,7 +1405,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de junio de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/imagen.jpg",
+        thumbnail: "/assets/real/archive/arch_017.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán fue el escenario para la presentación y bautizo del libro Anfictiónico 200 años, una publicación impulsada por el Fondo Editorial del Ministerio del Poder…",
         sections: &[
             (
@@ -1434,7 +1434,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "24 de junio de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/imagen-batalla-3.jpeg",
+        thumbnail: "/assets/real/archive/arch_018.jpg",
         excerpt: "Hace 205 años, en la sabana de Carabobo, ubicada en el centro-norte de Venezuela, se libró una de las acciones militares más trascendentales de la historia del país. La victoria obtenida por las fuerzas patriotas dirigidas por el…",
         sections: &[
             (
@@ -1460,7 +1460,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de junio de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/5033187533721898464.jpg",
+        thumbnail: "/assets/real/archive/arch_019.jpg",
         excerpt: "En los espacios de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán, ubicada en el estado Miranda, la ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, felicitó a los 789…",
         sections: &[
             (
@@ -1484,7 +1484,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de junio de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/5022012479789272076.jpg",
+        thumbnail: "/assets/real/archive/arch_020.jpg",
         excerpt: "La Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán consolida su rol estratégico en la formación de una nueva generación de profesionales, impulsando carreras sustentadas en los principios de la ética para…",
         sections: &[
             (
@@ -1510,7 +1510,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de junio de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/5021945955040824406.jpg",
+        thumbnail: "/assets/real/archive/arch_021.jpg",
         excerpt: "La figura paterna ha experimentado una importante transformación social al reconocerse su decisivo rol en la crianza, la formación emocional y el desarrollo integral de los hijos. Por ello, este Día del Padre es una oportunidad…",
         sections: &[
             (
@@ -1539,7 +1539,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de junio de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/5015194180552166442.jpg",
+        thumbnail: "/assets/real/archive/arch_022.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo este miércoles una serie de reuniones de trabajo en la sede del Organismo Internacional de Energía Atómica (OIEA), en Viena, Austria,…",
         sections: &[
             (
@@ -1565,7 +1565,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de junio de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/biotecnologia-imagen.png",
+        thumbnail: "/assets/real/archive/arch_023.jpg",
         excerpt: "Cada día millones de personas reciben vacunas, consumen alimentos con mayor calidad, utilizan medicamentos obtenidos mediante procesos biológicos o se benefician de tecnologías capaces de descontaminar ambientes degradados.…",
         sections: &[
             (
@@ -1594,7 +1594,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de junio de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/0K8A7819-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_024.jpg",
         excerpt: "En las clases de Bioética y Bioseguridad de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, la rectora de esta casa de estudios, Gabriela Jiménez Ramírez, debatió con los estudiantes de primer semestre de…",
         sections: &[
             (
@@ -1619,7 +1619,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de junio de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/4997253556695927800.jpg",
+        thumbnail: "/assets/real/archive/arch_025.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, celebró este miércoles un encuentro con autoridades de la Organización Internacional Ítalo-Latinoamericana (IILA), en aras de fortalecer los lazos de cooperación…",
         sections: &[
             (
@@ -1643,7 +1643,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de junio de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/4970086587173637207.jpg",
+        thumbnail: "/assets/real/archive/arch_026.jpg",
         excerpt: "El color azul domina nuestro planeta, lo que revela que más del 70 % de la superficie terrestre está cubierta por océanos. Lejos de ser solo un rasgo geográfico, estas masas de agua constituyen el soporte vital del mundo al…",
         sections: &[
             (
@@ -1672,7 +1672,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de junio de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/4981537871927905236.jpg",
+        thumbnail: "/assets/real/archive/arch_027.jpg",
         excerpt: "Como parte de la agenda internacional que cumple la Presidenta encargada de la República Bolivariana de Venezuela Dra. Delcy Rodríguez Gómez en la República de la India, se llevó a cabo un recorrido por las instalaciones de la…",
         sections: &[
             (
@@ -1691,7 +1691,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de junio de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/4983367291772799933.jpg",
+        thumbnail: "/assets/real/archive/arch_028.jpg",
         excerpt: "La República Bolivariana de Venezuela y la República de la India avanzan en una agenda de cooperación en las áreas científicas y de innovación para fortalecer el desarrollo productivo y bienestar para ambas…",
         sections: &[
             (
@@ -1715,7 +1715,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de junio de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/4978927987805850833.jpg",
+        thumbnail: "/assets/real/archive/arch_029.jpg",
         excerpt: "El cierre de la segunda edición de las Olimpiadas Venezolanas de Astronomía (OVA) reunió a estudiantes, tutores y autoridades científicas del país en la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, espacio…",
         sections: &[
             (
@@ -1734,7 +1734,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de junio de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/SI1-AMBIETEnoticia.png",
+        thumbnail: "/assets/real/archive/arch_030.jpg",
         excerpt: "La preservación del ambiente y la construcción de un modelo de desarrollo capaz de armonizar las necesidades humanas con la protección de los ecosistemas, representa uno de los mayores desafíos de nuestro tiempo. La Organización…",
         sections: &[
             (
@@ -1763,7 +1763,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de junio de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/06/imagen-1-de-junio-scaled.jpeg",
+        thumbnail: "/assets/real/archive/arch_031.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) ha pasado a convertirse en uno de los proyectos universitarios de mayor alcance en Venezuela en el ámbito científico y tecnológico. Su rápida expansión,…",
         sections: &[
             (
@@ -1792,7 +1792,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "29 de mayo de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4956425923997666274.jpg",
+        thumbnail: "/assets/real/archive/arch_032.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, reflexionó junto a estudiantes del primer semestre de Ingeniería en Inteligencia Artificial e Ingeniería en…",
         sections: &[
             (
@@ -1815,7 +1815,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de mayo de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/224A5948-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_033.jpg",
         excerpt: "Este martes iniciaron las clases de bioética y bioseguridad impartidas por la rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, dirigidas a los estudiantes del primer…",
         sections: &[
             (
@@ -1840,7 +1840,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de mayo de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4947441281911164228.jpg",
+        thumbnail: "/assets/real/archive/arch_034.jpg",
         excerpt: "La ministra del Poder Popular para la Ciencia y la Tecnología, Gabriela Jiménez Ramírez, asistió al acto inaugural de la Expo Niñas y Niños Productores, este miércoles en el Centro de Convenciones del Parque Simón Bolívar,…",
         sections: &[
             (
@@ -1869,7 +1869,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de mayo de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4947295424821791986.jpg",
+        thumbnail: "/assets/real/archive/arch_035.jpg",
         excerpt: "Este lunes 25 de mayo, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán dio inicio al período académico 2026-2027. En esta nueva etapa, 2.418 estudiantes inscritos dan un paso al frente por el desarrollo…",
         sections: &[
             (
@@ -1895,7 +1895,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "24 de mayo de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4943054118847188165-e1779636699560.jpg",
+        thumbnail: "/assets/real/archive/arch_036.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) realizó el curso de Inducción al Sistema de Aprendizaje Virtual Interactivo Autónomo (SAVIA), una jornada formativa dirigida a docentes del Curso de…",
         sections: &[
             (
@@ -1924,7 +1924,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de mayo de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4933727614543793216.jpg",
+        thumbnail: "/assets/real/archive/arch_037.jpg",
         excerpt: "Actualmente, gran parte de las decisiones médicas dependen de la precisión de un monitor, la estabilidad de un ventilador mecánico o la exactitud de un equipo de resonancia magnética. Detrás de cada uno de esos dispositivos, la…",
         sections: &[
             (
@@ -1953,7 +1953,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de mayo de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4929664120215243803.jpg",
+        thumbnail: "/assets/real/archive/arch_038.jpg",
         excerpt: "Es innegable que los celulares nos han cambiado la vida. Nos acercan a quienes están lejos, nos facilitan el trabajo diario y nos ponen el mundo al alcance de un clic. Pero seamos honestos ¿cuántas veces hemos sentido que es el…",
         sections: &[
             (
@@ -1982,7 +1982,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de mayo de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4924968256376868335.jpg",
+        thumbnail: "/assets/real/archive/arch_039.jpg",
         excerpt: "La inteligencia artificial dejó de ser únicamente un problema de ingeniería computacional para que, hoy, se transforme en un territorio en disputa, por la definición misma de los valores que orientarán las decisiones…",
         sections: &[
             (
@@ -2011,7 +2011,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de mayo de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/imagen-pag-web.jpeg",
+        thumbnail: "/assets/real/archive/arch_040.jpg",
         excerpt: "En un escenario global donde las instituciones universitarias dependen cada vez más de sistemas tecnológicos capaces de articular información académica, servicios administrativos y comunicación institucional en tiempo real, la…",
         sections: &[
             (
@@ -2040,7 +2040,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de mayo de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4909021592562633724.jpg",
+        thumbnail: "/assets/real/archive/arch_041.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo un encuentro con su par de la República de Uganda, Mónica Musenero, para consolidar una agenda de trabajo que priorice el conocimiento…",
         sections: &[
             (
@@ -2065,7 +2065,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de mayo de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/4904941820308032412.jpg",
+        thumbnail: "/assets/real/archive/arch_042.jpg",
         excerpt: "Una delegación venezolana, encabezada por la ministra del Poder Popular para Ciencia y Tecnología, arribó este lunes a la República de Uganda con el fin de fortalecer cooperación estratégica entre ambas…",
         sections: &[
             (
@@ -2089,7 +2089,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de mayo de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/IMG_3919.png",
+        thumbnail: "/assets/real/archive/arch_043.jpg",
         excerpt: "La figura materna ha ocupado históricamente un lugar central en la construcción del tejido humano y de la sociedad en general. Diversos estudios de organismos como la Unesco y UNICEF han determinado que el acompañamiento…",
         sections: &[
             (
@@ -2118,7 +2118,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de mayo de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/photo_5172856116386401376_w.jpg",
+        thumbnail: "/assets/real/archive/arch_044.jpg",
         excerpt: "Este lunes se llevó a cabo la ceremonia de cierre del Festival Latinoamericano de Instalación de Software Libre (FLISoL) en su edición 2026, evento que congregó a más de 1.000 participantes de la comunidad de código abierto en…",
         sections: &[
             (
@@ -2147,7 +2147,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de mayo de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/photo_5172790373322001433_y.jpg",
+        thumbnail: "/assets/real/archive/arch_045.jpg",
         excerpt: "En Madrid, España, se llevó a cabo recientemente una sesión de la Secretaría General Iberoamericana (SEGIB), donde se abordó una propuesta que busca integrar valores, justicia y responsabilidad en los algoritmos, para que el…",
         sections: &[
             (
@@ -2176,7 +2176,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de mayo de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/05/photo_5172856116386401374_w.jpg",
+        thumbnail: "/assets/real/archive/arch_046.jpg",
         excerpt: "En la Sala José Félix Ribas del Teatro Teresa Carreño, en Caracas, se celebró el acto de clausura del Festival Latinoamericano de Instalación de Software Libre (FLISoL) 2026, donde varios expertos abordaron la importancia de…",
         sections: &[
             (
@@ -2205,7 +2205,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de mayo de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/imagen-nota-CAIU-scaled.jpeg",
+        thumbnail: "/assets/real/archive/arch_047.jpg",
         excerpt: "El Día Internacional del Trabajador, cada 1 de mayo, representa una oportunidad para el reconocimiento de la importante estructura humana que sostiene la vida productiva, social y académica del país. En las universidades, existe…",
         sections: &[
             (
@@ -2234,7 +2234,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de abril de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5087369430924200709.jpg",
+        thumbnail: "/assets/real/archive/arch_048.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán anuncia el inicio del proceso de inscripciones para los estudiantes que aprobaron el Curso de Acompañamiento de Iniciación Universitaria (CAIU) II-2025. Los…",
         sections: &[
             (
@@ -2257,7 +2257,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de abril de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5035179741417245544.jpg",
+        thumbnail: "/assets/real/archive/arch_049.jpg",
         excerpt: "Cada 23 de abril, el mundo celebra el Día Internacional del Libro, una fecha instaurada por la UNESCO en 1995 para rendir homenaje a la lectura, a los autores y al valor del conocimiento como patrimonio de la humanidad. La…",
         sections: &[
             (
@@ -2286,7 +2286,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de abril de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5136380479559896159.jpg",
+        thumbnail: "/assets/real/archive/arch_050.jpg",
         excerpt: "En un hito para la innovación tecnológica nacional, cinco estudiantes de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán han sido seleccionados como finalistas del programa Challenge 5G Movilnet 2026.…",
         sections: &[
             (
@@ -2310,7 +2310,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de abril de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5131852716446518226.jpg",
+        thumbnail: "/assets/real/archive/arch_051.jpg",
         excerpt: "Cada 22 de abril, la celebración del Día Internacional de la Madre Tierra, proclamada por la Asamblea General de las Naciones Unidas (ONU) desde 2009, representa un llamado a repensar el actual modelo de desarrollo que domina en…",
         sections: &[
             (
@@ -2339,7 +2339,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de abril de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5120883296958090152.jpg",
+        thumbnail: "/assets/real/archive/arch_052.jpg",
         excerpt: "Desde la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán se impulsa la soberanía tecnológica y el fortalecimiento del Programa Nacional Semilleros Científicos en el área de la robótica…",
         sections: &[
             (
@@ -2368,7 +2368,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de abril de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5118673703788023020.jpg",
+        thumbnail: "/assets/real/archive/arch_053.jpg",
         excerpt: "En el escenario global de transformaciones que definen el siglo XXI, la robótica y la automatización se han consolidado como uno de los pilares del desarrollo científico, industrial y social. Desde las líneas de ensamblaje…",
         sections: &[
             (
@@ -2397,7 +2397,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de abril de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5116302594077822176.jpg",
+        thumbnail: "/assets/real/archive/arch_054.jpg",
         excerpt: "La presidenta encargada de Venezuela, Delcy Rodríguez, destacó el valor de la ciencia y la tecnología en el impulso de las experiencias productivas del país, con el fin de alcanzar la felicidad social en medio de las medidas…",
         sections: &[
             (
@@ -2426,7 +2426,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de abril de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5118740082507582588.jpg",
+        thumbnail: "/assets/real/archive/arch_055.jpg",
         excerpt: "Venezuela celebra el segundo aniversario de la Gran Misión Ciencia, Tecnología e Innovación Dr. Humberto Fernández-Morán en el Centro de Convenciones Parque Simón Bolívar, situado en La Carlota, con el hito histórico del Programa…",
         sections: &[
             (
@@ -2448,7 +2448,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de abril de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5118738858441903123.jpg",
+        thumbnail: "/assets/real/archive/arch_056.jpg",
         excerpt: "La Presidenta Encargada de Venezuela, Delcy Rodríguez, anunció este miércoles la creación de un registro para que los jóvenes y profesionales del país, con intereses en las ciencias y tecnologías, se incorporen a los proyectos…",
         sections: &[
             (
@@ -2467,7 +2467,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de abril de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5109552894058368097.jpg",
+        thumbnail: "/assets/real/archive/arch_057.jpg",
         excerpt: "El Ministerio del Poder Popular para la Ciencia y la Tecnología (Mincyt) inauguró el simposio Tecnologías del Presente y el Futuro: La electrónica y la inteligencia artificial como base fundamental para la digitalización ética en…",
         sections: &[
             (
@@ -2496,7 +2496,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de abril de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5109552894058368084.jpg",
+        thumbnail: "/assets/real/archive/arch_058.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, precisó este lunes que “es la transformación digital hoy un actor geopolítico del mundo, igual que la inteligencia artificial…",
         sections: &[
             (
@@ -2521,7 +2521,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de abril de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5102917852485848211.jpg",
+        thumbnail: "/assets/real/archive/arch_059.jpg",
         excerpt: "En un contexto donde la ciencia y la educación superior redefinen su papel en el desarrollo de los países, la consolidación de instituciones como la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) comienza…",
         sections: &[
             (
@@ -2550,7 +2550,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de abril de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/4961245689052597077-1.jpg",
+        thumbnail: "/assets/real/archive/arch_060.jpg",
         excerpt: "La ciencia suele avanzar en laboratorios, aulas o espacios de estudio donde el conocimiento, la disciplina y la curiosidad se convierten en método, cuyos resultados impactan de forma directa la vida de millones de personas en…",
         sections: &[
             (
@@ -2579,7 +2579,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de abril de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/IMG-20240410-WA0069-2.jpg",
+        thumbnail: "/assets/real/archive/arch_061.jpg",
         excerpt: "En Venezuela, el desarrollo científico dejó de ser una aspiración sectorial para convertirse en una política de Estado con la creación, el 10 de abril de 2024, de la Gran Misión Ciencia, Tecnología e Innovación Dr. Humberto…",
         sections: &[
             (
@@ -2608,7 +2608,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de abril de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5089352602008357986.jpg",
+        thumbnail: "/assets/real/archive/arch_062.jpg",
         excerpt: "El impacto del consumo intensivo de videos cortos y redes sociales en la memoria y el autocontrol de los niños ha generado preocupación a nivel…",
         sections: &[
             (
@@ -2637,7 +2637,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "3 de abril de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5080411373451283943.jpg",
+        thumbnail: "/assets/real/archive/arch_063.jpg",
         excerpt: "El profesor Edur Machado, destacado físico ambiental e investigador de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), presentó recientemente una conferencia sobre la trayectoria de la temperatura…",
         sections: &[
             (
@@ -2661,7 +2661,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de abril de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/04/5073585343273044988.jpg",
+        thumbnail: "/assets/real/archive/arch_064.jpg",
         excerpt: "Durante una entrevista en el programa «La Jornada Matutina» transmitido por Venezolana de Televisión (VTV), la Ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, destacó el rol protagónico que…",
         sections: &[
             (
@@ -2685,7 +2685,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de marzo de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/5057631116021402518.jpg",
+        thumbnail: "/assets/real/archive/arch_065.jpg",
         excerpt: "En los laboratorios donde se analizan secuencias genéticas, se diseñan vacunas o se estudian microorganismos capaces de degradar contaminantes, se está definiendo buena parte del futuro de la ciencia y la salud pública del mundo…",
         sections: &[
             (
@@ -2714,7 +2714,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de marzo de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/5037742376604077060-1.jpg",
+        thumbnail: "/assets/real/archive/arch_066.jpg",
         excerpt: "Con motivo del Día Internacional de la Felicidad, que se celebra cada 20 de marzo, se publicó el tradicional Informe Mundial elaborado por la Universidad de Oxford en colaboración con la Organización de las Naciones Unidas…",
         sections: &[
             (
@@ -2742,7 +2742,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de marzo de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/MG_43862-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_067.jpg",
         excerpt: "Detrás de cada proceso académico, espacio en funcionamiento y estudiante que avanza en su formación, existe en las universidades el invalorable aporte de un importante contingente humano conformado por el personal administrativo,…",
         sections: &[
             (
@@ -2771,7 +2771,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de marzo de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/651375487_1227417576245900_6809752769291987242_n.jpg",
+        thumbnail: "/assets/real/archive/arch_068.jpg",
         excerpt: "Este martes, representantes de la comunidad científica venezolana y jóvenes universitarios rindieron homenaje al destacado investigador Dr. Humberto Fernández-Morán con motivo de conmemorarse el 17 de marzo el 27.º aniversario de…",
         sections: &[
             (
@@ -2797,7 +2797,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de marzo de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/5139100898956521790_11zon.webp",
+        thumbnail: "/assets/real/archive/arch_069.jpg",
         excerpt: "Este 17 de marzo se conmemora el 27°aniversario del fallecimiento del Dr. Humberto Fernández-Morán, uno de los científicos venezolanos más brillantes de todos los tiempos, quien partió a los 75 años en Estocolmo, Suecia, víctima…",
         sections: &[
             (
@@ -2822,7 +2822,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de marzo de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/AdobeStock_1726020812-2048x985-1-1440x600-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_070.jpg",
         excerpt: "El avance en los modelos de Inteligencia Artificial (IA) viene acompañado de una creciente preocupación por cómo alinear éticamente estos…",
         sections: &[
             (
@@ -2851,7 +2851,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de marzo de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/nota_humberto3.jpg",
+        thumbnail: "/assets/real/archive/arch_071.jpg",
         excerpt: "La ciencia venezolana vuelve la mirada hacia la figura del insigne médico, científico e investigador zuliano Humberto Fernández-Morán, al conmemorarse hoy martes 17 de marzo, 27 años de su partida física. Pionero de la…",
         sections: &[
             (
@@ -2880,7 +2880,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de marzo de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/50262020829475664341.jpg",
+        thumbnail: "/assets/real/archive/arch_072.jpg",
         excerpt: "Un grupo de 25 estudiantes del primer semestre de la Licenciatura en Oceanología de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) participó en una jornada académica orientada a fortalecer los…",
         sections: &[
             (
@@ -2904,7 +2904,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de marzo de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/IMG_0742-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_073.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) culmina con éxito el Curso de Acompañamiento a la Iniciación Universitaria (CAIU) II-2025 con la participación de más de 900 estudiantes en esta etapa…",
         sections: &[
             (
@@ -2929,7 +2929,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de marzo de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/matematicas.jpg",
+        thumbnail: "/assets/real/archive/arch_074.jpg",
         excerpt: "El 14 de marzo se celebra el Día Internacional de las Matemáticas , una fecha dedicada a reconocer el papel fundamental de esta disciplina en el desarrollo del conocimiento, la innovación tecnológica y la comprensión de los…",
         sections: &[
             (
@@ -2958,7 +2958,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de marzo de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/224A0520-1-1920x720-1.jpg",
+        thumbnail: "/assets/real/archive/arch_075.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, intervino en la reunión de la Comisión de Educación, Salud, Ciencia, Tecnología e Innovación de la Asamblea Nacional (AN), defendiendo un marco…",
         sections: &[
             (
@@ -2983,7 +2983,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de marzo de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/650190565_18094283087079744_7319433716358356099_n.jpg",
+        thumbnail: "/assets/real/archive/arch_076.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) fue sede del lanzamiento del Laboratorio de Desarrollo de Oportunidades Productivas este 10 de marzo. El evento tiene como objetivo central captar jóvenes…",
         sections: &[
             (
@@ -3009,7 +3009,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de marzo de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/mujer-para-nota.jpg",
+        thumbnail: "/assets/real/archive/arch_077.jpg",
         excerpt: "Cada 8 de marzo el mundo conmemora el Día Internacional de la Mujer, una fecha promovida por la Organización de las Naciones Unidas (ONU) que en 2026 se celebra bajo el lema “Derechos, justicia y acción por y para todas las…",
         sections: &[
             (
@@ -3038,7 +3038,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "6 de marzo de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/photo_2026-03-05_14-59-23-1280x720-1.jpg",
+        thumbnail: "/assets/real/archive/arch_078.jpg",
         excerpt: "El desarrollo de nuevas estrategias vacunales representa uno de los campos más dinámicos de la biomedicina contemporánea. A finales de febrero, un grupo de científicos de la Universidad de Stanford, Estados Unidos, reportaron…",
         sections: &[
             (
@@ -3067,7 +3067,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de marzo de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/645586998_18093600809079744_1660473542689553696_n.jpg",
+        thumbnail: "/assets/real/archive/arch_079.jpg",
         excerpt: "En las instalaciones de la Fundación Instituto de Ingeniería (FIIIDT) se desarrolló el foro telemático Una ciencia para nuestro tiempo, un espacio de debate sobre la investigación científica venezolana orientada al tejido de la…",
         sections: &[
             (
@@ -3096,7 +3096,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de marzo de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/03/image-1.png",
+        thumbnail: "/assets/real/archive/arch_080.jpg",
         excerpt: "Investigaciones en psiconeuroinmunología confirman que la autenticidad es un imperativo biológico medible. El cuerpo humano opera anclado estrictamente en la realidad fisiológica; cuando expresamos algo incongruente con nuestras…",
         sections: &[
             (
@@ -3121,7 +3121,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de febrero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/5028666672617206207.jpg",
+        thumbnail: "/assets/real/archive/arch_081.jpg",
         excerpt: "Los estudiantes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) destacan por impulsar proyectos de vanguardia que transforman la teoría en soluciones reales e innovadoras. Es así como en las aulas y…",
         sections: &[
             (
@@ -3150,7 +3150,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/4967585288414759772.jpg",
+        thumbnail: "/assets/real/archive/arch_082.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, resaltó este martes sobre un hallazgo científico que permite comprender con mayor precisión las distintas etapas del desarrollo del cerebro…",
         sections: &[
             (
@@ -3179,7 +3179,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de febrero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/4963131780990964882.jpg",
+        thumbnail: "/assets/real/archive/arch_083.jpg",
         excerpt: "Los estudiantes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) conocieron el proyecto Nexos Movilnet, que impulsa la estatal de telecomunicaciones, con el fin de transformar ideas en proyectos…",
         sections: &[
             (
@@ -3202,7 +3202,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de febrero de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/codigo-1-1080x720-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_084.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, presentó el Código de Ética para el Desarrollo y Aplicación Responsable de la Inteligencia Artificial, con el objetivo de orientar el uso de estas…",
         sections: &[
             (
@@ -3227,7 +3227,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/639626258_18092594999079744_951082769553567033_n.jpg",
+        thumbnail: "/assets/real/archive/arch_085.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo una reunión con investigadores del Instituto Venezolano de Investigaciones Científicas (IVIC), la Corporación para el Desarrollo…",
         sections: &[
             (
@@ -3250,7 +3250,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de febrero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/portada-ciencia-de-datos-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_086.jpg",
         excerpt: "La Ciencia de Datos es hoy uno de los campos con mayor crecimiento a escala global ante la demanda de perfiles capaces de diseñar modelos predictivos, gestionar grandes volúmenes de información y desarrollar soluciones basadas en…",
         sections: &[
             (
@@ -3279,7 +3279,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/4949515742525197198.jpg",
+        thumbnail: "/assets/real/archive/arch_087.jpg",
         excerpt: "Con motivo de la celebración del 102° natalicio del científico venezolano Dr. Humberto Fernández Morán, la ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez, realizó una ofrenda floral en el Panteón Nacional,…",
         sections: &[
             (
@@ -3304,7 +3304,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/Imagen-1-fernandez-moran.jpg",
+        thumbnail: "/assets/real/archive/arch_088.jpg",
         excerpt: "Al conmemorarse 102 años del natalicio del Dr. Humberto Fernández Morán, médico, investigador y pionero, su recorrido de vida sigue inspirando a las generaciones que creen que la ciencia puede transformar sociedades e impulsar el…",
         sections: &[
             (
@@ -3333,7 +3333,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de febrero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/635019343_18091812080079744_4303671086708964359_n.jpg",
+        thumbnail: "/assets/real/archive/arch_089.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo este viernes un conversatorio con estudiantes de 14 países de América Latina y el Caribe, que participarán en la Escuela Internacional de…",
         sections: &[
             (
@@ -3362,7 +3362,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de febrero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/630555687_18091811966079744_7240286962310011540_n.jpg",
+        thumbnail: "/assets/real/archive/arch_090.jpg",
         excerpt: "Un grupo de estudiantes provenientes de 14 países de América Latina y el Caribe realizó un recorrido por las modernas instalaciones de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán y los centros de…",
         sections: &[
             (
@@ -3388,7 +3388,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de febrero de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/634316686_18091713035079744_185068544876872039_n.jpeg",
+        thumbnail: "/assets/real/archive/arch_091.jpg",
         excerpt: "La ciencia busca la verdad. El método científico se basa en la razón, en las pruebas y en los…",
         sections: &[
             (
@@ -3417,7 +3417,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de febrero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/629155510_18091728698079744_7705915146538304566_n.jpg",
+        thumbnail: "/assets/real/archive/arch_092.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, acompañó este jueves a los estudiantes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) y a miembros del Programa Nacional Semilleros…",
         sections: &[
             (
@@ -3440,7 +3440,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de febrero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/629076866_18091619120079744_3461093374163887786_n.jpg",
+        thumbnail: "/assets/real/archive/arch_093.jpg",
         excerpt: "El libro Mujeres de las Ciencias en Venezuela Vol.2 fue presentado este miércoles 11 de febrero en el auditorio de la sede de la Compañía Anónima Nacional Teléfonos de Venezuela (Cantv), en Caracas. Se trata de una obra que rinde…",
         sections: &[
             (
@@ -3469,7 +3469,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/632513866_18091618976079744_8178887709733500875_n.jpg",
+        thumbnail: "/assets/real/archive/arch_094.jpg",
         excerpt: "La presidenta Encargada de la República, Delcy Rodríguez anunció este miércoles una nueva convocatoria para proyectos de investigación enmarcado en el liderazgo de mujeres…",
         sections: &[
             (
@@ -3493,7 +3493,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de febrero de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/20251022-jorge-garciadevidema-cuarta-capa-de-ia-como-motor-de-la-competitividad-1920x720-1.jpg",
+        thumbnail: "/assets/real/archive/arch_095.jpg",
         excerpt: "La inteligencia artificial ha experimentado una evolución notable desde su concepción en los años 50, logrando realizar tareas cognitivas que antes eran exclusivas de los seres…",
         sections: &[
             (
@@ -3522,7 +3522,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/Plaza_Bolivar_y_Bello.jpg",
+        thumbnail: "/assets/real/archive/arch_096.jpg",
         excerpt: "El 9 de febrero de 1959 se inscribe como una fecha significativa en el desarrollo de la ciencia venezolana. Ese día, mediante decreto oficial, se crea el Instituto Venezolano de Investigaciones Científicas (IVIC), una institución…",
         sections: &[
             (
@@ -3551,7 +3551,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/626257776_18091030781079744_2945522989771991084_n.jpeg",
+        thumbnail: "/assets/real/archive/arch_097.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo este miércoles una reunión con el embajador de México acreditado en Venezuela, Leopoldo De Gyvés, para revisar la agenda bilateral de…",
         sections: &[
             (
@@ -3575,7 +3575,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de febrero de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/4904717837763546076.jpg",
+        thumbnail: "/assets/real/archive/arch_098.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, sostuvo un encuentro con estudiantes de la carrera de Inteligencia Artificial (IA), en el que reflexionó sobre el papel…",
         sections: &[
             (
@@ -3602,7 +3602,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/4904697595582680000.jpg",
+        thumbnail: "/assets/real/archive/arch_099.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, informó este martes el inicio de los trabajos de recuperación de los centros de investigación del Instituto Venezolano de Investigaciones…",
         sections: &[
             (
@@ -3627,7 +3627,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/626416852_18090940529079744_5255096904884349227_n.jpeg",
+        thumbnail: "/assets/real/archive/arch_100.jpg",
         excerpt: "En la instalaciones del Instituto Venezolano de Investigaciones Científicas (IVIC) se celebró una misa solemne, para rendir homenaje a los mártires del bombardeo contra Venezuela, perpetrado el pasado 3 de enero por el gobierno…",
         sections: &[
             (
@@ -3655,7 +3655,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de febrero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/616815518_1182273390760319_4617161190204941717_n.jpg",
+        thumbnail: "/assets/real/archive/arch_101.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), Gabriela Jiménez Ramírez, reafirmó que estos espacios académicos “son territorios de amor y creación” para la investigación científica con…",
         sections: &[
             (
@@ -3677,7 +3677,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de febrero de 2026",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/02/625966539_18090729584079744_2434894580815803221_n.jpg",
+        thumbnail: "/assets/real/archive/arch_102.jpg",
         excerpt: "Con la participación de más de 200 académicos, investigadores e intelectuales nacionales e internacionales se llevó a cabo el Foro Internacional Universitario agresión contra Venezuela. Una miranda desde la academia en los…",
         sections: &[
             (
@@ -3706,7 +3706,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "29 de enero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/portada-nota-rectora.jpeg",
+        thumbnail: "/assets/real/archive/arch_103.jpg",
         excerpt: "El 3 de enero, sin provocación alguna, Venezuela sufrió un violento ataque por parte de una superpotencia, episodio que se convierte en el más convulso de su historia contemporánea. Sin doblegar su voluntad, la Universidad…",
         sections: &[
             (
@@ -3735,7 +3735,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de enero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/portada-biotecnologia.jpeg",
+        thumbnail: "/assets/real/archive/arch_104.jpg",
         excerpt: "En un contexto nacional marcado por la necesidad de diversificar la matriz productiva, fortalecer la soberanía científica y promover un desarrollo sustentable basado en el conocimiento, la Universidad Nacional de las Ciencias Dr.…",
         sections: &[
             (
@@ -3764,7 +3764,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de enero de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/623290701_1187917453529246_3005884489026268921_n.jpg",
+        thumbnail: "/assets/real/archive/arch_105.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, sostuvo un encuentro académico con estudiantes de la cátedra de Inteligencia Artificial y Robótica, en el que promovió…",
         sections: &[
             (
@@ -3791,7 +3791,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de enero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/621796759_18090190403079744_4807378891374532875_n.jpeg",
+        thumbnail: "/assets/real/archive/arch_106.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, sostuvo una reunión este lunes con el directorio de esta casa de estudios, con el fin de revisar su programa académico…",
         sections: &[
             (
@@ -3816,7 +3816,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de enero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/618711397_1185239260463732_3912832427519023907_n.jpg",
+        thumbnail: "/assets/real/archive/arch_107.jpg",
         excerpt: "La ministra de Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo un encuentro con el Embajador de la República de la India, P.K. Ashok Babu, con el fin de afianzar la agenda de cooperación…",
         sections: &[
             (
@@ -3842,7 +3842,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de enero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/619200677_1184675303853461_270679600978545882_n.jpg",
+        thumbnail: "/assets/real/archive/arch_108.jpg",
         excerpt: "La ministra de Ciencia y Tecnología, Gabriela Jiménez Ramírez, informó sobre su reciente encuentro con el embajador de la República de Belarús, Dzmitry Dzeravinski, y el primer Secretario, Iván Turau, para consolidar alianzas…",
         sections: &[
             (
@@ -3868,7 +3868,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de enero de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/BIO-BIO48-1280x720-1.jpg",
+        thumbnail: "/assets/real/archive/arch_109.jpg",
         excerpt: "Los estudiantes de las carreras de Ingeniería en Robótica y Automatización y de Inteligencia Artificial de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) participaron en la clase magistral Bioética de…",
         sections: &[
             (
@@ -3892,7 +3892,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de enero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/618527754_1183051167349208_893964191984726573_n.jpg",
+        thumbnail: "/assets/real/archive/arch_110.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), Gabriela Jiménez Ramírez, organizó este miércoles un encuentro con los estudiantes del Curso de Acompañamiento a la Iniciación…",
         sections: &[
             (
@@ -3917,7 +3917,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de enero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/616783027_1182273190760339_2498364415205342060_n.jpg",
+        thumbnail: "/assets/real/archive/arch_111.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), Gabriela Jiménez Ramírez, sostuvo un encuentro con los estudiantes universitarios en el que ratificó el compromiso de la casa de estudio…",
         sections: &[
             (
@@ -3944,7 +3944,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de enero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/5147814777718508584.jpg",
+        thumbnail: "/assets/real/archive/arch_112.jpg",
         excerpt: "En las instalaciones de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán(UNC) se llevó a cabo una actividad especial con la participación del Dr. Roberto Betancourt, Secretario de la institución; Dr. David…",
         sections: &[
             (
@@ -3971,7 +3971,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de enero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/bioetica-medicina-1200x630.original.jpg",
+        thumbnail: "/assets/real/archive/arch_113.jpg",
         excerpt: "Uno de los rasgos distintivos del modelo educativo de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) es la incorporación de la bioética como eje transversal del pensum académico. Este enfoque…",
         sections: &[
             (
@@ -3994,7 +3994,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de enero de 2026",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/5138807599938604083.jpg",
+        thumbnail: "/assets/real/archive/arch_114.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, sostuvo una reunión con científicos del Instituto Venezolano de Investigaciones Científicas (IVIC) y docentes de esta…",
         sections: &[
             (
@@ -4023,7 +4023,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de enero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/4970181024914541350.jpg",
+        thumbnail: "/assets/real/archive/arch_115.jpg",
         excerpt: "Con el inicio de las actividades académicas previsto para el próximo 19 de enero, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) da pasos significativos en su desarrollo institucional como referente de…",
         sections: &[
             (
@@ -4052,7 +4052,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "15 de enero de 2026",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/616198244_18088890326079744_2973605082127021208_n.jpeg",
+        thumbnail: "/assets/real/archive/arch_116.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, destacó la importancia de la bioética como eje formativo y humano para acompañar a la comunidad universitaria frente al…",
         sections: &[
             (
@@ -4080,7 +4080,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de enero de 2026",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/logica.jpg",
+        thumbnail: "/assets/real/archive/arch_117.jpg",
         excerpt: "Por Gabriela Jiménez Ramírez Si el universo fuera un software, la lógica sería su código fuente. Aunque a menudo la percibimos como una rama abstracta de la filosofía, es, en realidad, la gramática del pensamiento y la…",
         sections: &[
             (
@@ -4103,7 +4103,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de enero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/615525129_1177104827943842_195772177709174279_n.jpg",
+        thumbnail: "/assets/real/archive/arch_118.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo un encuentro con los presidentes de los entes adscritos al ministerio y los representantes de las 24 Fundaciones para el Desarrollo de la Ciencia y la…",
         sections: &[
             (
@@ -4131,7 +4131,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de enero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/photo_4985969071291566874_y.jpg",
+        thumbnail: "/assets/real/archive/arch_119.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, repudió una vez más el impacto de dos misiles contra el Instituto Venezolano de Investigaciones Científicas (IVIC), sin descartarse un…",
         sections: &[
             (
@@ -4160,7 +4160,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de enero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/MG_4296-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_120.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, a través de su Consejo Directivo, emitió este miércoles un comunicado oficial en el que fija posición ante los recientes acontecimientos que afectan la…",
         sections: &[
             (
@@ -4178,7 +4178,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de enero de 2026",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2026/01/5026361134176471896.jpg",
+        thumbnail: "/assets/real/archive/arch_121.jpg",
         excerpt: "En 2026, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán reafirma su compromiso inquebrantable con el conocimiento, la investigación y la formación científica, abriendo sus puertas para un nuevo ciclo de…",
         sections: &[
             (
@@ -4199,7 +4199,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/12_O__0046_P-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_122.jpg",
         excerpt: "Durante la transmisión del programa Con Maduro+, número 99, el presidente de la República Nicolás Maduro Moros recordó que 1804 estudiantes se forman en la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán…",
         sections: &[
             (
@@ -4222,7 +4222,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/ministraUNC-scaled-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_123.jpg",
         excerpt: "Durante el acto del primer aniversario de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán, la rectora y ministra para Ciencia y Tecnología, Gabriela Jiménez precisó que esta casa de estudios, cuenta con…",
         sections: &[
             (
@@ -4251,7 +4251,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/5035049324735302496.jpg",
+        thumbnail: "/assets/real/archive/arch_124.jpg",
         excerpt: "A un año de haber abierto sus puertas a la juventud venezolana, el presidente de la República Bolivariana de Venezuela, Nicolás Maduro Moros, visitó la casa de estudios universitarios para celebrar los logros alcanzados, entre…",
         sections: &[
             (
@@ -4273,7 +4273,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/5032779172526361414.jpg",
+        thumbnail: "/assets/real/archive/arch_125.jpg",
         excerpt: "Al arribar a su primer aniversario de creación, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) se establece no solo como una nueva institución de educación universitaria, sino como una pieza…",
         sections: &[
             (
@@ -4302,7 +4302,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/230A3062-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_126.jpg",
         excerpt: "En las instalaciones de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, la empresa de telecomunicaciones Movilnet, ente adscrito al Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt), presentó…",
         sections: &[
             (
@@ -4330,7 +4330,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/unc3-768x512222-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_127.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, compartió una nueva clase con los estudiantes de la carrera de Inteligencia Artificial y Robótica, en la que…",
         sections: &[
             (
@@ -4359,7 +4359,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/web-ministra-mexico-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_128.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología de Venezuela, Gabriela Jiménez Ramírez, se reunió con la secretaria de Ciencia, Humanidades, Tecnología e Innovación de México, Rosaura Ruiz, para revisar y reforzar la…",
         sections: &[
             (
@@ -4386,7 +4386,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/592172841_1717561676315121_8729701488636794700_n.jpg",
+        thumbnail: "/assets/real/archive/arch_129.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, participó en el Encuentro Ministerial de Latinoamérica y el Caribe, que se desarrolló este viernes en el estado de Morelos,…",
         sections: &[
             (
@@ -4415,7 +4415,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/unc-10o-768x512-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_130.jpg",
         excerpt: "Para la representante del Comité de Bioética del Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt), la doctora María Eugenia Cavazza, los conceptos de ética para la vida «tienen que generarse y permear, desde el…",
         sections: &[
             (
@@ -4440,7 +4440,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/227A0975-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_131.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, se reunió en México con los científicos Adolfo Guzmán Arenas, Marco Antonio Ramírez y Alejandro Pedroza Meléndez, referentes en la…",
         sections: &[
             (
@@ -4466,7 +4466,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/4986001674388310814.jpg",
+        thumbnail: "/assets/real/archive/arch_132.jpg",
         excerpt: "El 5 de diciembre de 1958, tras promulgarse la Ley de Universidades, se consagró la autonomía como principio rector de la educación universitaria y se reconoció formalmente la labor de quienes dedican su vida a formar…",
         sections: &[
             (
@@ -4495,7 +4495,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/5012574323516050209.jpg",
+        thumbnail: "/assets/real/archive/arch_133.jpg",
         excerpt: "En el marco del InnovaFest LATAM 2025, que se desarrolla en el estado de Morelos, México, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) y el Instituto Tecnológico Nacional de México (TecNM)…",
         sections: &[
             (
@@ -4521,7 +4521,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/photo_2025-12-04_13-53-09-1.jpg",
+        thumbnail: "/assets/real/archive/arch_134.jpg",
         excerpt: "Del 4 al 5 de diciembre se celebra en el Centro de Convenciones de Xochitepec, México, el InnovaFest LATAM 2025, que incluye el Foro de Ciencia y Tecnología para la Sociedad (STS), espacios regionales que promueven la integración…",
         sections: &[
             (
@@ -4544,7 +4544,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/photo_2025-12-03_14-50-57-2-1024x682-1.jpg",
+        thumbnail: "/assets/real/archive/arch_135.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, arribó a México para cumplir una agenda de trabajo que permitirá afianzar las relaciones bilaterales, basadas en los principios de respeto y apoyo…",
         sections: &[
             (
@@ -4569,7 +4569,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de diciembre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/12/1200_800.jpeg",
+        thumbnail: "/assets/real/archive/arch_136.jpg",
         excerpt: "A principios de noviembre, el CEO de Nvidia, Jensen Huang, alertó sobre el rápido desarrollo de China en la carrera de Inteligencia Artificial (IA) de próxima generación y pidió a Washington acelerar…",
         sections: &[
             (
@@ -4598,7 +4598,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/224A2575-768x512-1.jpg",
+        thumbnail: "/assets/real/archive/arch_137.jpg",
         excerpt: "La delegación venezolana brilló en la Olimpiada Mundial de Robótica 2025, evento desarrollado del 26 al 28 de noviembre en Singapur y que reunió a más de 500 equipos provenientes de 90 países, destacando la participación de los…",
         sections: &[
             (
@@ -4627,7 +4627,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/587013599_18084510347079744_2677029486882134885_n.jpeg",
+        thumbnail: "/assets/real/archive/arch_138.jpg",
         excerpt: "Como parte de la XIX Reunión de la Comisión Intergubernamental de Alto Nivel Venezuela – Rusia (CIAN), a través de la subcomisión de Educación, Ciencia y Tecnología, ambas naciones establecieron acuerdos en el ámbito académico y…",
         sections: &[
             (
@@ -4656,7 +4656,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/photo_4988253474201996064_w.jpg",
+        thumbnail: "/assets/real/archive/arch_139.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) realizó el curso Método de Graficación 1982-2000, dirigido a docentes del área de Matemáticas con el propósito de familiarizarlos con los fundamentos…",
         sections: &[
             (
@@ -4685,7 +4685,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/photo_4988253474201996116_w.jpg",
+        thumbnail: "/assets/real/archive/arch_140.jpg",
         excerpt: "En el marco del Día del Estudiante Universitario y el inicio de actividades académicas del Curso de Acompañamiento a la Iniciación Universitaria – (CAIU II-2025), estudiantes de la Universidad Nacional de las Ciencias Dr.…",
         sections: &[
             (
@@ -4711,7 +4711,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/photo_4985969071291566869_y.jpg",
+        thumbnail: "/assets/real/archive/arch_141.jpg",
         excerpt: "Con la incorporación de la bioética como eje transversal en el pensum de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Venezuela consolida una apuesta por la formación científica comprometida con la vida,…",
         sections: &[
             (
@@ -4740,7 +4740,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/imagen-dia-del-estudiante.jpg",
+        thumbnail: "/assets/real/archive/arch_142.jpg",
         excerpt: "En Venezuela, pocas fechas expresan la importancia de la juventud en el destino del país como el 21 de noviembre, Día Nacional del Estudiante Venezolano. En esta efeméride se recuerda una tradición de lucha que ha dejado huella…",
         sections: &[
             (
@@ -4769,7 +4769,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/IMG_3447-768x512-1.jpg",
+        thumbnail: "/assets/real/archive/arch_143.jpg",
         excerpt: "Estudiantes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán disfrutaron de la segunda clase sobre Bioética para la Vida, dictada por la rectora de esta casa de estudios, Gabriela Jiménez Ramírez, quien…",
         sections: &[
             (
@@ -4798,7 +4798,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/584990556_18083878739079744_2730210345379763977_n.jpg",
+        thumbnail: "/assets/real/archive/arch_144.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo un encuentro con el profesor Wei Hong, director de Cooperación Internacional del Departamento de Mecánica e Ingeniería Aeroespacial de la Universidad de…",
         sections: &[
             (
@@ -4821,7 +4821,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/shutterstock_1716358456-scaled.jpeg",
+        thumbnail: "/assets/real/archive/arch_145.jpg",
         excerpt: "Por décadas, la filosofía tuvo la reputación de ser una disciplina abstracta, alejada de las urgencias cotidianas. Sin embargo, la aceleración tecnológica, las crisis ambientales, los conflictos geopolíticos y las…",
         sections: &[
             (
@@ -4850,7 +4850,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/photo_4965449383998589868_y.jpg",
+        thumbnail: "/assets/real/archive/arch_146.jpg",
         excerpt: "El presidente de la república, Nicolás Maduro, encabezó hoy la ceremonia de los XX Premios Nacionales de Ciencia, Tecnología e Innovación Dr. Humberto Fernández-Morán, celebrada en la sala Ríos Reyna del Teatro Teresa…",
         sections: &[
             (
@@ -4879,7 +4879,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/582429145_18083710106079744_6274376216483414752_n5555.jpg",
+        thumbnail: "/assets/real/archive/arch_147.jpg",
         excerpt: "Más de 50 estudiantes de las carreras de Ingeniería en Inteligencia Artificial e Ingeniería en Robótica y Automatización de la Universidad de las Ciencias Dr. Humberto Fernández – Morán (UNC), disfrutaron de la clase magistral…",
         sections: &[
             (
@@ -4908,7 +4908,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/photo_4961245689052597066_y.jpg",
+        thumbnail: "/assets/real/archive/arch_148.jpg",
         excerpt: "Este lunes 17 de noviembre, inició en la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán la segunda cohorte del Curso de Acompañamiento a la Iniciación Universitaria (CAIU) – 2025 una experiencia formativa que…",
         sections: &[
             (
@@ -4931,7 +4931,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/imagen-nota-CAIU-4-scaled.jpeg",
+        thumbnail: "/assets/real/archive/arch_149.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) se prepara para recibir a la segunda cohorte del Curso de Acompañamiento a la Iniciación Universitaria (CAIU), un programa formativo que busca fortalecer…",
         sections: &[
             (
@@ -4960,7 +4960,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/MG_4305-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_150.jpg",
         excerpt: "En el año 2026 la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) incorporará tres nuevas carreras de pregrado: Licenciatura en Ciencias Ambientales y Climáticas, Licenciatura en Geociencias y Licenciatura…",
         sections: &[
             (
@@ -4989,7 +4989,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/photo_4940575673609292635_w.jpg",
+        thumbnail: "/assets/real/archive/arch_151.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán abrió sus puertas este lunes para iniciar el periodo académico 2025-2026, con el recibimiento de más de 600 estudiantes que se formarán en el área de las…",
         sections: &[
             (
@@ -5014,7 +5014,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/575185115_1690833288987960_6529763525355380112_n.jpg",
+        thumbnail: "/assets/real/archive/arch_152.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), Gabriela Jiménez Ramírez, encabezó este martes directorio para afinar las estrategias y brindar a los estudiantes la atención que se…",
         sections: &[
             (
@@ -5038,7 +5038,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de noviembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/11/photo_4920457342420192054_y.jpg",
+        thumbnail: "/assets/real/archive/arch_153.jpg",
         excerpt: "El Gobierno nacional continúa fortaleciendo la agenda científico – tecnológica y de innovación como parte de la 6ta Transformación de la Ley Orgánica del Plan Nacional de Desarrollo de las 7 Transformaciones (2025-2031), una…",
         sections: &[
             (
@@ -5064,7 +5064,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "29 de octubre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/imagen-induccion-1-scaled.jpeg",
+        thumbnail: "/assets/real/archive/arch_154.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), avanza con la segunda edición del Taller de Inducción, Formación y Acompañamiento Docente 2025-II, un espacio creado para fortalecer las capacidades…",
         sections: &[
             (
@@ -5093,7 +5093,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de octubre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/224A1044-1024x683-1.jpg",
+        thumbnail: "/assets/real/archive/arch_155.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, se reunió con la jefa de la Gran Misión Venezuela Joven, Génesis Garvett para mostrar las diferentes carreras…",
         sections: &[
             (
@@ -5204,7 +5204,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de octubre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/induccion-2-scaled.jpeg",
+        thumbnail: "/assets/real/archive/arch_156.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) desarrolla el Taller de Inducción, Formación y Acompañamiento Docente 2025-II; el encuentro reúne a más de 250 docentes de las distintas áreas del saber.…",
         sections: &[
             (
@@ -5224,7 +5224,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de octubre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/photo_5148058474162883420_y.jpg",
+        thumbnail: "/assets/real/archive/arch_157.jpg",
         excerpt: "El presidente de la República Nicolás, Maduro Moros, anunció la próxima incorporación de la carrera de Paleontología a la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán, para elevar la investigación en el…",
         sections: &[
             (
@@ -5272,7 +5272,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de octubre de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/230A6036-768x512-1.jpg",
+        thumbnail: "/assets/real/archive/arch_158.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología (Mincyt), Gabriela Jiménez Ramírez, y el embajador Sergey Mélik-Bagdasárov de la Federación de Rusia, revisaron los avances de la agenda de cooperación bilateral en áreas…",
         sections: &[
             (
@@ -5296,7 +5296,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de octubre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/photo_5161189146960702967_y.jpg",
+        thumbnail: "/assets/real/archive/arch_159.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán da a conocer el cronograma de los diversos procesos administrativos y académicos para el inicio de clases en los meses de octubre y noviembre 2025, donde los…",
         sections: &[
             (
@@ -5319,7 +5319,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de octubre de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/IMG_0339-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_160.jpg",
         excerpt: "Con un rito chamánico se dio inicio al Congreso Mundial por la Defensa de la Madre Tierra, que reúne a cerca de tres mil delegados y delegadas nacionales e internacionales, como parte de la agenda preparatoria de los pueblos de…",
         sections: &[
             (
@@ -5342,7 +5342,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "6 de octubre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/portada-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_161.jpg",
         excerpt: "El Instituto Venezolano de Investigaciones Científica (IVIC) desarrolló la plataforma Eduquim, enfocada en revolucionar el aprendizaje de la química en niños, niñas, adolescentes y estudiantes universitarios del país, explicó la…",
         sections: &[
             (
@@ -5370,7 +5370,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "6 de octubre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/IMG_9326-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_162.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán (UNC) incorporará tres nuevas carreras que ampliarán el programa de estudios para atender los desafíos que impone la nueva realidad climática…",
         sections: &[
             (
@@ -5399,7 +5399,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "3 de octubre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/Cybersecurity_certiprof.webp",
+        thumbnail: "/assets/real/archive/arch_163.jpg",
         excerpt: "El mundo digital se expande a un ritmo acelerado, pero a la par del progreso tecnológico, surgen amenazas que ponen en riesgo desde cuentas bancarias hasta infraestructuras críticas. El incremento exponencial de ataques…",
         sections: &[
             (
@@ -5428,7 +5428,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de octubre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/6347f2656aa14.jpeg",
+        thumbnail: "/assets/real/archive/arch_164.jpg",
         excerpt: "La Inteligencia Artificial (IA) ha experimentado un crecimiento en los últimos años, especialmente tras el lanzamiento de ChatGPT. Sin embargo, este avance trae consigo consideraciones éticas, como la protección de la privacidad,…",
         sections: &[
             (
@@ -5457,7 +5457,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de octubre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/10/photo_2025-09-30_16-40-10.jpg",
+        thumbnail: "/assets/real/archive/arch_165.jpg",
         excerpt: "La enseñanza de las matemáticas atraviesa un momento preocupante en algunos países. En España, según un comunicado emitido por la Conferencia de Decanos de Matemáticas, el nivel de conocimientos de los estudiantes que acceden a…",
         sections: &[
             (
@@ -5485,7 +5485,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_5107263075194178401_y.jpg",
+        thumbnail: "/assets/real/archive/arch_166.jpg",
         excerpt: "Las sedes de la Fundación para el Desarrollo de la Ciencia y la Tecnología (Fundacite) de los diferentes estados del país fueron el espacio para arrancar este lunes 29 de septiembre la Exploración Vocacional y Validación de…",
         sections: &[
             (
@@ -5507,7 +5507,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "29 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/Deniz-Luz-Molina2-1170x780-1.webp",
+        thumbnail: "/assets/real/archive/arch_167.jpg",
         excerpt: "La responsable del diseño curricular de la UNC hace un buen resumen de lo que debería ser un graduado modelo de la naciente universidad. Pero antes echa un vistazo al contexto y trayectoria que dieron origen a su encuentro con…",
         sections: &[
             (
@@ -5535,7 +5535,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_5064644793317044908_y.jpg",
+        thumbnail: "/assets/real/archive/arch_168.jpg",
         excerpt: "La etapa de exploración vocacional y validación de documentos de las regiones Caracas, Miranda y La Guaira culminó este jueves 25 de septiembre con la atención de gran cantidad de aspirantes; ahora la Universidad Nacional de las…",
         sections: &[
             (
@@ -5558,7 +5558,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/SaveClip.App_474659477_1138546544878292_7667400718785319215_n.jpg",
+        thumbnail: "/assets/real/archive/arch_169.jpg",
         excerpt: "En la historia de la ciencia venezolana del siglo XX destaca la figura de Zoraida Luces de Febres (1922–2015), investigadora cuyo trabajo marcó un antes y un después en la botánica, especialmente en la agrostología, la disciplina…",
         sections: &[
             (
@@ -5587,7 +5587,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_2025-09-20_19-10-13-1-1024x682-1.jpg",
+        thumbnail: "/assets/real/archive/arch_170.jpg",
         excerpt: "La vicepresidenta Sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez, presentó los avances de Venezuela en materia de inteligencia artificial (IA) destacando la ejecución de 65 proyectos nacionales…",
         sections: &[
             (
@@ -5613,7 +5613,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_2025-09-20_18-16-01-1024x682-1.jpg",
+        thumbnail: "/assets/real/archive/arch_171.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, ofreció este sábado una conferencia magistral titulada Gobernanza Global de la IA, donde destacó los avances y retos de la Inteligencia Artificial…",
         sections: &[
             (
@@ -5642,7 +5642,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/5941789982605818549.jpg",
+        thumbnail: "/assets/real/archive/arch_172.jpg",
         excerpt: "A punto de cumplir 20 años en Venezuela, Ximena González Broquen está materializando uno de sus sueños académico-profesionales: diseñar para una universidad un programa de licenciatura en…",
         sections: &[
             (
@@ -5671,7 +5671,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/imagen-oceanologia.webp",
+        thumbnail: "/assets/real/archive/arch_173.jpg",
         excerpt: "Los océanos, además de una fuente de vida y riqueza, representan en la actualidad un espacio estratégico para el desarrollo y la soberanía de las naciones. La oceanología, entendida como la disciplina científica que estudia las…",
         sections: &[
             (
@@ -5700,7 +5700,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "15 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/MG_3853-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_174.jpg",
         excerpt: "Este lunes 15 de septiembre arrancó la Exploración Vocacional y Validación de Documentos en la sede principal de la Universidad Nacional de las Ciencias Dr. Humberto Fernández–Morán para los aspirantes que formarán parte de la II…",
         sections: &[
             (
@@ -5725,7 +5725,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/230A1539-1-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_175.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán publicó este sábado 13 de septiembre el listado de los aspirantes que fueron seleccionados para la Exploración Vocacional y Validación de Documentos que…",
         sections: &[
             (
@@ -5743,7 +5743,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/convit.jpg",
+        thumbnail: "/assets/real/archive/arch_176.jpg",
         excerpt: "En la historia contemporánea de la medicina venezolana, pocas figuras alcanzan la trascendencia del Dr. Jacinto Convit García (1913-2014). Científico, docente y reformador de la salud pública, su legado se erige como un referente…",
         sections: &[
             (
@@ -5772,7 +5772,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/IMG_20250910_200423_319.jpg",
+        thumbnail: "/assets/real/archive/arch_177.jpg",
         excerpt: "A partir de este 10 de septiembre comienza el periodo de postulación para la vigésima edición de los Premios Nacionales de Ciencia, Tecnología e Innovación Dr. Humberto Fernández-Morán 2025, impulsada por el Gobierno Bolivariano…",
         sections: &[
             (
@@ -5799,7 +5799,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_5049023962901753524_y.jpg",
+        thumbnail: "/assets/real/archive/arch_178.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán se prepara para recibir a los nuevos estudiantes, que cursarán el primer semestre en las 16 nuevas carreras científicas que van a impulsar la actividad…",
         sections: &[
             (
@@ -5825,7 +5825,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/GNzXI_0XAAEw1za.jpeg",
+        thumbnail: "/assets/real/archive/arch_179.jpg",
         excerpt: "El secreto del mejor chocolate del mundo no está solo en las maracas de cacao, sino en los microbios que lo…",
         sections: &[
             (
@@ -5851,7 +5851,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/230A5482-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_180.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias (UNC) Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, sostuvo un encuentro con directores y jefes de centros del Instituto Venezolano de Investigaciones Científicas…",
         sections: &[
             (
@@ -5880,7 +5880,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/Maria-Eugenia-Pirela3-1024x575-1.webp",
+        thumbnail: "/assets/real/archive/arch_181.jpg",
         excerpt: "María Eugenia Pirela Bracho trabaja con materiales inmensamente pequeños. Ahora tiene la oportunidad de retransmitir sus conocimientos en el ámbito de la nanotecnología al universo de estudiantes de la joven Universidad Nacional…",
         sections: &[
             (
@@ -5909,7 +5909,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/5033218633576329170.jpg",
+        thumbnail: "/assets/real/archive/arch_182.jpg",
         excerpt: "En una etapa decisiva para el avance científico y tecnológico de Venezuela, la Licenciatura en Física Nuclear de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) se consolida como uno de los programas…",
         sections: &[
             (
@@ -5938,7 +5938,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_5030900162985307883_y.jpg",
+        thumbnail: "/assets/real/archive/arch_183.jpg",
         excerpt: "Las instalaciones de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán fueron visitadas por el Consejo Científico Militar de Venezuela, como parte de la agenda de cooperación que tenemos con la formación…",
         sections: &[
             (
@@ -5963,7 +5963,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_5028529315268112133_y.jpg",
+        thumbnail: "/assets/real/archive/arch_184.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, sostuvo una reunión con el Consejo Directivo para evaluar la agenda y avanzar en la atención de la comunidad…",
         sections: &[
             (
@@ -5986,7 +5986,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/230A3309-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_185.jpg",
         excerpt: "El Programa Antártico Venezolano surgió en 1999, a través de la política visionaria del Comandante Hugo Chávez. Actualmente mantiene un papel clave en la investigación y conservación de los océanos y la…",
         sections: &[
             (
@@ -6015,7 +6015,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/photo_5010345737996840918_y.jpg",
+        thumbnail: "/assets/real/archive/arch_186.jpg",
         excerpt: "La historia universal de la ciencia no siempre es justa con quienes hacen grandes aportes a la humanidad. En ocasiones, los nombres más decisivos quedan relegados. Tal es el caso del Dr. Héctor Rafael Rojas (1928-1991), un…",
         sections: &[
             (
@@ -6044,7 +6044,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/Troconis3-1170x780-2.webp",
+        thumbnail: "/assets/real/archive/arch_187.jpg",
         excerpt: "Nacido en la ciudad con la Plaza Bolívar más grande del país (hay más de mil) el camino seguido por Jorge Troconis hasta hacerse investigador del Instituto Venezolano de Investigaciones Científicas (IVIC), titularse como doctor…",
         sections: &[
             (
@@ -6073,7 +6073,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de septiembre de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/09/Ana-Ramos2.webp",
+        thumbnail: "/assets/real/archive/arch_188.jpg",
         excerpt: "Los estudiantes de la novedosa experiencia que representa la Universidad Nacional de las Ciencias «Humberto Fernández-Morán» recibirán conocimientos de primera mano en carreras no tradicionales (ni convencionales), a cargo de…",
         sections: &[
             (
@@ -6101,7 +6101,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/Yampiero-03-1170x658-1.webp",
+        thumbnail: "/assets/real/archive/arch_189.jpg",
         excerpt: "De niño, Yanpiero Balladores siempre sintió curiosidad por saber cómo funcionaban los artefactos eléctricos. Fue así como terminó con un cementerio de radios en su casa. Los destartalaba para intentar repararlos en su hogar de El…",
         sections: &[
             (
@@ -6130,7 +6130,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de agosto de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/Imagen-para-trabajo-matematicas.jpg",
+        thumbnail: "/assets/real/archive/arch_190.jpg",
         excerpt: "En el contexto de la era de la cuarta revolución industrial, dominada por algoritmos, la ciencia de datos, la inteligencia artificial y el modelado de procesos que impulsan la economía global, la formación de matemáticos es…",
         sections: &[
             (
@@ -6159,7 +6159,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de agosto de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/photo_4985896129858219625_y.jpg",
+        thumbnail: "/assets/real/archive/arch_191.jpg",
         excerpt: "En el marco del Curso de Acompañamiento de Iniciación Universitaria de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), un grupo de aspirantes a cursar estudios pertenecientes a la Fuerza Armada…",
         sections: &[
             (
@@ -6187,7 +6187,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/trabajo-especial-.jpeg",
+        thumbnail: "/assets/real/archive/arch_192.jpg",
         excerpt: "En un país donde la ciencia y la tecnología se consolidan como ejes del desarrollo, la creación de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) marca un hito en la educación universitaria venezolana,…",
         sections: &[
             (
@@ -6216,7 +6216,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de agosto de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/inteligencia-rectora.jpg",
+        thumbnail: "/assets/real/archive/arch_193.jpg",
         excerpt: "Durante una conferencia en Las Vegas, el exdirectivo de Google conocido como «el padrino de la IA», Geoffrey Hinton, lanzó una alerta y aseguró que «el instinto maternal» es lo único que puede inclinar la balanza a favor de la…",
         sections: &[
             (
@@ -6244,7 +6244,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "15 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/IMG_20250411_094711-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_194.jpg",
         excerpt: "El Consejo Directivo de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán rechazó la «grotesca agresión del imperialismo estadounidense» contra el jefe de Estado venezolano, Nicolás Maduro Moros, con el…",
         sections: &[
             (
@@ -6268,7 +6268,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de agosto de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/photo_2025-08-14_11-45-29-1024x489-1.jpg",
+        thumbnail: "/assets/real/archive/arch_195.jpg",
         excerpt: "La ministra del Poder Popular para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo un encuentro con el embajador de la República Popular China, Lan Hu, para revisar la agenda de cooperación conjunta que mantienen ambas…",
         sections: &[
             (
@@ -6292,7 +6292,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/photo_4967681177850850772_w2.jpg",
+        thumbnail: "/assets/real/archive/arch_196.jpg",
         excerpt: "“La Universidad Nacional de las Ciencias Doctor Humberto Fernández-Morán no es reactiva, es proactiva. En este sentido, el presidente de la República Bolivariana de Venezuela, Nicolás Maduro ha dado instrucciones que estamos…",
         sections: &[
             (
@@ -6321,7 +6321,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de agosto de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/4961111999601815115.jpg",
+        thumbnail: "/assets/real/archive/arch_197.jpg",
         excerpt: "Con la llegada de la inteligencia artificial el debate se ha centrado en cómo esta herramienta tecnológica impacta en nuestros niños, niñas y jóvenes, especialmente en su formación académica y la capacidad del pensamiento…",
         sections: &[
             (
@@ -6350,7 +6350,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de agosto de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/Jose-Luis-Zambrano2-1170x780-1.webp",
+        thumbnail: "/assets/real/archive/arch_198.jpg",
         excerpt: "Un profesional de la microbiología que trabaja con arbovirus es una especie de guerrero o guerrera en pie de lucha. Quienes combaten para controlar estos y otros organismos amenazantes constituyen una especie de legión heroica…",
         sections: &[
             (
@@ -6379,7 +6379,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/Ivan-Lopez2-1024x682-1.webp",
+        thumbnail: "/assets/real/archive/arch_199.jpg",
         excerpt: "Su niñez y adolescencia transcurrían en pequeños pueblos del Amazonas colombo-venezolano. Hasta que vio un documental que le torció los planes y se vino a estudiar Ciencias en la ciudad más grande que ha visto en su…",
         sections: &[
             (
@@ -6408,7 +6408,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/4949757141158309775.jpg",
+        thumbnail: "/assets/real/archive/arch_200.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) culmina con éxito su primer Curso de Acompañamiento a la Iniciación Universitaria (CAIU), una experiencia formativa sin precedentes que reunió a más de…",
         sections: &[
             (
@@ -6437,7 +6437,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de agosto de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/photo_4947553213050106009_y.jpg",
+        thumbnail: "/assets/real/archive/arch_201.jpg",
         excerpt: "Este jueves 7 de agosto de 2025, se realizó el lanzamiento oficial de la actualización Canaima GNU/Linux 8.1 “Kavanayén”, una versión que trae importantes mejoras para todos sus usuarios y fortalece el impulso del Software Libre…",
         sections: &[
             (
@@ -6461,7 +6461,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/photo_2025-08-05_17-23-51-1024x683-1.jpg",
+        thumbnail: "/assets/real/archive/arch_202.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, sostuvo una reunión con el directorio de la casa de estudio, para revisar la agenda de trabajo y fortalecer el plan de…",
         sections: &[
             (
@@ -6487,7 +6487,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/4938563850794545721.jpg",
+        thumbnail: "/assets/real/archive/arch_203.jpg",
         excerpt: "En un contexto global marcado por los efectos del cambio climático, la pérdida de biodiversidad y la necesidad urgente de repensar el modelo de desarrollo, el Gobierno Bolivariano, liderado por el presidente Nicolás Maduro Moros,…",
         sections: &[
             (
@@ -6516,7 +6516,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de agosto de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/230A1292-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_204.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, culmina la visita a China con la firma de un acuerdo en el sector educativo y con el compromiso de reforzar las relaciones…",
         sections: &[
             (
@@ -6541,7 +6541,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de agosto de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/Arnelly3-1170x780-1.webp",
+        thumbnail: "/assets/real/archive/arch_205.jpg",
         excerpt: "Arnelly Escalona tiene 10 artículos publicados en revistas arbitradas con el equipo de biomedicina y el laboratorio de genética molecular de IVIC, donde desarrolló su maestría en Microbiología. Pero la clave más importante de su…",
         sections: &[
             (
@@ -6570,7 +6570,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de agosto de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/MG_3367-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_206.jpg",
         excerpt: "En el marco de la Gran Misión Madre Tierra Venezuela, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) llevó a cabo la siembra de más de 1900 árboles en los espacios del Instituto Venezolano de…",
         sections: &[
             (
@@ -6597,7 +6597,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "1 de agosto de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/08/N4-e1436382911937.jpg",
+        thumbnail: "/assets/real/archive/arch_207.jpg",
         excerpt: "En una era donde la ciencia define el rumbo de las naciones, la nanotecnología irrumpe como una disciplina estratégica para el desarrollo. Estudiar y manipular la materia a escalas microscópicas inimaginables como la…",
         sections: &[
             (
@@ -6626,7 +6626,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/IMG_0962-768x512-1.jpg",
+        thumbnail: "/assets/real/archive/arch_208.jpg",
         excerpt: "Un grupo de estudiantes de las carreras de Biotecnología de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, visitaron los laboratorios del Instituto de Biología Experimental de la Universidad Central de…",
         sections: &[
             (
@@ -6655,7 +6655,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de julio de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/230A1574-768x512-1.jpg",
+        thumbnail: "/assets/real/archive/arch_209.jpg",
         excerpt: "La delegación venezolana que se encuentra en Shenzhen, República Popular China, encabezada por la ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, visitó las instalaciones de la Universidad de Ciencia y Tecnología…",
         sections: &[
             (
@@ -6683,7 +6683,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/Guillermo-Centeno3-1170x658-1.webp",
+        thumbnail: "/assets/real/archive/arch_210.jpg",
         excerpt: "Licenciatura en Oceanografía: Otra buena noticia para una universidad cuyo reto es aplicar los conocimientos impartidos y compartidos al crecimiento integral del país. Guillermo Centeno, químico experto en calidad del agua,…",
         sections: &[
             (
@@ -6712,7 +6712,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/Yoyna-Rivas2-1170x657-1.webp",
+        thumbnail: "/assets/real/archive/arch_211.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán se levanta en los Altos de Pipe, compartiendo la misma montaña donde se ubica el Instituto Venezolano de Investigaciones Científicas –IVIC–. La naturaleza la…",
         sections: &[
             (
@@ -6741,7 +6741,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de julio de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/4922783200351203027.jpg",
+        thumbnail: "/assets/real/archive/arch_212.jpg",
         excerpt: "En un paso decisivo hacia el desarrollo e internacionalización de la educación universitaria venezolana, la rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC),Gabriela Jiménez Ramírez, suscribió…",
         sections: &[
             (
@@ -6764,7 +6764,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "29 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/Sin-titulo4.jpeg",
+        thumbnail: "/assets/real/archive/arch_213.jpg",
         excerpt: "La agenda de trabajo de la delegación de Venezuela para ampliar las relaciones estratégicas en materia de ciencia y tecnología, continúa este martes en la ciudad de Shenzhen, República Popular…",
         sections: &[
             (
@@ -6788,7 +6788,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de julio de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/2147483648_-217516.jpg",
+        thumbnail: "/assets/real/archive/arch_214.jpg",
         excerpt: "Este sábado, la ministra del Poder Popular para Ciencia y Tecnología de Venezuela, Gabriela Jiménez Ramírez, participó en la Conferencia Mundial de IA 2025 y la Reunión de Alto Nivel sobre Gobernanza Global de IA, que se realiza…",
         sections: &[
             (
@@ -6813,7 +6813,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/Raul-Cedeno2-1170x780-1.webp",
+        thumbnail: "/assets/real/archive/arch_215.jpg",
         excerpt: "Doctor en Química y especialista en Proteómica, este carupanero con casi quince años dedicados a la investigación es el jefe de la Unidad de Planificación para la Formación Continua de la Universidad Nacional de las Ciencias “Dr.…",
         sections: &[
             (
@@ -6842,7 +6842,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de julio de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/Inteligencia-artificial-.jpg",
+        thumbnail: "/assets/real/archive/arch_216.jpg",
         excerpt: "La Inteligencia Artificial (IA) se desarrolla aceleradamente en el mundo y es reconocida como una avanzada tecnología con el potencial de generar soluciones y transformar sectores como la salud, la educación, la agricultura y la…",
         sections: &[
             (
@@ -6871,7 +6871,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/224A8393-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_217.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) abrió sus puertas para recibir a 300 estudiantes de diferentes instituciones educativas del país que participaron en la Primera Olimpiada Venezolana…",
         sections: &[
             (
@@ -6898,7 +6898,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de julio de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_4907114876187553722_y.jpeg",
+        thumbnail: "/assets/real/archive/arch_218.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, arribó este viernes a Shanghai, República Popular China, para participar en la Conferencia Mundial de IA 2025 y la Reunión de Alto Nivel sobre la Gobernanza Global…",
         sections: &[
             (
@@ -6922,7 +6922,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_2025-07-22_10-27-17-2.jpg",
+        thumbnail: "/assets/real/archive/arch_219.jpg",
         excerpt: "La Vicepresidencia Sectorial de Ciencia, Tecnología, Ecosocialismo y Salud revisó la estrategia para asistir a las comunidades afectadas por las recientes lluvias que han golpeado varias zonas del…",
         sections: &[
             (
@@ -6949,7 +6949,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_2025-07-22_13-43-51.jpg",
+        thumbnail: "/assets/real/archive/arch_220.jpg",
         excerpt: "Recientemente, el neurocientífico Jonathan Benito lanzó una frase que quizá sea una provocación en el ámbito científico: «El mayor descubrimiento de la neurociencia es lo poco que sabemos sobre el…",
         sections: &[
             (
@@ -6978,7 +6978,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/FrancyCuevas1-1024x682-1.webp",
+        thumbnail: "/assets/real/archive/arch_221.jpg",
         excerpt: "Francy Sulgey Cuevas fue la primera de su familia en estudiar en la universidad. Tiene casi la mitad de su vida dedicada a la tecnología y la docencia. En la naciente UNC le ha tocado una singular faena: sorprender a los…",
         sections: &[
             (
@@ -7007,7 +7007,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/JoseRomeroLosacco6-1024x682-1.webp",
+        thumbnail: "/assets/real/archive/arch_222.jpg",
         excerpt: "José Romero Losacco, antropólogo graduado en la Universidad Central de Venezuela –UCV– es investigador del Centro de Estudio de Transformaciones Sociales, en el Instituto de Investigaciones Científicas –IVIC–. Y ahora es también…",
         sections: &[
             (
@@ -7036,7 +7036,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_2025-07-18_20-15-51.jpg",
+        thumbnail: "/assets/real/archive/arch_223.jpg",
         excerpt: "Como respuesta a la demanda de una Venezuela que requiere reinventarse desde la ciencia y el conocimiento, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) se constituye como una institución llamada a…",
         sections: &[
             (
@@ -7065,7 +7065,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/1752676645822-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_224.jpg",
         excerpt: "Estudiantes del Curso de Acompañamiento a la Iniciación Universitaria (CAIU) que lleva a cabo la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán realizaron una ofrenda floral en el Panteón Nacional, como…",
         sections: &[
             (
@@ -7088,7 +7088,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_5174690561339273228_y.jpg",
+        thumbnail: "/assets/real/archive/arch_225.jpg",
         excerpt: "Las autoridades de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) sostuvieron este jueves una reunión para revisar la agenda de trabajo y fortalecer el plan de estudio que se ofrece en la institución,…",
         sections: &[
             (
@@ -7112,7 +7112,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "15 de julio de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_5163742114176151434_y.jpg",
+        thumbnail: "/assets/real/archive/arch_226.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro, anunció este lunes los planes de Venezuela para desarrollar su propia Inteligencia Artificial (IA), impulsada por las alianzas estratégicas que el Gobierno Bolivariano mantiene con…",
         sections: &[
             (
@@ -7135,7 +7135,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/Rosalba-Rodriguez01-1170x658-1.jpg",
+        thumbnail: "/assets/real/archive/arch_227.jpg",
         excerpt: "Si alguien quería saber algo sobre cualquier tema tenía que acercarse a los libros y periódicos, a los profesores y profesoras, a ver si obtenía alguna respuesta, porque el internet no existía y por ende el acceso a la…",
         sections: &[
             (
@@ -7164,7 +7164,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/Yatzaira11-1-1024x682-1.webp",
+        thumbnail: "/assets/real/archive/arch_228.jpg",
         excerpt: "La profesora Yatzaira Fragozo nació en 1979 en las inmediaciones de lo que fue un campo petrolero (La Concepción, estado Zulia, justo al lado de Maracaibo). Su título universitario informa que es licenciada en Filosofía por la…",
         sections: &[
             (
@@ -7193,7 +7193,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/IMG-20240410-WA0069-2.jpg",
+        thumbnail: "/assets/real/archive/arch_332.jpg",
         excerpt: "Con el firme propósito de consolidar la generación de conocimiento como motor del desarrollo nacional, el presidente de la República Bolivariana de Venezuela, Nicolás Maduro Moros, decretó en 2024 la creación de la Gran Misión…",
         sections: &[
             (
@@ -7222,7 +7222,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_5149981751924338370_y.jpg",
+        thumbnail: "/assets/real/archive/arch_230.jpg",
         excerpt: "Este jueves, en el auditorio de la Fundación Instituto de Ingeniería para Investigación y Desarrollo Tecnológico (FIIIDT), la vicepresidenta sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez,…",
         sections: &[
             (
@@ -7251,7 +7251,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/5028516765373673187.jpg",
+        thumbnail: "/assets/real/archive/arch_231.jpg",
         excerpt: "En el marco del Curso de Acompañamiento de Iniciación Universitaria, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) realizó una charla formativa centrada en los principios y valores fundamentales del…",
         sections: &[
             (
@@ -7277,7 +7277,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/5145647623116533264.jpg",
+        thumbnail: "/assets/real/archive/arch_232.jpg",
         excerpt: "Desde el pasado lunes 30 de junio, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) abrió el segundo proceso de postulación 2025, como parte del Sistema Nacional de Ingreso, en el que participan 175…",
         sections: &[
             (
@@ -7298,7 +7298,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de julio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_5145512752553505375_y.jpg",
+        thumbnail: "/assets/real/archive/arch_233.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, en compañía de los integrantes del Consejo Directivo, revisó el programa para recibir a los bachilleres que serán…",
         sections: &[
             (
@@ -7321,7 +7321,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de julio de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/5138616572674420205.jpg",
+        thumbnail: "/assets/real/archive/arch_234.jpg",
         excerpt: "La Feria Internacional del Libro de Venezuela (FILVEN) 2025 se celebra a casa llena en la Galería de Arte Nacional, atrayendo a cientos de venezolanos ávidos de explorar el cautivador mundo de la lectura. Con más de 600…",
         sections: &[
             (
@@ -7346,7 +7346,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_6004772568445335957_w.jpg",
+        thumbnail: "/assets/real/archive/arch_235.jpg",
         excerpt: "El Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt) participa en la Gran Expo China y Venezuela que tiene lugar en el Parque Simón Bolívar de La Carlota, estado…",
         sections: &[
             (
@@ -7374,7 +7374,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/5141025061484998150.jpg",
+        thumbnail: "/assets/real/archive/arch_236.jpg",
         excerpt: "Esta semana, una investigación española presentada en el congreso de la Sociedad Europea de Reproducción Humana y Embriología (ESHRE) determinó la presencia de polímeros plásticos en el 69% de las muestras de fluido folicular…",
         sections: &[
             (
@@ -7403,7 +7403,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de julio de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/14_ZC__0887_P-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_237.jpg",
         excerpt: "Los Gobiernos de Venezuela y China firmaron el pasado 4 de julio en Caracas tres nuevos acuerdos en áreas técnicas, económicas e inteligencia artificial, en el marco de los 51 años de relaciones…",
         sections: &[
             (
@@ -7432,7 +7432,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/5139100898956521790_11zon.webp",
+        thumbnail: "/assets/real/archive/arch_238.jpg",
         excerpt: "En el centenario de su nacimiento, el nombre del Dr. Humberto Fernández-Morán cobra renovada fuerza en Venezuela como símbolo de un país que reafirma su apuesta por la ciencia, la innovación y la soberanía tecnológica.…",
         sections: &[
             (
@@ -7461,7 +7461,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "3 de julio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/IMG_0779-2-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_239.jpg",
         excerpt: "Con el objetivo de consolidar los valores fundacionales de la comunidad académica, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) celebró una jornada formativa dedicada a la convivencia y el manejo de…",
         sections: &[
             (
@@ -7485,7 +7485,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "3 de julio de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_5127564049863783632_y.jpg",
+        thumbnail: "/assets/real/archive/arch_240.jpg",
         excerpt: "La vicepresidenta sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez, sostuvo este miércoles una reunión con Jin Lin, representante de la empresa china iFLYTEK, con el objetivo de fortalecer la…",
         sections: &[
             (
@@ -7513,7 +7513,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de julio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/07/photo_2025-07-01_14-39-22-e1751406249193-1.jpg",
+        thumbnail: "/assets/real/archive/arch_241.jpg",
         excerpt: "Un grupo de científicos e investigadores venezolanos finalizaron con éxito el Seminario Internacional de Innovación, celebrada en Shanghái, República Popular China, informó la vicepresidenta Sectorial de Ciencia, Tecnología,…",
         sections: &[
             (
@@ -7537,7 +7537,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/expoferia-foto1.jpeg",
+        thumbnail: "/assets/real/archive/arch_242.jpg",
         excerpt: "Con una propuesta académica orientada al desarrollo del país, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán continúa acercando innovadoras carreras a la juventud venezolana con su participación en la…",
         sections: &[
             (
@@ -7588,7 +7588,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/224A5212-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_243.jpg",
         excerpt: "Si ya te inscribiste en el Sistema Nacional de Ingreso 2025 (SNI) y quieres formar parte de la Universidad Nacional de las Ciencias Dr. Humberto Fernández -Morán (UNC), desde este lunes 30 de junio, una de las 175 instituciones…",
         sections: &[
             (
@@ -7617,7 +7617,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/IMG_3305.jpg",
+        thumbnail: "/assets/real/archive/arch_244.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro, entregó este viernes la mención especial de periodismo en docencia e investigación, correspondiente al Premio Nacional de Periodismo Simón Bolívar, a la Dra. Gloria Carvalho por el…",
         sections: &[
             (
@@ -7644,7 +7644,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_2025-06-27_18-51-15.jpg",
+        thumbnail: "/assets/real/archive/arch_245.jpg",
         excerpt: "Un grupo de aspirantes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) realizó una visita guiada a los centros y laboratorios del Instituto Venezolano de Investigaciones Científicas (IVIC), como…",
         sections: &[
             (
@@ -7671,7 +7671,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5114170542243557053_y.jpg",
+        thumbnail: "/assets/real/archive/arch_246.jpg",
         excerpt: "Un grupo de científicos e investigadores venezolanos se encuentran en la República Popular China, para participar en el Seminario Internacional de Innovación Tecnológica, que se celebra en…",
         sections: &[
             (
@@ -7696,7 +7696,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/IMG_6805-1024x683-1.jpg",
+        thumbnail: "/assets/real/archive/arch_247.jpg",
         excerpt: "Como parte del cronograma de la competencia, los 300 semilleros científicos destacados del país que participan en la fase final de las Olimpiadas Venezolanas de Astronomía (OVA) realizaron un recorrido por la Universidad Nacional…",
         sections: &[
             (
@@ -7720,7 +7720,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5109847541696015796_y.jpg",
+        thumbnail: "/assets/real/archive/arch_248.jpg",
         excerpt: "La vicepresidenta sectorial para Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez, sostuvo hoy una reunión con los trabajadores del sector científico tecnológico para desarrollar las nuevas estrategias que…",
         sections: &[
             (
@@ -7746,7 +7746,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5107397533436587866_y.jpg",
+        thumbnail: "/assets/real/archive/arch_249.jpg",
         excerpt: "Como parte del Curso de Acompañamiento de Iniciación Universitaria de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), se dictó en el Auditorio del Instituto Venezolano de Investigaciones Científicas…",
         sections: &[
             (
@@ -7773,7 +7773,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5107644455401402553_y.jpg",
+        thumbnail: "/assets/real/archive/arch_250.jpg",
         excerpt: "Con entusiasmo y mucha emoción, 300 jóvenes del Programa Nacional Semilleros Científicos, provenientes de toda Venezuela, participaron de la tercera y última fase de las primeras Olimpiadas Venezolanas de Astronomía (OVA…",
         sections: &[
             (
@@ -7802,7 +7802,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5107595741882330752_y.jpg",
+        thumbnail: "/assets/real/archive/arch_251.jpg",
         excerpt: "La vicepresidenta sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez, sostuvo este miércoles un encuentro con el Embajador de la República Islámica de Irán, Ali Chegini, con el objetivo de revisar…",
         sections: &[
             (
@@ -7824,7 +7824,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5107085731695800365_y-1.jpg",
+        thumbnail: "/assets/real/archive/arch_252.jpg",
         excerpt: "El Sistema Nacional de Ciencia y Tecnología abordó este miércoles el impacto de la geopolítica mundial en un encuentro realizado en las instalaciones del Ministerio del Poder Popular para Ciencia y Tecnología, donde también…",
         sections: &[
             (
@@ -7853,7 +7853,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/IMG_2894-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_253.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán (UNC) participó este jueves 19 de junio, en la ExpoFeria de Oportunidades de Estudio 2025 en la ciudad de Los Teques en el estado Miranda, jóvenes del último…",
         sections: &[
             (
@@ -7878,7 +7878,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/matematicas-1-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_254.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) continúa con el curso de Acompañamiento de Iniciación Universitaria, desarrollando su ciclo de clases sobre Introducción al Lenguaje y Razonamiento…",
         sections: &[
             (
@@ -7906,7 +7906,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_2025-06-18_20-01-42.jpg",
+        thumbnail: "/assets/real/archive/arch_255.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán arrancó este miércoles con las charlas “Vida en la UNC: Una experiencia que recién comienza” con el objetivo de sensibilizar desde la motivación, toda aquella…",
         sections: &[
             (
@@ -7931,7 +7931,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "18 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/Foto-La-Guaira-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_256.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández‑Morán (UNC) recibe a estudiantes de la Escuela Técnica Industrial “Prof. Carlos Fiol”, de la parroquia Catia La Mar, estado La Guaira, la misma permitió a los jóvenes…",
         sections: &[
             (
@@ -7960,7 +7960,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/Imagen-PNG.png",
+        thumbnail: "/assets/real/archive/arch_257.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro informó sobre la activación este lunes del Sistema Nacional de Ingreso (SNI), invitando a la juventud al estudio de carreras para impulsar el aparato productivo de la…",
         sections: &[
             (
@@ -7989,7 +7989,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/nota-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_258.jpg",
         excerpt: "Con el firme propósito de fomentar la vocación científica en los jóvenes y fortalecer las competencias en áreas clave del conocimiento, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) llevó a cabo la…",
         sections: &[
             (
@@ -8015,7 +8015,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/230A1539-1-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_279.jpg",
         excerpt: "Este 16 de junio se celebra el Día Internacional de la Biotecnología una de las carreras de innovación que acompaña a la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán en este proyecto que ayuda a la…",
         sections: &[
             (
@@ -8041,7 +8041,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_2025-06-16_11-49-32.jpg",
+        thumbnail: "/assets/real/archive/arch_260.jpg",
         excerpt: "Este lunes, inició en todo el país el registro de los bachilleres en el Sistema Nacional de Ingreso (SNI), un proceso gratuito impulsado por el Gobierno Nacional, a través del Ministerio para Educación, para garantizar un cupo…",
         sections: &[
             (
@@ -8067,7 +8067,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de junio de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_2025-06-16_13-48-15-2.jpg",
+        thumbnail: "/assets/real/archive/arch_261.jpg",
         excerpt: "La vicepresidenta Sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez, sostuvo un encuentro con el embajador de la República Popular China en Venezuela, Lan Hu, para fortalecer los lazos de…",
         sections: &[
             (
@@ -8091,7 +8091,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "16 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5075888656920719085_y.jpg",
+        thumbnail: "/assets/real/archive/arch_262.jpg",
         excerpt: "La vicepresidenta sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez, presentó este sábado 14 de junio los principios para la Agenda Concreta de Acción (ACA) en materia de ecosocialismo, ciencia y…",
         sections: &[
             (
@@ -8120,7 +8120,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/Artboard-4-1-scaled-1.png",
+        thumbnail: "/assets/real/archive/arch_263.jpg",
         excerpt: "La segunda edición de la revista Ciencia para la vida, una ventana a la innovación tecnológica en Venezuela, del Ministerio para Ciencia y Tecnología (Mincyt), presenta el futuro de la innovación y la educación que se promueve en…",
         sections: &[
             (
@@ -8145,7 +8145,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "13 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/IMG_2181-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_264.jpg",
         excerpt: "La vicepresidenta Ejecutiva de la República, Delcy Rodríguez, anunció que el próximo 16 de junio inicia el proceso de registro en el Sistema Nacional de Ingreso (SNI) a las universidades del…",
         sections: &[
             (
@@ -8171,7 +8171,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5071137345054551788_y.jpg",
+        thumbnail: "/assets/real/archive/arch_265.jpg",
         excerpt: "La Expoferia de Oportunidades de Estudio 2025, que arrancó este miércoles en diferentes estados del país, registró un incremento de más de 94% de participación en comparación con el año anterior, indicó este jueves la…",
         sections: &[
             (
@@ -8200,7 +8200,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/Imagen-nota-3-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_266.jpg",
         excerpt: "En el marco del Curso de Acompañamiento de Iniciación Universitaria, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) imparte el módulo Introducción al Lenguaje y Razonamiento Lógico-Matemático a…",
         sections: &[
             (
@@ -8222,7 +8222,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5066926254174875074_y.jpg",
+        thumbnail: "/assets/real/archive/arch_267.jpg",
         excerpt: "La ExpoFeria de Oportunidades de Estudio 2025, que abarcará municipios y liceos de los 25 estados del país, le abre las puertas por primera vez a la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán con la…",
         sections: &[
             (
@@ -8245,7 +8245,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/Sin-titulo444444444.jpeg",
+        thumbnail: "/assets/real/archive/arch_268.jpg",
         excerpt: "Desde el estado Sucre, la ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, acompaña la Expoferia de Oportunidades de Estudios 2025, un espacio para conocer la oferta académica que brindan las universidades del…",
         sections: &[
             (
@@ -8269,7 +8269,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/Sin-titulo.jpeg",
+        thumbnail: "/assets/real/archive/arch_269.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, conjuntamente con la gobernadora del estado Sucre, Johanna Carrillo, cumplen agenda de trabajo para la juventud en el estado…",
         sections: &[
             (
@@ -8291,7 +8291,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/PORTADA-1.jpg",
+        thumbnail: "/assets/real/archive/arch_270.jpg",
         excerpt: "Este martes se anunció el inicio de las Feria de Oportunidades de Estudio 2025, que se desplegarán en todo el país a partir del miércoles, como herramienta para estimular y apoyar a los estudiantes en la selección de carreras…",
         sections: &[
             (
@@ -8315,7 +8315,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_2025-06-10_15-33-42-2.jpg",
+        thumbnail: "/assets/real/archive/arch_271.jpg",
         excerpt: "Más de 400 jóvenes estudiantes de todo el país disfrutaron hoy de una visita a las instalaciones del Instituto Venezolano de Investigaciones Científicas (IVIC) y de la Universidad Nacional de las Ciencias Dr. Humberto…",
         sections: &[
             (
@@ -8344,7 +8344,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/logo-expo-feria-de-oportunidades.png",
+        thumbnail: "/assets/real/archive/arch_272.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán se une a la Expo Feria de Oportunidades de Estudios 2025 los días miércoles 11 y jueves 12 de junio en los 25 estados del país, donde los futuros bachilleres…",
         sections: &[
             (
@@ -8366,7 +8366,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "6 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/IMG_1458.jpg",
+        thumbnail: "/assets/real/archive/arch_273.jpg",
         excerpt: "Autoridades del Ministerio del Poder Popular para la Educación Universitaria (MPPEU) visitaron este jueves 5 de junio la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán como parte del recibimiento de los más de…",
         sections: &[
             (
@@ -8389,7 +8389,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de junio de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/Foto-Nota-De-prensa-04-06-2025.jpg",
+        thumbnail: "/assets/real/archive/arch_274.jpg",
         excerpt: "En el marco del Curso de Acompañamiento de Iniciación Universitaria, la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán dio inicio al curso de Introducción al Lenguaje y Razonamiento Lógico-Matemático, bajo una…",
         sections: &[
             (
@@ -8412,7 +8412,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "3 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5042154231431278380_y.jpg",
+        thumbnail: "/assets/real/archive/arch_275.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro resaltó este lunes el compromiso de la comunidad científica, integrada por más de 60 mil investigadores e investigadoras, para formar a las nuevas generaciones del…",
         sections: &[
             (
@@ -8437,7 +8437,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de junio de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5039657777395510963_y.jpg",
+        thumbnail: "/assets/real/archive/arch_276.jpg",
         excerpt: "Este lunes 2 de junio, más de 500 jóvenes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán dieron inicio de manera presencial al Curso de Acompañamiento a la Iniciación Universitaria (CAIU) enfocada en las…",
         sections: &[
             (
@@ -8460,7 +8460,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de junio de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/06/photo_5037601312694447858_y.jpg",
+        thumbnail: "/assets/real/archive/arch_277.jpg",
         excerpt: "En la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán se celebró una misa por el inicio de las actividades académicas en esta casa de estudio, que formará a jóvenes de todo el país en áreas científicas y…",
         sections: &[
             (
@@ -8484,7 +8484,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de mayo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-31_14-44-26.jpg",
+        thumbnail: "/assets/real/archive/arch_278.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán ofreció un ciclo de charlas de inducción dirigidas a sus nuevos estudiantes, marcando así el inicio de una formación académica en una institución comprometida…",
         sections: &[
             (
@@ -8513,7 +8513,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/230A1539-1-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_279.jpg",
         excerpt: "En la Venezuela que resuelve, en esa, donde a su gente le comienzan a germinar las voluntades y la inventiva en pleno contexto de guerra económica se pone a todo dar, aún con casi mil sanciones, aranceles, asedios y cientos de…",
         sections: &[
             (
@@ -8542,7 +8542,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de mayo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-31_13-47-48.jpg",
+        thumbnail: "/assets/real/archive/arch_280.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán y ministra de Ciencia y Tecnología de Venezuela, Gabriela Jiménez Ramírez, firmó con el Instituto Tecnológico de Correos y Telecomunicaciones…",
         sections: &[
             (
@@ -8567,7 +8567,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-31_10-26-18.jpg",
+        thumbnail: "/assets/real/archive/arch_281.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro, destacó este viernes los avances de la ciencia y la tecnología para el desarrollo económico de la…",
         sections: &[
             (
@@ -8594,7 +8594,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de mayo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-30_17-31-06.jpg",
+        thumbnail: "/assets/real/archive/arch_282.jpg",
         excerpt: "En ocasión del inicio del periodo académico 2025 de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, el presidente Nicolás Maduro llamó a los estudiantes de esta casa de estudio a ser protagonistas de la…",
         sections: &[
             (
@@ -8623,7 +8623,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "31 de mayo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-30_18-35-55.jpg",
+        thumbnail: "/assets/real/archive/arch_283.jpg",
         excerpt: "Más de 500 estudiantes de todo el país forman parte de la matrícula de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, que inicia este viernes formalmente las clases, indicó la vicepresidenta Sectorial de…",
         sections: &[
             (
@@ -8650,7 +8650,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de mayo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/IMG_1047.jpeg",
+        thumbnail: "/assets/real/archive/arch_284.jpg",
         excerpt: "Un recorrido por las instalaciones del Instituto de Investigaciones Científicas (IVIC) y la Universidad Nacional de las Ciencias Dr. Humberto Fernández- Morán, realizaron este jueves los más de 20 ponentes que participan en el…",
         sections: &[
             (
@@ -8675,7 +8675,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "29 de mayo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/IMG_1040.jpeg",
+        thumbnail: "/assets/real/archive/arch_285.jpg",
         excerpt: "La vicepresidenta sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez dio la bienvenida a los invitados internacionales y a representantes del sector científico al 1er Congreso Internacional…",
         sections: &[
             (
@@ -8704,7 +8704,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de mayo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-28_13-05-26.jpg",
+        thumbnail: "/assets/real/archive/arch_286.jpg",
         excerpt: "Los jóvenes aspirantes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC), provenientes de todo el país, disfrutaron de una charla magistral ofrecida por la rectora de esta casa de estudios y…",
         sections: &[
             (
@@ -8733,7 +8733,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "27 de mayo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_5161189146960702972_y.jpg",
+        thumbnail: "/assets/real/archive/arch_287.jpg",
         excerpt: "El primer Congreso Internacional Convergencias Científicas para un Futuro Compartido se realizará los días 28, 29 y 30 de mayo en la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, ubicada en las instalaciones…",
         sections: &[
             (
@@ -8757,7 +8757,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_5003767802309488747_y1.jpg",
+        thumbnail: "/assets/real/archive/arch_288.jpg",
         excerpt: "Este lunes 26 de mayo se realizó la fase de Validación de Documentos para los aspirantes seleccionados de los estados Aragua, Carabobo, Cojedes, Guárico, Lara, Portuguesa y Yaracuy, quienes llegaron por primera vez a la sede, y…",
         sections: &[
             (
@@ -8782,7 +8782,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "23 de mayo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_5003889495912852871_y.jpg",
+        thumbnail: "/assets/real/archive/arch_289.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán culminó el proceso de Validación de Documentos de los estados Miranda, Distrito Capital y La Guaira donde se garantizó la vocación científica y productiva del…",
         sections: &[
             (
@@ -8805,7 +8805,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "22 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-22_12-28-00-2.jpg",
+        thumbnail: "/assets/real/archive/arch_290.jpg",
         excerpt: "Las autoridades académicas de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán (UNC) evaluaron los procesos de inscripción y validación de documentos de los jóvenes que estudiarán en esta casa de…",
         sections: &[
             (
@@ -8830,7 +8830,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de mayo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/4997292774038548701.jpg",
+        thumbnail: "/assets/real/archive/arch_291.jpg",
         excerpt: "Estudiantes que arrancarán próximamente el curso de Acompañamiento de Iniciación Universitaria agradecieron al presidente de la República de Venezuela, Nicolás Maduro, y a la rectora y vicepresidenta sectorial de Ciencia,…",
         sections: &[
             (
@@ -8848,7 +8848,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "20 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/4997292774038548714.jpg",
+        thumbnail: "/assets/real/archive/arch_292.jpg",
         excerpt: "Arrancó la 3.ª fase del proceso de Validación de Documentos para los aspirantes que se preparan para estudiar en la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán; estas acciones se realizan como paso final al…",
         sections: &[
             (
@@ -8866,7 +8866,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-17_11-01-27.jpg",
+        thumbnail: "/assets/real/archive/arch_293.jpg",
         excerpt: "Autoridades académicas de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán coordinan actividades y detalles de cara al comienzo del periodo académico de esta casa de…",
         sections: &[
             (
@@ -8891,7 +8891,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de mayo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_2025-05-14_15-56-56.jpg",
+        thumbnail: "/assets/real/archive/arch_294.jpg",
         excerpt: "Jóvenes del interior del país apuestan por la prosperidad y desarrollo de los 13 motores productivos de Venezuela con el apoyo de las carreras científicas que ofrece la Universidad Nacional de las Ciencias Dr. Humberto Fernández…",
         sections: &[
             (
@@ -8918,7 +8918,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/IMG_20250512_091351_089-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_295.jpg",
         excerpt: "Con total éxito arrancó la fase de Exploración Vocacional en el interior del país, donde los aspirantes a la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán tuvieron la oportunidad de presentar sus documentos y…",
         sections: &[
             (
@@ -8945,7 +8945,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_4965297342152552652_y.jpg",
+        thumbnail: "/assets/real/archive/arch_296.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, sostuvo un encuentro con miembros del Sistema Nacional de Ciencia, Tecnología e Innovación, para evaluar la agenda de trabajo que permita fortalecer la promoción…",
         sections: &[
             (
@@ -8968,7 +8968,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de mayo de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_5161189146960702967_y.jpg",
+        thumbnail: "/assets/real/archive/arch_315.jpg",
         excerpt: "Sin límites para estudiar, aspirantes a la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán asumen nuevos desafíos en la era digital, así lo expresaron durante la Exploración Vocacional jóvenes de los estados…",
         sections: &[
             (
@@ -8990,7 +8990,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_4965424073752554918_y.jpg",
+        thumbnail: "/assets/real/archive/arch_298.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán se despliega desde el lunes 12 hasta el miércoles 14 de mayo a nivel nacional, para realizar la fase de Exploración Vocacional a jóvenes que se postularon a…",
         sections: &[
             (
@@ -9012,7 +9012,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de mayo de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_4960768672801074996_y.jpg",
+        thumbnail: "/assets/real/archive/arch_299.jpg",
         excerpt: "Rusia y Venezuela abarcaron puntos claves dentro del acuerdo estratégico que firmaron este miércoles los líderes de ambas naciones en un significativo paso hacia el fortalecimiento de las relaciones bilaterales. Así se dio a…",
         sections: &[
             (
@@ -9033,7 +9033,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de mayo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_4963172273938869636_y1.jpg",
+        thumbnail: "/assets/real/archive/arch_300.jpg",
         excerpt: "De acuerdo a las políticas de estudio de la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán el docente se convertirá en acompañante y tutor académico, para desarrollar las capacidades del estudiante y…",
         sections: &[
             (
@@ -9056,7 +9056,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_4958498602196512215_y.jpg",
+        thumbnail: "/assets/real/archive/arch_301.jpg",
         excerpt: "La vicepresidenta sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez inauguró la exposición sobre la vida y obra del Dr. Humberto Fernández-Morán en las instalaciones de la Biblioteca Central de la…",
         sections: &[
             (
@@ -9083,7 +9083,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "6 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_4961056427019973001_y-1.jpg",
+        thumbnail: "/assets/real/archive/arch_302.jpg",
         excerpt: "Como parte de los desafíos de la Universidad Nacional de las Ciencias autoridades académicas aseguran que desean continuar con el legado del epónimo Humberto Fernández Morán, aprender a realizar estudios e investigaciones con la…",
         sections: &[
             (
@@ -9107,7 +9107,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "6 de mayo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/photo_4961056427019972996_y.jpg",
+        thumbnail: "/assets/real/archive/arch_303.jpg",
         excerpt: "Bachilleres y profesores iniciaron el proceso de Exploración Vocacional y el Taller de Capacitación Docente de la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán lo que permitirá garantizar la siembra y…",
         sections: &[
             (
@@ -9134,7 +9134,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "5 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/IMG_0072-1.jpg",
+        thumbnail: "/assets/real/archive/arch_304.jpg",
         excerpt: "Futuros profesionales de las regiones Miranda, Distrito Capital y La Guaira dieron inicio este lunes 5 de mayo al programa de Exploración Vocacional de Aspirantes de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-…",
         sections: &[
             (
@@ -9159,7 +9159,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de mayo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/05/IMG_9910-2.jpeg",
+        thumbnail: "/assets/real/archive/arch_305.jpg",
         excerpt: "A partir de este 2 de mayo, los aspirantes para estudiar en la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán podrán encontrar en nuestra página web el listado y cronograma de quienes acudirán a la segunda…",
         sections: &[
             (
@@ -9180,7 +9180,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "30 de abril de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/89518c04-0c80-4152-81e6-a7b7d83734b6.jpg",
+        thumbnail: "/assets/real/archive/arch_306.jpg",
         excerpt: "El presidente de la República Bolivariana de Venezuela, Nicolás Maduro, destacó la importancia de avanzar en los planes de cooperación educativa Venezuela-Granada, donde invitó a los estudiantes y científicos de este país a que…",
         sections: &[
             (
@@ -9201,7 +9201,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de abril de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_2025-04-25_19-49-31.jpg",
+        thumbnail: "/assets/real/archive/arch_307.jpg",
         excerpt: "La ministra para Ciencia y Tecnología, Gabriela Jiménez Ramírez, presentó este viernes un balance de los proyectos de investigación científica, de innovación y tecnología al Consejo Científico…",
         sections: &[
             (
@@ -9227,7 +9227,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "26 de abril de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_2025-04-25_19-28-54-1.jpg",
+        thumbnail: "/assets/real/archive/arch_308.jpg",
         excerpt: "En un encuentro histórico que reafirma el compromiso entre la Universidad Nacional de las Ciencias Dr. Humberto Fernández Morán y miembros de la Alianza Bolivariana para los Pueblos de Nuestra América (ALBA-TCP), así como del…",
         sections: &[
             (
@@ -9249,7 +9249,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "25 de abril de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_2025-03-25_15-53-3788888888888.jpg",
+        thumbnail: "/assets/real/archive/arch_309.jpg",
         excerpt: "Con el lanzamiento de la Gran Misión Ciencia, Tecnología e Innovación Dr. Humberto Fernández-Morán, Venezuela rompe los paradigmas tradicionales y coloca la ciencia al servicio de las comunidades para fortalecer el aparato…",
         sections: &[
             (
@@ -9277,7 +9277,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "24 de abril de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_2025-04-24_08-25-38.jpg",
+        thumbnail: "/assets/real/archive/arch_310.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro, realizó este miércoles un conjunto de anuncios para potenciar la ciencia y la tecnología en el país, a propósito de celebrar el primer aniversario del lanzamiento de la Gran Misión…",
         sections: &[
             (
@@ -9306,7 +9306,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "24 de abril de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_2025-04-23_17-34-23.jpg",
+        thumbnail: "/assets/real/archive/arch_311.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro, presentó este miércoles avances significativos de la Gran Misión Ciencia, Tecnología e Innovación Dr. Humberto Fernández-Morán, a propósito de conmemorarse el primer aniversario de…",
         sections: &[
             (
@@ -9334,7 +9334,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de abril de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/2222222222222er_2.jpg",
+        thumbnail: "/assets/real/archive/arch_312.jpg",
         excerpt: "Hoy lunes 21 de abril, celebramos el Día Mundial de la Creatividad y la Innovación, tiempos donde se necesitan, más que nunca, mujeres y hombres creativos e innovadores, con habilidades y conocimientos necesarios para desempeñar…",
         sections: &[
             (
@@ -9358,7 +9358,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "12 de abril de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/224A5345-1-scaled.jpg",
+        thumbnail: "/assets/real/archive/arch_313.jpg",
         excerpt: "Este viernes, autoridades del Consejo Directivo Provisional de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, por instrucciones de su rectora y vicepresidenta sectorial de Ciencia, Tecnología, Ecosocialismo…",
         sections: &[
             (
@@ -9386,7 +9386,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "11 de abril de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/1215MG__5768_P_W-1.jpg",
+        thumbnail: "/assets/real/archive/arch_314.jpg",
         excerpt: "Este jueves, el presidente de la República Bolivariana de Venezuela, Nicolás Maduro Moros, celebró el primer año de la Gran Misión Ciencia, Tecnología e Innovación Dr. Humberto Fernández–Morán, creada con el objetivo de acompañar…",
         sections: &[
             (
@@ -9409,7 +9409,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "9 de abril de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_5161189146960702967_y.jpg",
+        thumbnail: "/assets/real/archive/arch_315.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, durante su podcast Con Ciencia +Vida, habló de las Medidas Coercitivas Unilaterales (MCU) y cómo han querido limitar la…",
         sections: &[
             (
@@ -9431,7 +9431,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "8 de abril de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_2025-04-08_09-03-37-1.jpg",
+        thumbnail: "/assets/real/archive/arch_316.jpg",
         excerpt: "En un nuevo episodio del podcast Con Ciencia + Vida, la rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, promovió el uso de la página web de la universidad para que los…",
         sections: &[
             (
@@ -9460,7 +9460,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de abril de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_5105129524416327455_y.jpg",
+        thumbnail: "/assets/real/archive/arch_317.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán cuenta con página web para conocer todo el proceso académico; así lo informó la rectora de la Universidad Nacional de las Ciencias Dr. Humberto…",
         sections: &[
             (
@@ -9485,7 +9485,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "6 de abril de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/photo_5154635026867006955_y-1.jpg",
+        thumbnail: "/assets/real/archive/arch_318.jpg",
         excerpt: "Desde la Galería de Arte Nacional se realizó el Lanzamiento del Fondo Editorial del Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt) con el objetivo de seguir promoviendo el conocimiento científico…",
         sections: &[
             (
@@ -9514,7 +9514,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de abril de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/22.jpg",
+        thumbnail: "/assets/real/archive/arch_319.jpg",
         excerpt: "Autoridades del Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt) y de la Universidad de Carabobo, suscribieron una serie de acuerdos para impulsar la investigación científica, tecnológica y la…",
         sections: &[
             (
@@ -9537,7 +9537,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "4 de abril de 2025",
         author: "Prensa UNC",
         category: "Cooperación Internacional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/1.jpg",
+        thumbnail: "/assets/real/archive/arch_320.jpg",
         excerpt: "La vicepresidenta Sectorial de Ciencia, Tecnología, Ecosocialismo y Salud, Gabriela Jiménez Ramírez, sostuvo una reunión con el embajador de la Federación de Rusia en Venezuela, Sergey Mélik-Bagdasárov, para revisar la agenda de…",
         sections: &[
             (
@@ -9564,7 +9564,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "2 de abril de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/04/946ab822-c9af-430f-a59b-807147cf7063.jpeg",
+        thumbnail: "/assets/real/archive/arch_321.jpg",
         excerpt: "La agenda de cooperación entre Venezuela y México avanza a pasos firmes en materia de ciencia y tecnología, con el propósito de profundizar el desarrollo de los pueblos y enfrentar juntos los desafíos de la nueva Era…",
         sections: &[
             (
@@ -9586,7 +9586,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de marzo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/photo_5102873300786327287_y.jpg",
+        thumbnail: "/assets/real/archive/arch_322.jpg",
         excerpt: "Con mucha alegría y entusiasmo, las autoridades del Consejo Directivo Provisional de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, por instrucciones de su rectora y vicepresidenta sectorial de Ciencia,…",
         sections: &[
             (
@@ -9612,7 +9612,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de marzo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/44444-1.jpeg",
+        thumbnail: "/assets/real/archive/arch_323.jpg",
         excerpt: "La Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán arrancará el mes de mayo el proceso de formación académica; informó el presidente de la República de Venezuela, Nicolás Maduro, durante el acto de honor por el…",
         sections: &[
             (
@@ -9636,7 +9636,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de marzo de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/photo_5098271342112910599_y.jpg",
+        thumbnail: "/assets/real/archive/arch_324.jpg",
         excerpt: "La Asamblea Nacional aprobó por unanimidad el acuerdo que confiere los honores para el ingreso al Panteón Nacional del ilustre venezolano, Dr. Humberto…",
         sections: &[
             (
@@ -9658,7 +9658,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de marzo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/photo_5098575713560276678_y.jpg",
+        thumbnail: "/assets/real/archive/arch_325.jpg",
         excerpt: "El presidente de la República Bolivariana de Venezuela, Nicolás Maduro, recordó este lunes el legado del científico venezolano Humberto Fernández-Morán, prolífico médico, biofísico e inventor de la cuchilla de diamante, al…",
         sections: &[
             (
@@ -9680,7 +9680,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de marzo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/photo_5094042749241503205_y.jpg",
+        thumbnail: "/assets/real/archive/arch_326.jpg",
         excerpt: "Las Autoridades Institucionales de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán rindieron homenaje al Doctor Humberto Fernández-Morán, reivindicando su memoria y legado como uno de los más grandes…",
         sections: &[
             (
@@ -9705,7 +9705,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "14 de marzo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/a31e7c11-2422-47ff-8dc4-334a8c55456e.jpeg",
+        thumbnail: "/assets/real/archive/arch_327.jpg",
         excerpt: "En un emotivo acto histórico y cultural, hoy se realizaron los trabajos de exhumación del mausoleo familiar donde reposan los restos del Dr. Humberto Fernández-Morán, un destacado científico venezolano que será traslado al…",
         sections: &[
             (
@@ -9731,7 +9731,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de marzo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/photo_5077971088994054188_y.jpg",
+        thumbnail: "/assets/real/archive/arch_328.jpg",
         excerpt: "La rectora de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán, Gabriela Jiménez Ramírez, presidió este lunes la sesión ordinaria del Consejo Directivo Provisional con el objetivo de dictar las normas para la…",
         sections: &[
             (
@@ -9754,7 +9754,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "10 de marzo de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/adriana-flores-2-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_329.jpg",
         excerpt: "Con el pasar de los tiempos, la mujer venezolana ha tenido un papel protagónico en la investigación y el desarrollo tecnológico; por eso, este 8 de marzo, Día Internacional de la Mujer, la Universidad Nacional de las Ciencias Dr.…",
         sections: &[
             (
@@ -9783,7 +9783,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de marzo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/1111111.jpeg",
+        thumbnail: "/assets/real/archive/arch_330.jpg",
         excerpt: "La variedad de recursos y opciones que ofrece la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán en pro del bienestar y desarrollo de los futuros profesionales del país, es un esfuerzo del presidente de la…",
         sections: &[
             (
@@ -9806,7 +9806,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "7 de marzo de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/03/c5c24030-40b5-41ee-939d-6bb0091b41e1.jpeg",
+        thumbnail: "/assets/real/archive/arch_331.jpg",
         excerpt: "La vicepresidenta Sectorial de Ciencia, Tecnología y Salud, Gabriela Jiménez Ramírez, manifestó este jueves 6 de marzo la necesidad de territorializar la ciencia en todos sus niveles para avanzar hacia la transformación del…",
         sections: &[
             (
@@ -9834,7 +9834,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "28 de febrero de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/IMG-20240410-WA0069-2.jpg",
+        thumbnail: "/assets/real/archive/arch_332.jpg",
         excerpt: "Con el objetivo de incentivar la cultura científica, tecnológica y de innovación como elementos para consagrar la Venezuela Potencia con talento 100 por ciento nacional, en abril del 2024 el presidente de la República Bolivariana…",
         sections: &[
             (
@@ -9859,7 +9859,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "24 de febrero de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/alberto_quintero2-1.png",
+        thumbnail: "/assets/real/archive/arch_333.jpg",
         excerpt: "En un esfuerzo por impulsar la ciencia, la tecnología y la innovación en Venezuela, la Universidad Nacional de las Ciencias “Dr. Humberto Fernández-Morán” (UNC) presenta una novedosa propuesta formativa a través de carreras de…",
         sections: &[
             (
@@ -9877,7 +9877,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de febrero de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/photo_5105129524416327445_y-1.jpg",
+        thumbnail: "/assets/real/archive/arch_334.jpg",
         excerpt: "La Universidad Nacional de las Ciencias «Dr. Humberto Fernández-Morán» ofrece una educación de calidad, impartida con programas adaptados, para una formación de excelencia que abarca licenciaturas científicas y tecnológicas con…",
         sections: &[
             (
@@ -9900,7 +9900,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "21 de febrero de 2025",
         author: "Prensa UNC",
         category: "Vida Académica",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/photo_5105129524416327456_y.jpg",
+        thumbnail: "/assets/real/archive/arch_335.jpg",
         excerpt: "La Universidad Nacional de las Ciencias «Dr. Humberto Fernández -Morán» te ofrece carreras en el área de Ingeniería, basadas en el uso de los conocimientos científicos para transformar ideas en…",
         sections: &[
             (
@@ -9922,7 +9922,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de febrero de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/photo_5019442019168267491_y.jpg",
+        thumbnail: "/assets/real/archive/arch_336.jpg",
         excerpt: "En un esfuerzo por reivindicar la memoria histórica y celebrar el legado de uno de los científicos más destacados de Venezuela, el Ministerio del Poder Popular para Ciencia y Tecnología (Mincyt) estrenó hoy la película «Ciencia…",
         sections: &[
             (
@@ -9949,7 +9949,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "19 de febrero de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/photo_5105129524416327445_y.jpg",
+        thumbnail: "/assets/real/archive/arch_337.jpg",
         excerpt: "El presidente de la República Bolivariana de Venezuela, Nicolás Maduro Moros, inauguró este miércoles 12 de diciembre, la Universidad Nacional de las Ciencias Dr. Humberto Fernández – Morán, que cuenta con una oferta académica a…",
         sections: &[
             (
@@ -9978,7 +9978,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de febrero de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/1-3555555.jpg",
+        thumbnail: "/assets/real/archive/arch_338.jpg",
         excerpt: "La vicepresidenta sectorial de Ciencia, Tecnología y Salud, Gabriela Jiménez Ramírez, subrayó la misión fundamental de la Universidad de las Ciencias “Dr. Humberto Fernández-Morán”, creada por el Gobierno Bolivariano para…",
         sections: &[
             (
@@ -10007,7 +10007,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de febrero de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/photo_2025-01-06_14-59-12-2.jpg",
+        thumbnail: "/assets/real/archive/arch_339.jpg",
         excerpt: "El equipo de dirección de la Universidad Nacional de las Ciencias «Dr. Humberto Fernández-Morán» sostuvo este lunes una reunión de trabajo para discutir el programa académico y educativo de esta casa de…",
         sections: &[
             (
@@ -10029,7 +10029,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de febrero de 2025",
         author: "Prensa UNC",
         category: "Institucional",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/humbertofernandezmoran-e1734036243510.jpg",
+        thumbnail: "/assets/real/archive/arch_340.jpg",
         excerpt: "El presidente de la República Bolivariana de Venezuela, Nicolás Maduro Moros, presentó este jueves el libro “Descubrir lo invisible. Humberto Fernández – Morán, el tecnólogo atómico”, escrito por la Dra. Gloria Carvalho, durante…",
         sections: &[
             (
@@ -10057,7 +10057,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de febrero de 2025",
         author: "Prensa UNC",
         category: "Ciencia e Investigación",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/19_ZC_L0046_P-scaled-1.jpg",
+        thumbnail: "/assets/real/archive/arch_341.jpg",
         excerpt: "El presidente de la República, Nicolás Maduro, presentó este jueves un adelanto de la película sobre la vida y obra del destacado científico venezolano Dr. Humberto Fernández-Morán, que reivindica la memoria histórica del pueblo…",
         sections: &[
             (
@@ -10081,7 +10081,7 @@ pub const NEWS_ARTICLES: &[NewsArticle] = &[
         date: "17 de febrero de 2025",
         author: "Prensa UNC",
         category: "Tecnología e IA",
-        thumbnail: "https://unc.edu.ve/wp-content/uploads/2025/02/4994877082567814710-1.jpg",
+        thumbnail: "/assets/real/archive/arch_342.jpg",
         excerpt: "El presidente de la República Bolivariana de Venezuela, Nicolás Maduro, valoró los avances tecnológicos que realiza el mundo en el contexto de la Era Digital, afirmando que la nación suramericana se encamina en la consolidación…",
         sections: &[
             (
