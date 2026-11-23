@@ -144,14 +144,6 @@ fn route_request(raw_target: &str) -> (&'static str, &'static str, String) {
             "text/html; charset=utf-8",
             views::render_validacion_page(),
         ),
-        "/autenticacion-de-carnet" => {
-            let q = get_query_param(query, "q");
-            (
-                "200 OK",
-                "text/html; charset=utf-8",
-                views::render_carnet_page(q.as_deref()),
-            )
-        }
         "/sugerencias" => {
             let sent = get_query_param(query, "enviado").is_some();
             (
@@ -511,7 +503,6 @@ fn export_static_site(out_dir: &str, base_path: &str) {
         "/aulas-interactivas".into(),
         "/servicios-estudiantiles".into(),
         "/validacion-de-documentos".into(),
-        "/autenticacion-de-carnet".into(),
         "/sugerencias".into(),
         "/buscar".into(),
     ];
@@ -583,7 +574,6 @@ fn main() {
     println!("    • /calendario-academico-2026-2027    (Academic Calendar + PDF)");
     println!("    • /campus-laboratorios               (Altos de Pipe Facilities)");
     println!("    • /validacion-de-documentos          (Validation Lists & Bus Routes)");
-    println!("    • /autenticacion-de-carnet           (Interactive Student ID Lookup)");
     println!("    • /sugerencias                       (Suggestion Form + Google Map)");
     println!("========================================================================");
 

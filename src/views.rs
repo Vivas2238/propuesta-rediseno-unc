@@ -43,7 +43,6 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
       </div>
 
       <div style="display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
-        <a href="/autenticacion-de-carnet" class="itmoru-dashed-link" style="padding:9px 18px;">Autenticación de Carnet →</a>
         <button type="button" class="itmoru-dashed-link" style="background:#0072AC; border-style:solid; cursor:pointer;" onclick="toggleItmoRuMenu()">✕ Cerrar Menú</button>
       </div>
     </div>
@@ -57,7 +56,6 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
           <a href="/carreras-de-pregrado" class="itmoru-dashed-link">→ 15 Carreras de Pregrado (Mallas PDF)</a>
           <a href="/calendario-academico-2026-2027" class="itmoru-dashed-link">→ Calendario Académico 2026 – 2027</a>
           <a href="/validacion-de-documentos" class="itmoru-dashed-link">→ Validación de Documentos y Rutas de Transporte</a>
-          <a href="/autenticacion-de-carnet" class="itmoru-dashed-link">→ Autenticación de Carnet Estudiantil</a>
           <a href="/sugerencias" class="itmoru-dashed-link">→ Buzón de Sugerencias y Mapa Altos de Pipe</a>
         </div>
 
@@ -73,7 +71,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
       <div class="itmoru-mega-col">
         <h3>¿QUÉ HACEMOS?</h3>
         <div class="itmoru-dashed-links">
-          <a href="/noticias" class="itmoru-dashed-link">→ Prensa y Noticias de Interés (30 Artículos)</a>
+          <a href="/noticias" class="itmoru-dashed-link">→ Prensa y Noticias de Interés (377 Artículos)</a>
           <a href="/revista-ciencia-para-la-vida" class="itmoru-dashed-link">→ Revista Mensual «Ciencia para la Vida» (Mincyt)</a>
           <a href="/gaceta-universitaria" class="itmoru-dashed-link">→ Gacetas Universitarias Ordinarias (N.º 1 – N.º 6)</a>
           <a href="/gaceta-extraordinaria" class="itmoru-dashed-link">→ Gaceta Universitaria Extraordinaria (2026)</a>
@@ -193,7 +191,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
             </li>
 
             <li class="unc-nav-item has-dropdown">
-              <a href="/autenticacion-de-carnet" class="unc-nav-link" onclick="return handleMobileDropdown(event, this)">Estudiantes <span class="caret">▾</span></a>
+              <a href="/validacion-de-documentos" class="unc-nav-link" onclick="return handleMobileDropdown(event, this)">Estudiantes <span class="caret">▾</span></a>
               <div class="unc-nav-dropdown">
                 <a href="https://tepuy.unc.edu.ve" target="_blank" rel="noopener" class="unc-drop-link">
                   <strong>Tepuy (Gestión Académica) ↗</strong>
@@ -206,10 +204,6 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
                 <a href="/assets/docs/reglamento-estudiantil-unc.pdf" target="_blank" rel="noopener" class="unc-drop-link">
                   <strong>Reglamento Estudiantil (PDF) ↗</strong>
                   <span>Normas, derechos y deberes del estudiante UNC</span>
-                </a>
-                <a href="/autenticacion-de-carnet" class="unc-drop-link">
-                  <strong>Autenticación de Carnet</strong>
-                  <span>Consulta del padrón estudiantil activo</span>
                 </a>
                 <a href="/validacion-de-documentos" class="unc-drop-link">
                   <strong>Validación y Rutas de Transporte</strong>
@@ -277,12 +271,11 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
             <a href="/calendario-academico-2026-2027">→ Calendario Académico 2026 – 2027</a>
             <a href="/assets/docs/reglamento-estudiantil-unc.pdf" target="_blank" rel="noopener">→ Reglamento Estudiantil UNC (PDF) ↗</a>
             <a href="/validacion-de-documentos">→ Validación y Rutas de Transporte</a>
-            <a href="/autenticacion-de-carnet">→ Autenticación de Carnet Estudiantil</a>
           </div>
 
           <div class="itmoru-footer-office">
             <h4>PRENSA Y DIVULGACIÓN CIENTÍFICA</h4>
-            <a href="/noticias">→ Archivo de Noticias UNC (30 Artículos)</a>
+            <a href="/noticias">→ Archivo de Noticias UNC (377 Artículos)</a>
             <a href="/revista-ciencia-para-la-vida">→ Revista «Ciencia para la Vida» (Mincyt)</a>
             <a href="/nuestro-heroe-eponimo">→ Biografía Dr. Humberto Fernández-Morán</a>
             <div style="margin-top:20px; display:flex; align-items:center;">
@@ -400,7 +393,7 @@ pub fn render_news_card(article: &NewsArticle) -> String {
         r#"<div class="col-12 col-sm-6 col-md-3">
   <article class="post-card">
     <a href="/noticias/{slug}" class="thumb-wrap">
-      <img src="{thumb}" alt="{title}" loading="lazy">
+      <img src="{thumb}" alt="{title}" loading="lazy" onerror="this.onerror=null;this.src='/assets/real/hero_campus_unc.jpg';">
       <span class="anons-badge">{category}</span>
     </a>
     <div class="date-post">{date} · {author}</div>
@@ -931,18 +924,30 @@ pub fn render_home_page() -> String {
 }
 
 pub fn render_news_index_page() -> String {
+    let per_page: usize = 12;
+    let total_news = NEWS_ARTICLES.len();
+    let total_pages = (total_news + per_page - 1) / per_page;
+
     let all_cards: String = NEWS_ARTICLES
         .iter()
         .enumerate()
         .map(|(idx, article)| {
-            let page_group = (idx / 12) + 1;
+            let page_group = (idx / per_page) + 1;
+            let hidden_attr = if page_group == 1 { "" } else { r#" style="display:none;""# };
             let raw = render_news_card(article);
+            let search_haystack = format!(
+                "{} {} {}",
+                article.title, article.date, article.category
+            )
+            .to_lowercase()
+            .replace('"', "");
             raw.replacen(
                 r#"<div class="col-12 col-sm-6 col-md-3">"#,
                 &format!(
-                    r#"<div class="col-12 col-sm-6 col-md-3 news-archive-col" data-news-page="{}" data-news-title="{}">"#,
+                    r#"<div class="col-12 col-sm-6 col-md-3 news-archive-col" data-news-page="{}" data-news-search="{}"{}>"#,
                     page_group,
-                    article.title.to_lowercase()
+                    search_haystack,
+                    hidden_attr
                 ),
                 1,
             )
@@ -951,7 +956,7 @@ pub fn render_news_index_page() -> String {
         .join("\n");
 
     let body = format!(
-        r#"
+        r##"
 <div class="breadcrumbs-bar">
   <div class="container breadcrumbs">
     <a href="/">Inicio</a> <span>/</span> <span>Noticias de Interés</span>
@@ -961,42 +966,119 @@ pub fn render_news_index_page() -> String {
   <div class="section-header-row" style="margin-top:0; display:flex; align-items:flex-end; justify-content:space-between; flex-wrap:wrap; gap:16px; margin-bottom:18px;">
     <div>
       <h1 style="margin:0 0 6px; font-size:clamp(32px, 3.6vw, 48px); font-weight:900;">Noticias de Interés — Prensa UNC</h1>
-      <span style="font-size:15.5px; color:var(--itmoru-muted);">Archivo oficial verificado de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán ({count} artículos con fotografía oficial)</span>
+      <span style="font-size:15.5px; color:var(--itmoru-muted);">Archivo histórico completo de la Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán ({count} artículos desde 2025 hasta hoy)</span>
     </div>
 
-    <div class="tabs-user" style="margin-bottom:0;">
-      <button type="button" class="tab-btn-dvfu active" onclick="filterNewsPage('all', this)">Todas ({count})</button>
-      <button type="button" class="tab-btn-dvfu" onclick="filterNewsPage('1', this)">Página 1 (1–12)</button>
-      <button type="button" class="tab-btn-dvfu" onclick="filterNewsPage('2', this)">Página 2 (13–24)</button>
-      <button type="button" class="tab-btn-dvfu" onclick="filterNewsPage('3', this)">Página 3 (25–30)</button>
+    <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap; width:100%; max-width:440px;">
+      <input type="search" id="newsArchiveSearch" class="dvfu-input" placeholder="Buscar entre las {count} noticias por título, fecha o tema..." oninput="filterNewsArchive()" style="flex:1; min-width:220px;">
     </div>
   </div>
   <hr class="blue-line">
-  <div class="row">
+
+  <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; margin-bottom:20px;">
+    <div id="newsArchiveStatus" style="font-size:14px; font-weight:600; color:var(--itmoru-muted);">Mostrando página 1 de {total_pages} ({count} noticias totales)</div>
+    <div id="newsPaginationTop" class="tabs-user" style="margin-bottom:0; display:flex; flex-wrap:wrap; gap:6px;"></div>
+  </div>
+
+  <div class="row" id="newsArchiveGrid">
     {all_cards}
   </div>
 
+  <div id="newsPaginationBottom" class="tabs-user" style="margin-top:28px; display:flex; justify-content:center; flex-wrap:wrap; gap:6px;"></div>
+
   <script>
-    function filterNewsPage(pageStr, btnEl) {{
-      var cols = document.querySelectorAll('.news-archive-col');
-      for (var i = 0; i < cols.length; i++) {{
-        var p = cols[i].getAttribute('data-news-page');
-        if (pageStr === 'all' || p === pageStr) {{
-          cols[i].style.display = '';
-        }} else {{
-          cols[i].style.display = 'none';
+    (function() {{
+      var PER_PAGE = 12;
+      var currentPage = 1;
+      var allCols = Array.prototype.slice.call(document.querySelectorAll('.news-archive-col'));
+      var filteredCols = allCols.slice();
+
+      function renderControls(totalPages) {{
+        var containers = [
+          document.getElementById('newsPaginationTop'),
+          document.getElementById('newsPaginationBottom')
+        ];
+        var html = '';
+        if (totalPages > 1) {{
+          html += '<button type="button" class="tab-btn-dvfu" ' + (currentPage <= 1 ? 'disabled style="opacity:0.45;cursor:not-allowed;"' : '') + ' onclick="goNewsPage(' + (currentPage - 1) + ')">← Anterior</button>';
+          var pages = [];
+          for (var p = 1; p <= totalPages; p++) {{
+            if (p === 1 || p === totalPages || (p >= currentPage - 2 && p <= currentPage + 2)) {{
+              pages.push(p);
+            }} else if (pages[pages.length - 1] !== '...') {{
+              pages.push('...');
+            }}
+          }}
+          for (var i = 0; i < pages.length; i++) {{
+            var item = pages[i];
+            if (item === '...') {{
+              html += '<span style="padding:6px 8px; color:var(--itmoru-muted); font-weight:700;">…</span>';
+            }} else {{
+              html += '<button type="button" class="tab-btn-dvfu' + (item === currentPage ? ' active' : '') + '" onclick="goNewsPage(' + item + ')">' + item + '</button>';
+            }}
+          }}
+          html += '<button type="button" class="tab-btn-dvfu" ' + (currentPage >= totalPages ? 'disabled style="opacity:0.45;cursor:not-allowed;"' : '') + ' onclick="goNewsPage(' + (currentPage + 1) + ')">Siguiente →</button>';
+        }}
+        for (var c = 0; c < containers.length; c++) {{
+          if (containers[c]) containers[c].innerHTML = html;
         }}
       }}
-      var btns = document.querySelectorAll('.tabs-user .tab-btn-dvfu');
-      for (var j = 0; j < btns.length; j++) {{
-        btns[j].classList.remove('active');
+
+      function applyPage(scrollTop) {{
+        var total = filteredCols.length;
+        var totalPages = Math.max(1, Math.ceil(total / PER_PAGE));
+        if (currentPage > totalPages) currentPage = totalPages;
+        if (currentPage < 1) currentPage = 1;
+
+        for (var i = 0; i < allCols.length; i++) {{
+          allCols[i].style.display = 'none';
+        }}
+        var start = (currentPage - 1) * PER_PAGE;
+        var end = Math.min(start + PER_PAGE, total);
+        for (var j = start; j < end; j++) {{
+          filteredCols[j].style.display = '';
+        }}
+
+        var status = document.getElementById('newsArchiveStatus');
+        if (status) {{
+          if (total === 0) {{
+            status.textContent = 'No se encontraron noticias que coincidan con tu búsqueda.';
+          }} else {{
+            status.textContent = 'Mostrando ' + (start + 1) + '–' + end + ' de ' + total + ' noticias (Página ' + currentPage + ' de ' + totalPages + ')';
+          }}
+        }}
+        renderControls(totalPages);
+        if (scrollTop) {{
+          var grid = document.getElementById('newsArchiveGrid');
+          if (grid) grid.scrollIntoView({{ behavior: 'smooth', block: 'start' }});
+        }}
       }}
-      if (btnEl) btnEl.classList.add('active');
-    }}
+
+      window.goNewsPage = function(p) {{
+        currentPage = p;
+        applyPage(true);
+      }};
+
+      window.filterNewsArchive = function() {{
+        var q = (document.getElementById('newsArchiveSearch').value || '').trim().toLowerCase();
+        if (!q) {{
+          filteredCols = allCols.slice();
+        }} else {{
+          filteredCols = allCols.filter(function(col) {{
+            return (col.getAttribute('data-news-search') || '').indexOf(q) !== -1;
+          }});
+        }}
+        currentPage = 1;
+        applyPage(false);
+      }};
+
+      applyPage(false);
+    }})();
   </script>
 </div>
-"#,
-        count = NEWS_ARTICLES.len(),
+"##,
+        count = total_news,
+        total_pages = total_pages,
         all_cards = all_cards
     );
 
@@ -1811,83 +1893,6 @@ pub fn render_validacion_page() -> String {
 "#;
 
     render_page_shell("Validación de Documentos y Rutas de Transporte", "services", body)
-}
-
-pub fn render_carnet_page(query: Option<&str>) -> String {
-    let q = query.unwrap_or("").trim();
-    let q_lower = q.to_lowercase();
-
-    let rows: String = SAMPLE_CARNETS
-        .iter()
-        .filter(|r| {
-            q_lower.is_empty()
-                || r.cedula.to_lowercase().contains(&q_lower)
-                || r.full_name.to_lowercase().contains(&q_lower)
-                || r.career.to_lowercase().contains(&q_lower)
-        })
-        .map(|r| {
-            format!(
-                r#"<tr>
-  <td>{num}</td>
-  <td><b>{cedula}</b></td>
-  <td>{name}</td>
-  <td>{career}</td>
-  <td><span style="background:var(--unc-blue); color:#FFFFFF; font-size:11px; padding:2px 8px;">{cond}</span></td>
-</tr>"#,
-                num = r.num,
-                cedula = r.cedula,
-                name = r.full_name,
-                career = r.career,
-                cond = r.condition
-            )
-        })
-        .collect::<Vec<_>>()
-        .join("\n");
-
-    let body = format!(
-        r#"
-<div class="breadcrumbs-bar">
-  <div class="container breadcrumbs">
-    <a href="/">Inicio</a> <span>/</span> <a href="/servicios-estudiantiles">Servicios Estudiantiles</a> <span>/</span> <span>Autenticación de Carnet</span>
-  </div>
-</div>
-
-<div class="container" style="padding-bottom:50px;">
-  <div class="section-header-row" style="margin-top:0;">
-    <h1>Autenticación de Carnet Estudiantil — UNC</h1>
-    <span style="font-size:13px; color:var(--itmoru-muted);">Padrón Estudiantil Activo (3.130 estudiantes regulares)</span>
-  </div>
-  <hr class="blue-line">
-
-  <form action="/autenticacion-de-carnet" method="GET" style="display:flex; gap:10px; max-width:540px; margin-bottom:22px;">
-    <input type="text" name="q" value="{q}" class="dvfu-input" placeholder="Buscar por cédula, nombre o carrera (ej. Inteligencia Artificial)...">
-    <button type="submit" class="button-s">Buscar</button>
-    <a href="/autenticacion-de-carnet" class="button-outline-dvfu">Limpiar</a>
-  </form>
-
-  <div class="dvfu-table-wrap">
-    <table class="dvfu-table">
-      <thead>
-        <tr>
-          <th>N°</th>
-          <th>CÉDULA</th>
-          <th>NOMBRES Y APELLIDOS</th>
-          <th>CARRERA</th>
-          <th>CONDICIÓN</th>
-        </tr>
-      </thead>
-      <tbody>
-        {rows}
-      </tbody>
-    </table>
-  </div>
-</div>
-"#,
-        q = q,
-        rows = rows
-    );
-
-    render_page_shell("Autenticación de Carnet Estudiantil", "services", &body)
 }
 
 pub fn render_sugerencias_page(submitted: bool) -> String {
