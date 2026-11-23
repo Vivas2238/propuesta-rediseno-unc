@@ -1316,6 +1316,9 @@ a:hover {
   margin-bottom: 12px;
   font-weight: 600;
   order: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .post-card .thumb-wrap {
@@ -1982,6 +1985,21 @@ table.dvfu-table td {
   border-radius: 14px;
 }
 
+@media (max-width: 1220px) and (min-width: 961px) {
+  .unc-nav-link {
+    padding: 15px 10px;
+    font-size: 14.5px;
+  }
+  .unc-platform-btn {
+    padding: 6px 10px;
+    font-size: 13.5px;
+    gap: 6px;
+  }
+  .unc-platform-btn--savia {
+    padding: 6px 11px;
+  }
+}
+
 @media (max-width: 960px) {
   .unc-video-spotlight-card {
     grid-template-columns: 1fr;
@@ -2122,6 +2140,21 @@ footer.itmoru-footer {
 
 .dvfu-table-wrap {
   -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 1220px) and (min-width: 961px) {
+  .unc-nav-link {
+    padding: 15px 10px;
+    font-size: 14.5px;
+  }
+  .unc-platform-btn {
+    padding: 6px 10px;
+    font-size: 13.5px;
+    gap: 6px;
+  }
+  .unc-platform-btn--savia {
+    padding: 6px 11px;
+  }
 }
 
 @media (max-width: 960px) {

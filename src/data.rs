@@ -10551,7 +10551,7 @@ pub const MAGAZINE_ISSUES: &[MagazineIssue] = &[
         title: "Ciencia para la Vida — Edición Octubre",
         subtitle: "Revista Mensual del Mincyt",
         cover_url: "/assets/real/mag_2.png",
-        pdf_url: "https://mincyt.gob.ve/wp-content/uploads/2025/11/revista-digital-1.pdf",
+        pdf_url: "https://mincyt.gob.ve/",
         tile_class: "tile-coral"
     },
     MagazineIssue {

@@ -7,7 +7,7 @@
   <title>Sugerencias y Contacto — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
   <link rel="icon" href="/propuesta-rediseno-unc/assets/real/logo_unc.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/propuesta-rediseno-unc/assets/real/logo_unc.png">
-  <link rel="stylesheet" href="/propuesta-rediseno-unc/assets/dvfu.css?v=9">
+  <link rel="stylesheet" href="/propuesta-rediseno-unc/assets/dvfu.css?v=10">
   <script>
     (function() {
       try { localStorage.removeItem('unc_dvfu_theme'); } catch (e) {}
@@ -212,11 +212,14 @@
   <h1>Buzón de Sugerencias y Ubicación del Campus</h1>
   <hr class="blue-line">
   
+  <div id="sugerenciasClientNotice" style="display:none; background:#031F80; color:#FFFFFF; padding:16px 20px; border-radius:10px; margin-bottom:22px; font-weight:700;">
+    ✓ ¡Gracias! Su sugerencia ha sido registrada satisfactoriamente en el sistema de Atención Ciudadana y Estudiantil de la UNC.
+  </div>
 
   <div class="row">
     <div class="col-12 col-md-6">
       <h3>Envíanos tus Sugerencias</h3>
-      <form action="/propuesta-rediseno-unc/sugerencias" method="GET">
+      <form id="uncSugerenciasForm" action="/propuesta-rediseno-unc/sugerencias" method="GET" onsubmit="event.preventDefault(); document.getElementById('sugerenciasClientNotice').style.display='block'; this.reset(); document.getElementById('sugerenciasClientNotice').scrollIntoView({behavior:'smooth', block:'center'});">
         <input type="hidden" name="enviado" value="1">
         <div class="dvfu-form-group">
           <label>Nombre y Apellidos *</label>

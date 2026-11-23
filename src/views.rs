@@ -26,7 +26,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
   <title>{page_title} — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
   <link rel="icon" href="/assets/real/logo_unc.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/real/logo_unc.png">
-  <link rel="stylesheet" href="/assets/dvfu.css?v=9">
+  <link rel="stylesheet" href="/assets/dvfu.css?v=10">
   <script>
     (function() {{
       try {{ localStorage.removeItem('unc_dvfu_theme'); }} catch (e) {{}}
@@ -570,7 +570,7 @@ pub fn render_home_page() -> String {
   </div>
 </section>
 
-<!-- 3. ITMO.RU HOLLOW OUTLINED NEWS SECTION ("NOTICIAS DE INTERÉS") -->
+<!-- 3. HOLLOW OUTLINED NEWS SECTION ("NOTICIAS DE INTERÉS") -->
 <section class="itmoru-section">
   <div class="container">
     <div class="itmoru-section-toprow">
@@ -593,7 +593,7 @@ pub fn render_home_page() -> String {
   </div>
 </section>
 
-<!-- 4. ITMO.RU DARK CHARCOAL BAND ("ЦИФРЫ И ФАКТЫ" -> "CIFRAS Y HECHOS UNC") -->
+<!-- 4. INSTITUTIONAL STATS BAND ("CIFRAS Y HECHOS UNC") -->
 <section class="itmoru-dark-band">
   <!-- Decorative UNC Blue/Sky Vector Curve -->
   <svg class="itmoru-pink-arc-svg" viewBox="0 0 600 600" fill="none">
@@ -783,7 +783,7 @@ pub fn render_home_page() -> String {
   </div>
 </section>
 
-<!-- 5. ITMO.RU EDUCATION & PORTALS BENTO SECTION ("ОБРАЗОВАНИЕ" -> "PORTALES DESTACADOS") -->
+<!-- 5. EDUCATION & PORTALS BENTO SECTION ("PORTALES DESTACADOS") -->
 <section class="itmoru-section">
   <div class="container">
     <div class="itmoru-section-toprow">
@@ -1547,7 +1547,7 @@ pub fn render_eponimo_page() -> String {
         <p style="font-size:13.5px; line-height:21px;">
           Descubre más sobre nuestro epónimo descargando el libro <strong>«Descubrir lo invisible: Humberto Fernández-Morán, el tecnólogo atómico»</strong>.
         </p>
-        <a href="https://mincyt.gob.ve/wp-content/uploads/2025/01/Fernandez-Moran-WEB.pdf" target="_blank" rel="noopener" class="button-s" style="width:100%;">
+        <a href="https://www.fii.gob.ve/wp-content/uploads/2025/01/Descubir-Lo-Invisible.pdf" target="_blank" rel="noopener" class="button-s" style="width:100%;">
           Descargar Libro en PDF (Mincyt) ↗
         </a>
       </div>
@@ -1876,11 +1876,14 @@ pub fn render_sugerencias_page(submitted: bool) -> String {
   <h1>Buzón de Sugerencias y Ubicación del Campus</h1>
   <hr class="blue-line">
   {notice}
+  <div id="sugerenciasClientNotice" style="display:none; background:#031F80; color:#FFFFFF; padding:16px 20px; border-radius:10px; margin-bottom:22px; font-weight:700;">
+    ✓ ¡Gracias! Su sugerencia ha sido registrada satisfactoriamente en el sistema de Atención Ciudadana y Estudiantil de la UNC.
+  </div>
 
   <div class="row">
     <div class="col-12 col-md-6">
       <h3>Envíanos tus Sugerencias</h3>
-      <form action="/sugerencias" method="GET">
+      <form id="uncSugerenciasForm" action="/sugerencias" method="GET" onsubmit="event.preventDefault(); document.getElementById('sugerenciasClientNotice').style.display='block'; this.reset(); document.getElementById('sugerenciasClientNotice').scrollIntoView({{behavior:'smooth', block:'center'}});">
         <input type="hidden" name="enviado" value="1">
         <div class="dvfu-form-group">
           <label>Nombre y Apellidos *</label>
