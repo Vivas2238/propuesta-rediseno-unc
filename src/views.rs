@@ -153,10 +153,6 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
                   <strong>Dr. Humberto Fernández-Morán</strong>
                   <span>Biografía de nuestro héroe epónimo y libro PDF</span>
                 </a>
-                <a href="/campus-laboratorios" class="unc-drop-link">
-                  <strong>Campus y Laboratorios</strong>
-                  <span>Altos de Pipe, aulas interactivas y centros IVIC</span>
-                </a>
               </div>
             </li>
 
@@ -192,10 +188,6 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
                 <a href="/gaceta-extraordinaria" class="unc-drop-link">
                   <strong>Gaceta Extraordinaria</strong>
                   <span>Resoluciones oficiales 2026</span>
-                </a>
-                <a href="/assets/docs/reglamento-estudiantil-unc.pdf" target="_blank" rel="noopener" class="unc-drop-link">
-                  <strong>Reglamento Estudiantil (PDF) ↗</strong>
-                  <span>Normativa estudiantil oficial UNC</span>
                 </a>
               </div>
             </li>
