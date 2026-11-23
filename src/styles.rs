@@ -817,7 +817,7 @@ a:hover {
   font-weight: 900;
   letter-spacing: -0.035em;
   color: #031F80;
-  line-height: 0.94;
+  line-height: 0.92;
   display: inline-block;
 }
 
@@ -827,11 +827,21 @@ a:hover {
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.01em;
-  padding: 0 8px 0 4px;
+  padding: 0 6px 0 0;
+  margin-left: 6px;
   color: var(--unc-blue);
   display: inline-block;
   transform: rotate(-3deg);
   line-height: 0.9;
+}
+
+.itmoru-giant-statement .unc-hero-tagline-line {
+  display: inline-block;
+  font-size: 0.86em;
+  font-weight: 800;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  margin-top: 2px;
 }
 
 .unc-hero-lead {

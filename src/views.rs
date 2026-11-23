@@ -26,7 +26,7 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
   <title>{page_title} — UNC | Universidad Nacional de las Ciencias Dr. Humberto Fernández-Morán</title>
   <link rel="icon" href="/assets/real/logo_unc.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/assets/real/logo_unc.png">
-  <link rel="stylesheet" href="/assets/dvfu.css?v=8">
+  <link rel="stylesheet" href="/assets/dvfu.css?v=9">
   <script>
     (function() {{
       try {{ localStorage.removeItem('unc_dvfu_theme'); }} catch (e) {{}}
@@ -456,8 +456,8 @@ pub fn render_home_page() -> String {
       <div>
         <span class="unc-hero-eyebrow">República Bolivariana de Venezuela · Altos de Pipe</span>
         <h1 class="itmoru-giant-statement">
-          <span class="unc-hero-brand-pop">UNC</span> <span class="cursive-span">es</span><br>
-          Ciencia para la Vida
+          <span class="unc-hero-brand-pop">UNC</span><span class="cursive-span">es</span><br>
+          <span class="unc-hero-tagline-line">Ciencia para la Vida</span>
         </h1>
         <p class="unc-hero-lead">
           El hogar del conocimiento científico de Venezuela
