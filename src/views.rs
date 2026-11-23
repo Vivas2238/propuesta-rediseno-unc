@@ -113,18 +113,6 @@ pub fn render_page_shell(page_title: &str, active_section: &str, body_html: &str
               <span class="addr-v">Altos de Pipe, Km 11 Panamericana</span>
             </div>
           </div>
-
-          <div class="itmoru-header-controls">
-            <form class="itmoru-search-box" action="/buscar" method="GET">
-              <input type="text" name="q" placeholder="Buscar noticias, carreras..." aria-label="Buscar">
-              <button type="submit" aria-label="Buscar">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4">
-                  <circle cx="11" cy="11" r="7"></circle>
-                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-              </button>
-            </form>
-          </div>
         </div>
       </div>
 
@@ -1930,85 +1918,4 @@ pub fn render_sugerencias_page(submitted: bool) -> String {
     );
 
     render_page_shell("Sugerencias y Contacto", "contact", &body)
-}
-
-pub fn render_search_page(query: &str) -> String {
-    let q = query.trim();
-    let q_lower = q.to_lowercase();
-
-    let matching_news: String = NEWS_ARTICLES
-        .iter()
-        .filter(|n| {
-            q_lower.is_empty()
-                || n.title.to_lowercase().contains(&q_lower)
-                || n.excerpt.to_lowercase().contains(&q_lower)
-        })
-        .map(render_news_card)
-        .collect::<Vec<_>>()
-        .join("\n");
-
-    let matching_careers: String = CAREER_PROGRAMS
-        .iter()
-        .filter(|c| {
-            q_lower.is_empty()
-                || c.name.to_lowercase().contains(&q_lower)
-                || c.area.to_lowercase().contains(&q_lower)
-        })
-        .map(|c| {
-            format!(
-                r#"<div class="col-12 col-sm-6 col-md-4" style="margin-bottom:18px;">
-  <div class="white-block-card">
-    <div>
-      <h3><a href="/carreras/{slug}">{name}</a></h3>
-      <p>{degree} · {credits} · <a href="{pdf}" target="_blank">Malla PDF ↗</a></p>
-    </div>
-  </div>
-</div>"#,
-                name = c.name,
-                slug = c.slug,
-                degree = c.degree_title,
-                credits = c.credits,
-                pdf = c.pdf_url
-            )
-        })
-        .collect::<Vec<_>>()
-        .join("\n");
-
-    let body = format!(
-        r#"
-<div class="breadcrumbs-bar">
-  <div class="container breadcrumbs">
-    <a href="/">Inicio</a> <span>/</span> <span>Búsqueda Institucional</span>
-  </div>
-</div>
-
-<div class="container" style="padding-bottom:50px;">
-  <h1>Resultados de Búsqueda: «{q}»</h1>
-  <hr class="blue-line">
-
-  <h2>Carreras Relacionadas</h2>
-  <div class="row">
-    {matching_careers}
-  </div>
-
-  <h2 style="margin-top:26px;">Noticias Relacionadas</h2>
-  <div class="row">
-    {matching_news}
-  </div>
-</div>
-"#,
-        q = q,
-        matching_careers = if matching_careers.is_empty() {
-            "<p style='padding-left:15px;'>No se encontraron carreras con ese término.</p>".to_string()
-        } else {
-            matching_careers
-        },
-        matching_news = if matching_news.is_empty() {
-            "<p style='padding-left:15px;'>No se encontraron noticias con ese término.</p>".to_string()
-        } else {
-            matching_news
-        }
-    );
-
-    render_page_shell("Búsqueda Institucional", "home", &body)
 }

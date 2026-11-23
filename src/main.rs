@@ -152,14 +152,6 @@ fn route_request(raw_target: &str) -> (&'static str, &'static str, String) {
                 views::render_sugerencias_page(sent),
             )
         }
-        "/buscar" => {
-            let q = get_query_param(query, "q").unwrap_or_default();
-            (
-                "200 OK",
-                "text/html; charset=utf-8",
-                views::render_search_page(&q),
-            )
-        }
         _ => {
             if let Some(svg_name) = path.strip_prefix("/assets/svg/") {
                 let (ct, body) = assets::render_svg_asset(svg_name);
@@ -504,7 +496,6 @@ fn export_static_site(out_dir: &str, base_path: &str) {
         "/servicios-estudiantiles".into(),
         "/validacion-de-documentos".into(),
         "/sugerencias".into(),
-        "/buscar".into(),
     ];
 
     for c in data::CAREER_PROGRAMS {
