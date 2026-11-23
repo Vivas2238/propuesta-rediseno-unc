@@ -813,25 +813,35 @@ a:hover {
 }
 
 .itmoru-giant-statement .unc-hero-brand-pop {
-  font-size: 1.32em;
+  font-size: clamp(66px, 7.2vw, 108px);
   font-weight: 900;
   letter-spacing: -0.035em;
   color: #031F80;
-  line-height: 0.94;
+  line-height: 0.92;
   display: inline-block;
 }
 
 .itmoru-giant-statement .cursive-span {
   font-family: 'Caveat', cursive;
-  font-size: 1.28em;
+  font-size: clamp(62px, 6.6vw, 98px);
   font-weight: 700;
   font-style: normal;
   letter-spacing: 0.01em;
-  padding: 0 8px 0 4px;
+  padding: 0 8px 0 6px;
   color: var(--unc-blue);
   display: inline-block;
   transform: rotate(-3deg);
-  line-height: 0.9;
+  vertical-align: 0.04em;
+  line-height: 0.85;
+}
+
+.itmoru-giant-statement .unc-hero-tagline-line {
+  display: inline-block;
+  font-size: clamp(34px, 3.85vw, 56px);
+  font-weight: 800;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  margin-top: 6px;
 }
 
 .unc-hero-lead {
